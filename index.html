@@ -1,0 +1,327 @@
+<!--___________Preparando terreno________________-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale Paiquerê</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!--___________Cabeçalho superior______________________-->
+
+<header id="cabecalho-fixo">
+    <div class="container-header">
+        <div class="logo-area">
+            <div class="quadrado-escola">
+    <img src="Ilustracao/Site/LogoDaEscola.png" alt="Logo da Escola">
+</div>
+            <span class="nome-projeto">Vale Paiquerê</span>
+        </div>
+
+        <nav class="nav-desktop">
+            <a href="#inicio">Início</a>
+            <a href="#introducao">Introdução</a>
+            <a href="#jogo">Jogo</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#creditos">Créditos</a>
+        </nav>
+
+        <!-- _______Botão de Alternancia de Escuro e Claro_________ -->
+    <button id="toggle-dark-mode" onclick="toggleDarkMode()">
+        <img src="Ilustracao/Site/night-mode-flaticon.png" alt="Alternar Modo Escuro" class="icon-dark-mode">
+    </button>
+
+
+<button id="btn-mobile" onclick="toggleMenu()">
+    <img src="Ilustracao/Site/barra-de-menu-flaticon.png" alt="Menu" class="icon-menu-img">
+</button>
+
+    <nav id="menu-mobile">
+        <a href="#inicio" onclick="toggleMenu()">Início</a>
+        <a href="#introducao" onclick="toggleMenu()">Introdução</a>
+        <a href="#jogo" onclick="toggleMenu()">Jogo</a>
+        <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+        <a href="#creditos" onclick="toggleMenu()">Créditos</a>
+    </nav>
+</header>
+
+<!--____________Inicio_______________________-->
+
+<!-- vagulumes -->
+<div id="container-vagalumes"></div>
+
+<header class="aba-verde" id="inicio">
+
+<!--____________Galhos decorativos______-->
+<img src="Ilustracao/Site/CopaAraucaria_Agrinho_Piskel-Esquerda.png" class="galho galho-esquerd" alt="Copa Araucária Esquerda">
+<img src="Ilustracao/Site/CopaAraucaria_Agrinho_Piskel-Direita.png" class="galho galho-direit" alt="Copa Araucária Direita">
+
+<!--_________Brasão e inicio____________-->
+    <div class="header-conteudo">
+        <img src="Ilustracao/Site/LogoDaEscola.png" alt="Brasão do Colégio Estadual do Campo Antonio Batista do Nascimento">
+
+        <div class="texto-header">
+            <h1>Vale Paiquerê</h1>
+            <p>Agricultura & Sustentabilidade</p>
+        </div>
+    </div>
+</header>
+
+    <div class="cortina-marrom"></div>
+
+    <!--_______Imagens laterais_________-->
+    <div class="site-wrapper">
+        <img src="Ilustracao/Site/Gemini_fundoEsquerdo-site.png" class="fundo-lateral-esquerdo">
+        <img src="Ilustracao/Site/ChatGPT_Esquerdo_noturno.png" class="fundo-lateral-esquerdo-noturno">
+
+        <img src="Ilustracao/Site/Gemini_fundoDireita-site.png" class="fundo-lateral-direita">
+        <img src="Ilustracao/Site/ChatGPT_Direita_noturno.png" class="fundo-lateral-direita-noturno">
+
+    </div>
+
+<!--________________Introdução______________________-->
+
+        <section class="conteudo" id="introducao">
+            
+<!--_____________Função da Gralha azul_________-->
+
+            <div class="container-video">
+                <div class="moldura-video">
+    <div id="wrapper-gralha">
+        <img id="gralha-completa" src="Ilustracao/Site/GralhaAzulParada.gif" alt="Gralha Azul">
+        
+        <div id="interface-chat">
+            <p id="texto-gralha">Como posso te chamar?</p>
+            
+            <div id="container-entrada">
+                <input type="text" id="input-nome" placeholder="Seu nome...">
+                <button type="button" id="btn-acao" onclick="gerenciarGralha()">
+                    <img src="Ilustracao/Site/BotãoSetaPassar.gif" alt="Passar">
+                </button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<section>
+
+        <!--___Linha divisória____-->
+        <section>
+            <hr class="divisor-estilizado">
+        </section>
+    <main>
+
+        <!--________Conteúdo do game_____________-->
+
+        <section class="conteudo" id="jogo">
+            
+            <div id="container-jogo" style="position: relative;">
+
+                <!--____Expandir no celular____-->
+                <div class="btn-controle" title="Expandir">
+                    <i class="fas fa-expand"></i>
+                    <span class="texto-iniciar">Pressione para iniciar</span>
+                </div> 
+                
+
+<!--________Código do obejetivo e como jogar___________-->
+
+    <div id="manual-overlay" class="manual-overlay hidden">
+        <div class="sessao-texto-jogo">
+            <div class="caixa-texto">
+    <h3 class="titulo-manual">Objetivo</h3>
+                <p>Sua missão é equilibrar entre produção e meio ambiente no Vale Paiquerê. Seguindo rotas alternativas, que muitas vezes, resulta em consequências inesperadas, você irá trilhar um caminho de escolhas que vão impactar o futuro do vale. Boa sorte, e lembre-se: cada decisão conta!
+                </p>
+            </div>
+            <div class="caixa-texto">
+    <h3 class="titulo-manual">Mecânica</h3>
+                <p>Utilize o mouse ou toque na tela para selecionar as alternativas e avançar no jogo. Analizando as alternativas, você poderá descobrir diferentes desfechos para o Vale. São mais de vinte finais possíveis! Cada um com seu destino único. Você conseguirá descobrir todos?</p>
+            </div>
+
+            <button class="caixa-texto btn-card-jogar" onclick="começarJogoReal()">
+    <h3 class="titulo-manual">Jogar</h3>
+    <p>
+        Siga o bater de asas da gralha-azul e recolha o pinhão para a viagem, 
+        pois a partir deste ponto o vale estará em suas mãos.
+    </p>
+</button>
+
+        </div>
+    </div>
+
+    <!--_______Elementos do Jogo__________-->
+    <div id="display-principal" style="display: none;">
+        <div id="titulo-jogo">
+        <h3 id="fase-titulo"></h3>
+        </div>
+
+        <div id="moldura-imagem">
+            <img id="imagem-principal" src="" alt="Cenário">
+        </div>
+
+        <div id="area-narrativa">
+            <p id="texto-principal"></p>
+        </div>
+
+        <div id="botoes-decisao" class="grade-alternativas">
+            <button id="btn-opcao-a" class="btn-escolha" onclick="fazerEscolha('A')"></button>
+            <button id="btn-opcao-b" class="btn-escolha" onclick="fazerEscolha('B')"></button>
+        </div>
+        <button id="btn-proximo" class="btn-escolha" onclick="proximoNivel()">Avançar</button>
+    </div>
+
+</div>
+
+</div>
+        <!--__Barra de ferramentas do Jogo__-->
+            <div class="barra-controles">
+            
+            <!--_______Icones da esquerda_______ -->
+            <div class="controles-esquerda">
+                <div class="quadrado-logo">
+                    <img src="Ilustracao/Site/Logo_Jogo_ValePaiquerê.jpeg" alt="Logo Vale Paiquerê">
+                </div>
+                <span class="nome-jogo">O Equilíbrio do Veredas: Missão Agrinho</span>
+            </div>
+
+            <!--_______Icones da direita_______ -->
+            <div class="controles-direita">
+
+                <div class="btn-controle" title="Manual">
+                     <i class="fas fa-book"></i>
+
+                </div>
+
+                <div class="btn-controle" title="Diminuir" 
+                style="display: none;"><i>[-]</i>
+            </div>
+                
+            </div>
+
+    </div>
+
+        </section>
+
+        <!--________Linha divisória__________________-->
+        </section> <hr class="divisor-estilizado"> 
+        <section class="vale-detalhes">
+        </section>
+
+        <!--______Ala informações_______-->
+
+        <section class="vale-detalhes" id="sobre">
+    
+<!--________Informações bloco 01__________-->
+
+     <article class="secao-informativa">
+        <div class="cupinho-imagem">
+            <img src="Ilustracao/Site/imagemInformação-Gemini-01.png" alt="Ilustração sobre equilíbrio entre campo e tecnologia" class="imagem-conteudo">
+    </div>
+        <div class="texto-informativo">
+            <h3 class="brilho-verde">O que é equilíbrio?</h3>
+            <p>Teoricamente, o conceito de equilíbrio entre produção e meio ambiente envolve o uso adequado de insumos químicos. No entanto, o assunto vai além do cuidado técnico nas plantações; ele esbarra no comportamento da sociedade moderna. Muitas empresas estimulam o consumo impulsivo, criando uma necessidade de posse que ignora o custo ambiental. Esse ciclo de compra resulta, indiretamente, na poluição, já que o descarte inadequado de resíduos industriais em rios e esgotos compromete a vida animal e humana.
+Somado a isso, há o uso indiscriminado de componentes químicos nas lavouras. Embora tragam resultados imediatos, a longo prazo tornam-se uma “avalanche” de prejuízos, gerando alimentos que podem afetar a saúde pública de forma silenciosa. Em suma, para mitigar esses problemas, as fábricas devem gerenciar rigorosamente seus descartes, enquanto os agricultores precisam regular a dosagem de substâncias e proteger, com cautela, os lençóis freáticos.
+ </p>
+        </div>
+     </article>
+
+     <!--__________Informações bloco 02__________-->
+
+    <article class="secao-informativa">
+    <div class="cupinho-imagem direita">
+        <img src="Ilustracao/Site/imagemInformação-Gemini-02.png" alt="Tecnologia e natureza no campo" class="imagem-conteudo">
+    </div>
+    
+    <div class="texto-informativo">
+        <h3 class="brilho-verde">Como ter equilíbrio?</h3>
+        <p>Para que o equilíbrio entre a produção e a natureza aconteça de verdade, o cuidado no campo precisa ser prático e consciente. O uso correto de produtos químicos não pode ser feito de qualquer jeito; é preciso usar a quantidade exata que a planta precisa. Quando se usa produto demais, a chuva acaba levando esse excesso para os rios e para debaixo da terra, sujando a água que a gente bebe. Por isso, usar a tecnologia para medir a dose certa e respeitar o tempo bom para o trabalho é o que evita o desperdício e a poluição.</p>
+        <p>Depois de usar o produto, o cuidado continua no descarte das embalagens. O certo é lavar bem esses frascos e entregar nos locais de coleta, para que eles sejam reciclados em vez de ficarem jogados no meio ambiente. Enterrar ou queimar esses restos estraga a terra e faz mal para a saúde de todo mundo. Quando o agricultor cuida da dose e descarta o lixo no lugar certo, ele garante que a comida chegue limpa na mesa e que a nossa água continue saudável.</p>
+    </div>
+</article>
+
+<!--_______Informações bloco 03___________-->
+
+     <article class="secao-informativa">
+        <div class="cupinho-imagem">
+            <img src="Ilustracao/Site/imagemInformação-Gemini-03.png" alt="Laptop com código crescendo como planta no campo" class="imagem-conteudo">
+    </div>
+        <div class="texto-informativo">
+            <h3 class="brilho-verde">Qual o papel do programa Agrinho?</h3>
+            <p>O futuro do Paraná está sendo escrito em HTML, CSS e JavaScript. O Agrinho mudou o jogo: agora, a gente não só estuda o campo, a gente cria as soluções para ele. Estamos vendo o nascimento de uma geração de "Makers" que transformam problemas reais em protótipos funcionais. Criar máquinas capazes de mudar o estado não é mais um sonho distante, é o que acontece quando a tecnologia encontra o propósito sustentável. É o agronegócio ganhando um "upgrade" de consciência e inovação direto da mão de quem vai liderar o futuro.</p>
+        </div>
+     </article>
+
+     </section>
+
+    </main>
+     
+       <!--________________Rodapé/créditos______________________-->
+
+       <footer class="rodape-tecnologias" id="creditos">
+     <hr class="divisor-estilizado">
+
+    <div class="container-apps">
+
+        <div class="app-card">
+    <div class="quadrado-logo">
+        <img src="Ilustracao/Site/Imagem_VScode.png" alt="Logo VS Code">
+    </div>
+    <span class="nome-app">
+        <a href="https://code.visualstudio.com" target="_blank" class="link-credito">VS Code</a>
+    </span>
+</div>
+
+<div class="app-card">
+    <div class="quadrado-logo">
+        <img src="Ilustracao/Site/Imagem_Gemini.jpg" alt="Logo Gemini">
+    </div>
+    <span class="nome-app">
+        <a href="https://gemini.google.com" target="_blank" class="link-credito">Gemini</a>
+    </span>
+</div>
+
+        <div class="app-card">
+            <div class="quadrado-logo">
+                <img src="Ilustracao/Site/Imagem_Flation.png" alt="Logo Flaticon">
+            </div>
+<span class="nome-app">
+    <a href="https://www.flaticon.com" target="_blank" class="link-credito">Flaticon</a>
+</span>
+        </div>
+
+        <div class="app-card">
+    <div class="quadrado-logo">
+        <img src="Ilustracao/Site/Imagem_Piskel.png" alt="Logo Piskel">
+    </div>
+    <span class="nome-app">
+        <a href="https://www.piskelapp.com" target="_blank" class="link-credito">Piskel</a>
+    </span>
+</div>
+
+        <div class="app-card">
+    <div class="quadrado-logo">
+        <img src="Ilustracao/Site/Imagem_Canva.jpg" alt="Logo Canva">
+    </div>
+    <span class="nome-app">
+        <a href="https://www.canva.com" target="_blank" class="link-credito">Canva</a>
+    </span>
+</div>
+
+        <div class="app-card">
+            <div class="quadrado-logo">
+                <img src="Ilustracao/Site/Imagem_ChatGPT.webp" alt="Logo ChatGPT">
+            </div>
+            <span class="nome-app">
+                <a href="https://www.chatgpt.com" target="_blank" class="link-credito">ChatGPT</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+<script src="JavaScript/game.js"></script>
+</body>
+</html>

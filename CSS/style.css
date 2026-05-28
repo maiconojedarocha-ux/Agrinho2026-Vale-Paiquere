@@ -1,0 +1,1497 @@
+/*____________ INÍCIO - Configurações Gerais _____________________*/
+
+html {
+    scroll-behavior: smooth; 
+    scroll-padding-top: 80px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden; 
+}
+
+/*__________Coloração do site/Efeitos de brilho______________*/
+:root {
+    --branco-cor: #ffffff;
+    --site-cor: #ffffff;
+    --aba-verde: #2E7D32;
+    --marrom-terra: #5D4037;
+    --preto-cor: #000000;
+   
+    --divisao-cor: #3a3a3a;
+    --texto-cor: #3a3a3a;
+    --texto-fixo: #3a3a3a;
+
+    --atalho-cor: #FFD700;
+    --titulos-verde:#2E7D32;
+
+    /*____Cores do jogo____*/
+    --texto-jogo: black;
+    --manual-cor: #d4e157;
+    --expandir-cor: #29b6f6;
+}
+
+body.dark-theme {
+    --branco-cor: #ffffff;
+    --site-cor: #161616;
+    --aba-verde: #1b3d1e;
+    --marrom-terra: #291c18e5;
+    --preto-cor: #ffffff;
+
+    --texto-cor: #ffffff;
+    --texto-fixo: #3a3a3a;
+    --divisao-cor: #646464e0;
+
+    --atalho-cor: #FFD700;
+    --titulos-verde:#2E7D32;
+
+    /*____Cores do jogo____*/
+    --texto-jogo: #ffffff;
+    --manual-cor: #a4af3d;
+    --expandir-cor: #1c7ca8;
+}
+
+
+/*____________Inicio_________________*/
+
+.aba-verde {
+    position: relative; 
+    overflow: visible !important;
+    background-color: var(--aba-verde); 
+    color: var(--branco-cor);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aba-verde h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.aba-verde img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--preto-cor);
+    margin-bottom: 0; 
+    object-fit: contain; 
+    padding: 5px; 
+    background-color: var(--branco-cor); 
+}
+
+.header-conteudo {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+    width: 100%;
+} 
+
+.cortina-marrom {
+    background-color: var(--marrom-terra); 
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+/*_____Galhos decorativos/Inicio______*/
+.galho {
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    width: 600px !important; 
+    height: auto !important; 
+    max-width: none !important;
+
+    border-radius: 0 !important; 
+    border: none !important;
+    background: transparent !important;
+}
+
+.galho-esquerd {
+    left: -1%;
+}
+
+.galho-direit {
+    right: -1%;
+}
+
+/*_______Imagens laterais do site____________*/
+.fundo-lateral-esquerdo,
+.fundo-lateral-esquerdo-noturno{
+    position: absolute; 
+    left: 0;            
+    z-index: -1;      
+}
+
+.fundo-lateral-esquerdo img,
+.fundo-lateral-esquerdo-noturno img,
+.fundo-lateral-direita img,
+.fundo-lateral-direita-noturno img {
+    display: block !important;
+    width: auto !important;        
+    height: auto !important;        
+    max-height: 100% !important;    
+    object-fit: contain !important;
+}
+
+/*Direita*/
+.fundo-lateral-direita,
+.fundo-lateral-direita-noturno {
+    position: absolute; 
+    right: 0;         
+    z-index: -1;       
+} 
+
+/*Modo noturno/estado dia*/
+.fundo-lateral-esquerdo, 
+.fundo-lateral-direita {
+    z-index: 1;
+}
+
+.fundo-lateral-esquerdo-noturno, 
+.fundo-lateral-direito-noturno {
+    z-index: -2;
+}
+
+/*ESTADO NOTURNO*/
+body.dark-theme .fundo-lateral-esquerdo, 
+body.dark-theme .fundo-lateral-direita {
+    z-index: -2; 
+}
+
+body.dark-theme .fundo-lateral-esquerdo-noturno, 
+body.dark-theme .fundo-lateral-direito-noturno {
+    z-index: 1;  
+}
+
+
+/*_________Introdução_________________*/
+ .moldura-video {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%; 
+    max-width: 5000px; 
+    aspect-ratio: 16 / 9; 
+
+    border: none; 
+    
+    background-image: url('../Ilustracao/Site/Cipo.png');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 5% 8%; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; 
+}  
+
+/*__Gralha Azul/Balão de conversa___*/
+
+#wrapper-gralha {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gralha-completa {
+    width: 225%;
+    max-width: 2000px !important; 
+    height: auto;
+    image-rendering: pixelated;
+    margin-top: 20 px;
+    margin-left: -280px;
+}
+
+#interface-chat {
+    position: absolute;
+    top: 26%;   
+    right: 5%; 
+    width: 35%; 
+    text-align: center;
+}
+
+#texto-gralha {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--texto-fixo);
+    margin-bottom: 10px;
+    line-height: 1.1;
+} 
+
+#container-entrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#input-nome {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid var(--branco-cor);
+    border-radius: 5px;
+    font-size: 0.8rem;
+} 
+
+#btn-acao {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#btn-acao:hover {
+    transform: scale(1.1);
+}
+
+#btn-acao img {
+    width: 30px; 
+}
+
+
+/*____________ Área do Jogo _____________________*/
+.conteudo {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#container-jogo {
+    margin-top: 0px;
+    width: 100%;
+    min-height: 400px;
+    border: 2px solid var(--preto-cor);
+    background-color: var(--site-cor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*____________ Linha Divisória Estilizada _____________________*/
+.divisor-estilizado {
+    border: none;
+    height: 2px;
+    background-color: var(--texto-cor); 
+    margin: 15px auto; 
+    width: 100%; 
+    opacity: 0.3; 
+    border-radius: 2px;
+}
+
+/*____________ Ala do assunto das informações __________________*/
+
+.cupinho-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 12px; 
+}
+
+#sobre.vale-detalhes {
+    padding: 0 5%;      
+    max-width: 1200px;   
+    margin: 0 auto;      
+    display: block;     
+}
+
+.secao-informativa {
+    display: block !important; 
+    width: 100%;
+    margin-bottom: 40px;
+    clear: both; 
+}
+
+.cupinho-imagem {
+    float: left; 
+    width: 300px; 
+    height: 200px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+
+    border: 2px solid var(--preto-cor) !important; 
+    background-color: var(--branco-cor);
+    border-radius: 12px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/*______efeito do texto ficar daquele jeito no site/alternância das imagens na ala das informações______*/
+
+.cupinho-imagem.direita {
+    float: right; 
+    margin-right: 0;
+    margin-left: 20px; 
+}
+
+.texto-informativo h3 {
+    margin-top: 0; 
+    color: var(--titulos-verde);
+    font-size: 2rem;
+}
+
+.texto-informativo p {
+    text-align: justify; 
+    line-height: 1.8;
+    color: var(--texto-cor);
+}
+
+/*_________________Créditos____________________________*/
+.rodape-tecnologias {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+.container-apps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quadrado-logo {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--preto-cor) !important; 
+    border-radius: 8px;
+    flex-shrink: 0; 
+}
+
+.nome-app {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--texto-cor);
+    text-transform: lowercase; 
+}
+
+/*___Links dos créditos____*/
+.link-credito {
+    color: inherit;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    font-weight: bold; 
+}
+
+.link-credito:hover {
+    color: var(--aba-verde); 
+    text-shadow: 0 0 5px rgba(41, 28, 24, 0.3);
+}
+
+body.dark-theme .link-credito:hover {
+    color: var(--atalho-cor); /* Amarelo #FFD700 */
+    text-shadow: 0 0 8px var(--atalho-cor);
+}
+
+/*_________Menu_______________*/
+
+#cabecalho-fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background-color: var(--aba-verde);
+    color: var(--branco-cor);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+/*______Classe JS____*/
+#cabecalho-fixo.ativo {
+    transform: translateY(0);
+}
+
+.container-header {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*____Logo e Nome___*/
+.logo-area { display: flex; align-items: center; gap: 10px; }
+.quadrado-escola {
+    width: 35px;
+    height: 35px;
+    background-color: var(--branco-cor);
+    border-radius: 4px; 
+}
+.nome-projeto { font-weight: bold; text-transform: uppercase; font-size: 0.9rem; }
+
+.nav-desktop a {
+    color: var(--branco-cor);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/*_________Imagem logo_______________*/
+
+.quadrado-escola {
+    width: 35px;
+    height: 35px;
+    background-color: var(--branco-cor); 
+    border-radius: 4px;
+    display: flex;        
+    align-items: center;   
+    justify-content: center;
+    overflow: hidden;      
+}
+
+.quadrado-escola img {
+    max-width: 90%;  
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/*___Estilo do botão de modo escuro____*/
+#toggle-dark-mode {
+    position: absolute; 
+    right: 25px;    
+    top: 50%;
+    transform: translateY(-50%); 
+    filter: invert(100%) !important;
+    
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-dark-mode {
+    width: 30px;
+    height: auto;
+}
+
+/*___Efeito ao passar o mouse/toque para pc/tablets/celulares__*/
+
+.nav-desktop a:hover,
+#menu-mobile a:hover,
+#menu-mobile a:active {
+    color: var(--atalho-cor); 
+    transition: 0.3s; 
+} 
+
+/*_____Menu Mobile____*/
+#btn-mobile {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-menu-img {
+    width: 35px;         
+    height: auto;
+    display: block;
+    filter: brightness(0) invert(1); 
+}
+
+#btn-mobile {
+    display: none;      
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-mobile {
+    display: none; 
+    background-color: var(--aba-verde); 
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    flex-direction: column;
+}
+
+/*____Ajuste nos Tablets____*/
+@media (max-width: 900px) {
+    .nav-desktop { display: none; }
+    #btn-mobile { display: block; }
+}
+
+body, html {
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*_________Classe para abrir o menu mobile__________*/
+#menu-mobile.aberto { display: flex; }
+#menu-mobile a {
+    color: var(--branco-cor);
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/*____________Ajustes para telas menores Tablets ________________*/
+
+@media (max-width: 1200px) {
+
+    body, html {
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    .secao-informativa {
+        display: block !important;
+        padding: 0 5% !important; 
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    .cupinho-imagem {
+        float: left !important; 
+        width: 35% !important; 
+        min-width: 200px;
+        margin-right: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cupinho-imagem.direita {
+        float: right !important;
+        margin-right: 0 !important;
+        margin-left: 20px !important;
+    }
+
+    .texto-informativo {
+        display: block !important;
+        width: auto !important;
+    }
+
+    .texto-informativo h3 {
+        font-size: 1.5rem !important; 
+        margin-top: 0;
+    }
+
+    .texto-informativo p {
+        text-align: justify;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .conteudo {
+        padding: 30px 20px !important; 
+    }
+
+    /* jogo */
+    #container-jogo {
+        width: 100% !important;        
+        max-height: 460px !important; 
+        aspect-ratio: 16 / 9 !important; 
+        margin: 0px auto !important;
+        height: auto !important;
+        
+        /*___Estética__*/
+
+        border: 2px solid var(--preto-cor);
+        border-radius: 0px;          
+        background-color: var(--branco-cor);
+    }
+
+    .container-apps {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important; 
+        gap: 10px;
+        max-width: 98%;
+    }
+
+    .app-card {
+        flex-direction: column; 
+        text-align: center;
+        gap: 5px;
+    }
+
+    .quadrado-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nome-app {
+        font-size: 0.7rem;
+    }
+
+    /*______Copas e galhos do Inicio_________*/
+    .galho {
+    width: 600px !important; 
+    height: auto !important;
+    }
+
+    /* Botão expandir */
+    .btn-controle[title="Expandir"] {
+    display: none !important;
+}
+
+/* escondendo a imagem lateral */
+ .fundo-lateral-esquerdo,
+    .fundo-lateral-esquerdo img,
+    .fundo-lateral-esquerdo-noturno,
+    .fundo-lateral-esquerdo-noturno img,
+    .fundo-lateral-direita,
+    .fundo-lateral-direita img,
+    .fundo-lateral-direita-noturno,
+    .fundo-lateral-direita-noturno img {
+        display: none !important;
+    }
+
+/* Ajuste no botão */
+     #toggle-dark-mode {
+        position: absolute !important;
+        right: 15px !important;
+        top: 50% !important;
+    }
+
+    /*___Vagalumes___*/
+
+/* limite */
+.faixa-vagalume {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 15%; 
+    z-index: 0; 
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.lateral-esquerda { left: 0; }
+.lateral-direita { right: 0; }
+
+/* Vagalumes */
+.vagalume {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #eeff008c;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #eeff008c;
+    opacity: 0;
+    animation: piscar 3s infinite ease-in-out;
+}
+
+@keyframes piscar {
+    0%, 100% { 
+        opacity: 0; 
+        transform: translate(0, 0); 
+    }
+    25% { 
+        opacity: 0.5; 
+        transform: translate(-2px, 2px); 
+    }
+    50% { 
+        opacity: 1; 
+        transform: translate(2px, -2px); 
+    }
+    75% { 
+        opacity: 0.5; 
+        transform: translate(-2px, -2px); 
+    }
+}
+   
+}
+
+/*_____mini ajuste em celulares pequenos_____*/
+
+@media (max-width: 600px) {
+
+    body, html {
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    .conteudo {
+        padding: 20px 10px !important; 
+    }
+
+    /* Ajuste do jogo (demais ajustes na seção do jogo logo abaixo — final do documento)*/
+   #container-jogo {
+    width: 85% !important; 
+    margin: 15px auto !important; 
+    aspect-ratio: 16 / 9 !important; 
+    min-height: auto !important; 
+
+    border: 2px solid var(--preto-cor);
+    background-color: var(--site-cor);
+
+    border-radius: 0px !important; 
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .conteudo {
+        padding: 20px 10px !important; 
+    }
+
+/*___________Inicio_________________*/
+
+.aba-verde {
+        height: auto;       
+        padding: 20px 0;    
+        min-height: 0;     
+    }
+
+    .header-conteudo {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: center;
+        gap: 15px; 
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .texto-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        text-align: left;
+    }
+
+    .aba-verde img {
+        width: 70px; 
+        height: 70px;
+        border-radius: 50%;
+        border: 2px solid var(--preto-cor);
+        object-fit: cover;
+    }
+
+    .aba-verde h1 {
+        font-size: 1.4rem; 
+        margin: 0;
+    }
+
+    .aba-verde p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    /*______Copas e galhos do Inicio_________*/
+    .galho {
+        width: 275px !important; 
+        height: auto !important;
+    }
+
+/*_______Introdução/Gralha-Azul________*/
+
+.moldura-video {
+        max-width: 100%; 
+        padding: 5% 5%;  
+        aspect-ratio: auto; 
+    }
+
+    #gralha-completa {
+        max-width: 130%; 
+        margin-left: -45% !important; 
+        margin-top: 30px;
+    }
+
+    #interface-chat {
+        top: 40% !important;   
+        right: 2% !important;  
+        width: 48% !important; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #texto-gralha {
+        font-size: 0.75rem !important; 
+        line-height: 1;
+        margin-bottom: 5px; 
+        width: 100%;
+    } 
+
+    #btn-acao img {
+        width: 25px !important; 
+    }
+
+    #input-nome {
+        width: 70px !important;
+        height: 25px;
+        font-size: 0.75rem;
+    }
+
+/*_______Regra dos blocos informativos_________*/
+
+    .cupinho-imagem, 
+    .cupinho-imagem.direita {
+        float: none !important;  
+        width: 100% !important; 
+        margin: 0 0 20px 0 !important; 
+        height: auto !important;
+        min-height: 200px;
+    }
+
+    .texto-informativo {
+        width: 100% !important; 
+        display: block !important;
+    }
+
+    .texto-informativo h3 {
+        text-align: center; 
+    } 
+
+/* ____Posicionando o botão Escurecer/clarear___*/
+   
+    #toggle-dark-mode {
+        position: absolute !important;
+        right: 80px !important;
+        top: 50% !important;
+        transform: translateY(-50%) scale(1.25) !important;
+    }
+
+/*__________Ajuste dos efeitos de brilho_____________*/
+body.dark-theme .moldura-video::before {
+        left: 30px !important; 
+        right: 30px !important;
+        
+        box-shadow: 
+            0 0 25px #50851a,
+            0 0 45px #79a124,
+            0 0 65px #73ca1c !important;
+    }
+
+/*_______Esconde completamente todas as variações das imagens laterais________*/
+    .fundo-lateral-esquerdo,
+    .fundo-lateral-esquerdo img,
+    .fundo-lateral-esquerdo-noturno,
+    .fundo-lateral-esquerdo-noturno img,
+    .fundo-lateral-direita,
+    .fundo-lateral-direita img,
+    .fundo-lateral-direita-noturno,
+    .fundo-lateral-direita-noturno img {
+        display: none !important;
+    }
+
+/*___Vagalumes___*/
+
+/* limite */
+.faixa-vagalume {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 15%; 
+    z-index: 0; 
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.lateral-esquerda { left: 0; }
+.lateral-direita { right: 0; }
+
+/* Vagalumes */
+.vagalume {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #eeff008c;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #eeff008c;
+    opacity: 0;
+    animation: piscar 3s infinite ease-in-out;
+}
+
+@keyframes piscar {
+    0%, 100% { 
+        opacity: 0; 
+        transform: translate(0, 0); 
+    }
+    25% { 
+        opacity: 0.5; 
+        transform: translate(-2px, 2px); 
+    }
+    50% { 
+        opacity: 1; 
+        transform: translate(2px, -2px); 
+    }
+    75% { 
+        opacity: 0.5; 
+        transform: translate(-2px, -2px); 
+    }
+}
+
+}
+
+/*____________________Efeitos de brilho e outros_______________________*/
+
+/*______cipó________*/
+body.dark-theme .moldura-video {
+    position: relative;
+    background-color: transparent; 
+}
+
+body.dark-theme .moldura-video::before {
+    content: "";
+    position: absolute;
+    z-index: -1; 
+    top: 57px;
+    left: 57px;
+    right: 57px;
+    bottom: 57px;
+
+    box-shadow: 
+        0 0 15px #50851a, 
+        0 0 30px #79a124, 
+        0 0 50px #73ca1c;
+    
+    opacity: 0.8;
+    pointer-events: none;
+    transition: box-shadow 0.5s ease-in-out; 
+}
+
+.moldura-video {
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+body.dark-theme #wrapper-gralha {
+    position: relative;
+    z-index: 1;
+}
+
+/*____trocar cor de fundo_____*/
+body {
+    background-color: var(--site-cor);
+    color: var(--texto-cor);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
+
+/*____Efeitos do botão escurecer_____*/
+
+/*_____MODO CLARO_________*/
+#toggle-dark-mode {
+    filter: invert(100%) !important;
+    transition: transform 0.3s ease, filter 0.3s ease !important;
+    transform: translateY(-50%) scale(1) !important;
+}
+
+#toggle-dark-mode:hover {
+    transform: translateY(-50%) scale(1.25) !important; 
+    filter: invert(0%) !important; 
+}
+
+/*______MODO ESCURO________*/
+body.dark-theme #toggle-dark-mode {
+    filter: invert(100%) !important; 
+}
+
+body.dark-theme #toggle-dark-mode:hover {
+    transform: translateY(-50%) scale(1.25) !important; 
+    /* Amarelo com Brilho */
+    filter: invert(90%) sepia(100%) saturate(2000%) hue-rotate(10deg) brightness(105%) contrast(105%) drop-shadow(0 0 10px #ffcc00) !important;
+}
+
+/*___Título Brilhoso______*/
+body.dark-theme h3.brilho-verde {
+    color: #6db920 !important; 
+    text-shadow: 
+        0 0 8px #6db920,   
+        0 0 15px #79a124;  
+    transition: all 0.5s ease; 
+}
+
+/*___Bordas brilhantes das molduras das imagens___*/
+body.dark-theme .cupinho-imagem img {
+    border: 2px solid #ffffff; 
+    box-shadow: 
+        0 0 10px #ffffff,    
+        0 0 20px rgba(255, 255, 255, 0.4); 
+    
+    border-radius: 12px; 
+    transition: all 0.5s ease;
+}
+
+/* __ Sombreado Acinzentado para a Divisória__ */
+body.dark-theme .divisor-estilizado {
+    border: none;
+    height: 2px; 
+    background-color: #555; 
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); 
+    margin: 20px 0;
+    transition: all 0.5s ease;
+}
+
+/* __Brilho Amarelo nos Links__ */
+body.dark-theme .nav-desktop a:hover {
+    color: #ffeb3b !important; 
+    text-shadow: 
+        0 0 8px #ffeb3b,  
+        0 0 15px #fbc02d;  
+    transition: all 0.5s ease;
+}
+
+
+
+/*_____________________________*àrea das configurações do Jogo*_____________________________*/
+
+
+
+
+/* ______ Barra de Ferramentas (Verde Escuro) _______*/
+.barra-controles {
+    width: 100% !important;
+    height: 60px;
+    background-color: var(--aba-verde) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 15px !important;
+    border-radius: 0 0 12px 12px; 
+    box-sizing: border-box;
+}
+
+/*______ Lado Esquerdo (Logo e Título)_________*/
+.controles-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.quadrado-logo {
+    width: 35px;
+    height: 35px;
+    background-color: var(--branco-cor) !important; 
+    border-radius: 6px;
+}
+
+.quadrado-logo img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important; 
+    border-radius: 6px !important; 
+}
+
+.nome-jogo {
+    color: var(--branco-cor) !important;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/*______ Lado Direito (Botões de Ação) _______*/
+.controles-direita {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-controle {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-controle[title="Manual"] { background-color: var(--manual-cor) !important; } 
+.btn-controle[title="Expandir"] { background-color: var(--expandir-cor) !important; }
+
+.btn-controle[title="Expandir"] {
+    display: none !important;
+}
+
+.btn-controle:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.btn-controle i {
+    color: var(--aba-verde);
+    font-size: 16px;
+}
+
+/*______Container dos textos/objetivo, como jogar e jogar_________*/
+.sessao-texto-jogo {
+    display: flex !important;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    justify-content: center;
+}
+
+/*_Texto do Objetivo_*/
+.caixa-texto {
+    background-color: var(--marrom-terra) !important; 
+    flex: 1; 
+    min-height: 150px;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: inset 0 0 10px var(--sombra-interna);
+    color: var(--branco-cor) !important; 
+    font-family: 'Segoe UI', sans-serif;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.caixa-texto h3 {
+    margin-top: 0;
+    color: var(--manual-cor) !important; 
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.caixa-texto p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+} 
+
+.caixa-texto[onclick]:hover {
+    background-color: #7e7e7e !important; 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.caixa-texto[onclick] {
+    cursor: pointer;
+}
+
+/*________Véu e quaixotes de informação do objetivo e como jogar__________*/
+.escondido {
+    display: none !important;
+}
+
+/*______O Véu______________*/
+.manual-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+/*_______Elementos do Jogo__________*/
+
+
+#display-principal {
+    background-color: var(--site-cor);
+    border-radius: 12px;
+    padding: 5px 5px 5px 5px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--texto-jogo); 
+}
+
+ #imagem-principal {
+    width: 820px; 
+    height: 200px; 
+    border-radius: 8px;
+    margin-bottom: -5px;
+    border: 2px solid var(--site-cor);
+}
+
+#texto-principal {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#fase-titulo {
+    margin-top: 15px !important;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+.grade-alternativas {
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;              
+    width: 100%;
+    padding: 0 30px;          
+}
+
+.btn-escolha {
+    background-color: #333333;
+    color: var(--branco-cor);
+    border: none;
+    padding: 18px 25px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-escolha:hover {
+    background-color: var(--aba-verde);
+    transform: translateY(-3px);
+}
+
+#btn-proximo {
+    display: block;        
+    margin: -10px auto 0 auto; 
+    width: 200px;          
+}
+
+/*_________________________Ajuste do jogo em telas menores____________________________________*/
+@media (max-width: 600px) {
+
+/* Barra de ferramentas */
+.barra-controles {
+    width: 85% !important; 
+    margin: -15px auto 0 auto !important; 
+    
+    height: 50px !important; 
+    padding: 0 10px !important; 
+    
+    background-color: var(--aba-verde) !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    border-radius: 0 0 12px 12px !important;
+    box-sizing: border-box;
+}
+
+/* Espaçamento par ao título na barra de ferramentas */
+    .nome-jogo {
+        margin-right: 50px !important;
+    }
+
+/*__________Relocamento de item espandir (adição para telas menores)_______*/
+   .btn-controle[title="Expandir"] {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        /* Limpa qualquer herança de estilo da barra (ele pertencia a barra de ferramentas, por isso a escolha minha) */
+        background: none !important;
+        border: none !important;
+        width: auto !important;
+        height: auto !important;
+        cursor: pointer !important; 
+    }
+
+    .btn-controle[title="Expandir"] i {
+        font-size: 45px !important;
+        color: var(--preto-cor) !important;
+        margin-bottom: 10px !important;
+    }
+
+    .btn-controle[title="Expandir"] .texto-iniciar {
+        display: block !important;
+        font-size: 1rem !important;
+        color: var(--preto-cor) !important;
+        font-weight: bold !important;
+        white-space: nowrap !important;
+    }
+
+    /*_______________________Expansão (TELA CHEIA)_____________________________*/
+/* O container principal agora gerencia a barra fixa na base */
+ body.tela-expandida #display-principal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 10 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    display: flex !important;
+    flex-direction: column !important;
+} 
+
+body.tela-expandida .barra-controles {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 60px !important;
+    border-radius: 0 !important;
+    z-index: 11 !important;
+    display: flex !important;
+    background-color: var(--aba-verde) !important;
+}
+
+/* Ajuste dos botões*/
+body.tela-expandida .btn-controle[title="Expandir"] {
+    display: none !important;
+}
+
+/* Garantindo que o botão Diminuir apareça na barra */
+body.tela-expandida .btn-controle[title="Diminuir"] {
+    display: flex !important;
+    background-color: var(--expandir-cor) !important; 
+}
+
+/* Ajuste nas imagens */
+#imagem-principal {
+        width: 100%;     
+        height: auto;     
+        max-height: 180px; 
+        object-fit: cover; 
+    }
+
+    /*_____Botão Manual_____*/
+    .barra-controles {
+        position: relative !important; 
+        z-index: 15 !important;       
+    }
+
+    body:not(.tela-expandida) #manual-overlay,
+    body:not(.tela-expandida) .sessao-texto-jogo {
+        display: none !important;
+    }
+
+    /*Botão Manual Amarelo */
+    .btn-controle[title="Manual"] {
+        display: none !important; 
+    }
+    
+    body.tela-expandida .btn-controle[title="Manual"] {
+        display: flex !important; 
+    }
+
+   body.tela-expandida #manual-overlay:not(.escondido) {
+        display: flex !important;
+        position: fixed !important; 
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background-color: rgba(0, 0, 0, 0.85) !important;
+        
+        /* Configuração de Camada */
+        z-index: 14 !important;   
+        justify-content: center !important;
+        align-items: center !important; 
+        padding: 20px !important;
+        overflow-y: auto !important; 
+        box-sizing: border-box !important;
+    }
+
+    /*O Container dos Objetivos*/
+    body.tela-expandida #manual-overlay:not(.escondido) .sessao-texto-jogo {
+        display: flex !important;
+        flex-direction: column !important; 
+        gap: 18px !important;          
+        width: 92% !important;         
+        max-width: 450px !important;  
+        padding: 20px 0 !important;  
+        margin: auto !important;   
+    }
+
+    /*Caixas de Texto*/
+    body.tela-expandida #manual-overlay:not(.escondido) .caixa-texto {
+        width: 100% !important;
+        min-height: auto !important; 
+        padding: 22px !important;    
+        box-sizing: border-box !important;
+    }
+
+    body.tela-expandida #manual-overlay:not(.escondido) .caixa-texto h3 {
+        font-size: 1.3rem !important;  
+        margin-bottom: 12px !important;
+    }
+
+    body.tela-expandida #manual-overlay:not(.escondido) .caixa-texto p {
+        font-size: 1.05rem !important; 
+        line-height: 1.5 !important;   
+    }
+
+    /* ocultando elementos */
+    body:not(.tela-expandida) #imagem-principal,
+    body:not(.tela-expandida) #display-principal p,
+    body:not(.tela-expandida) #display-principal button:not([title="Expandir"]),
+    body:not(.tela-expandida) #display-principal div:not(.barra-controles) {
+        display: none !important;
+    }
+
+    body:not(.tela-expandida) #display-principal {
+        display: none !important;
+    }
+
+}
+
+/*_____________________Efeitos de brilho no Jogo__________________________________*/
+
+/*___Brilho e efeitos sonoros/visuais___*/
+body.dark-theme h3.titulo-manual {
+    color: #F8D98C !important; 
+    text-shadow: 0 0 10px #F8D98C, 
+                  0 0 20px rgba(248, 217, 140, 0.5);
+    transition: all 0.5s ease;
+}
+
+/*________Brilho dos títulos do Jogo__________*/
+body.dark-theme h3#fase-titulo {
+    color: #6db920 !important; 
+    text-shadow: 
+        0 0 8px #6db920,   
+        0 0 15px #79a124;  
+    transition: all 0.5s ease; 
+}

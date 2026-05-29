@@ -139,8 +139,10 @@ function verificarHorario() {
 
     if (hora >= 18 || hora < 6) {
         body.classList.add('dark-theme');
+        criarVagalumesNasLaterais();
     } else {
         body.classList.remove('dark-theme');
+        if(container) container.innerHTML = '';
     }
 }
 

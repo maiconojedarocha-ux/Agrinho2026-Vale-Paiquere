@@ -1045,23 +1045,8 @@ btnDiminuir.addEventListener('click', () => {
 // Aguarda o documento carregar completamente
 document.addEventListener('DOMContentLoaded', () => {
     const botaoTema = document.getElementById('toggle-dark-mode');
-    
-    if (botaoTema) {
-        botaoTema.addEventListener('click', alternarModoNoturno);
-    }
-});
 
-// função noturno
-function alternarModoNoturno() {
-    document.body.classList.toggle('modo-noturno');
-    
-    if (document.body.classList.contains('modo-noturno')) {
-        criarVagalumesNasLaterais();
-    } else {
-        const container = document.getElementById('container-vagalumes');
-        if(container) container.innerHTML = '';
-    }
-}
+});
 
 // Sua função de criar os vagalumes
 function criarVagalumesNasLaterais() {

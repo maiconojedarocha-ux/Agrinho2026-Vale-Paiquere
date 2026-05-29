@@ -502,15 +502,6 @@ body.dark-theme .link-credito:hover {
     height: auto;
 }
 
-/*_____Vagalumes_______*/
-#container-vagalumes {
-    display: none; /* Escondido por padrão no modo claro */
-}
-
-body.dark-theme #container-vagalumes {
-    display: block; /* Visível apenas quando a classe dark-theme estiver no body */
-}
-
 /*___Efeito ao passar o mouse/toque para pc/tablets/celulares__*/
 
 .nav-desktop a:hover,

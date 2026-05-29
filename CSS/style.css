@@ -903,15 +903,18 @@ body, html {
 
 /*__________Ajuste dos efeitos de brilho_____________*/
 body.dark-theme .moldura-video::before {
-        left: 30px !important; 
-        right: 30px !important;
-        
-        box-shadow: 
-            0 0 25px #50851a,
-            0 0 45px #79a124,
-            0 0 65px #73ca1c !important;
-    }
+    left: 30px !important; 
+    right: 30px !important;
+    border-radius: 25px !important; 
+    
+    box-shadow: 
+        0 0 25px #50851a,
+        0 0 60px #79a124,
+        0 0 95px #79a124,
+        inset 0 0 55px #50851a,
+        inset 0 0 90px #73ca1c !important;
 
+    }
 /*_______Esconde completamente todas as variações das imagens laterais________*/
     .fundo-lateral-esquerdo,
     .fundo-lateral-esquerdo img,

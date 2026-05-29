@@ -555,7 +555,7 @@ body.dark-theme #container-vagalumes {
 }
 
 /*____Ajuste nos Tablets____*/
-@media (max-width: 900px) {
+@media (max-width: 1270px) {
     .nav-desktop { display: none; }
     #btn-mobile { display: block; }
 }
@@ -579,7 +579,7 @@ body, html {
 
 /*____________Ajustes para telas menores Tablets ________________*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1270px) {
 
     body, html {
     overflow-x: hidden; 
@@ -747,7 +747,7 @@ body, html {
 
 /*_____mini ajuste em celulares pequenos_____*/
 
-@media (max-width: 600px) {
+@media (max-width: 1270px) {
 
     body, html {
     overflow-x: hidden; 
@@ -1301,7 +1301,7 @@ body.dark-theme .nav-desktop a:hover {
 }
 
 /*_________________________Ajuste do jogo em telas menores____________________________________*/
-@media (max-width: 600px) {
+@media (max-width: 1270px) {
 
 /* Barra de ferramentas */
 .barra-controles {

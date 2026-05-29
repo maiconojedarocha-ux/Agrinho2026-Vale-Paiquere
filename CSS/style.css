@@ -1323,10 +1323,9 @@ body.dark-theme .nav-desktop a:hover {
 }
 
 /* Espaçamento par ao título na barra de ferramentas */
-    .nome-jogo {
-        margin-right: 50px !important;
+     .nome-jogo {
+        margin-right: 190px !important;
     }
-
 /*__________Relocamento de item espandir (adição para telas menores)_______*/
    .btn-controle[title="Expandir"] {
         position: absolute !important;

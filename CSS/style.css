@@ -545,6 +545,15 @@ body.dark-theme .link-credito:hover {
     flex-direction: column;
 }
 
+/*______Vagalumes_______*/
+#container-vagalumes {
+    display: none;
+}
+
+body.dark-theme #container-vagalumes {
+    display: block; 
+}
+
 /*____Ajuste nos Tablets____*/
 @media (max-width: 900px) {
     .nav-desktop { display: none; }

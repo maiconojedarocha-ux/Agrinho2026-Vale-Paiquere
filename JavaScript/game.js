@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (mensagemElemento) {
         mensagemElemento.innerText = "Bem-vindo ao Vale Paiquerê! Onde a produção encontra a natureza.";
     } else {
-        console.warn("Aviso: O elemento 'mensagem-js' não foi encontrado nesta página.");
+        //console.warn("Aviso: O elemento 'mensagem-js' não foi encontrado nesta página.");
     }
 
     console.log("Sistema Vale Paiquerê iniciado com sucesso.");

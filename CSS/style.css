@@ -1509,8 +1509,8 @@ body.dark-theme h3#fase-titulo {
 
 /*___________Ajuste para telas menores (alto Dpi)________________*/
 @media (max-width: 600px) {
-   #texto-gralha {
-        font-size: 0.55rem !important; 
+  #texto-gralha {
+        font-size: 0.42rem !important; 
         line-height: 1;
         margin-top: 10px !important;
     }

@@ -1552,13 +1552,8 @@ body.dark-theme h3#fase-titulo {
         padding: 8px; 
     }
 
-    #fase-titulo {
-        font-size: 1.3rem; 
-        margin-top: 10px;
-    }
-
     #texto-principal {
-        font-size: 0.95rem; 
+        font-size: 0.65rem; 
         padding: 5px;
         line-height: 1.4; 
     }
@@ -1566,11 +1561,11 @@ body.dark-theme h3#fase-titulo {
     .btn-escolha {
         width: 100%;
         padding: 12px 5px; 
-        font-size: 0.9rem;
+        font-size: 0.65rem;
     }
 
     #btn-proximo {
-        width: 95%; 
+        width: 85%; 
         margin-top: 5px;
     }
 

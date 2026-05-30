@@ -6,7 +6,7 @@ __Dias trabalhados:__ 21 dias  __Dias documentados:__ 15 dias __Dias Levados:__ 
 
 **Sobre a documentação:** Usei a linguagem formal e informal juntas, devido a esta documentação se passar como um diário de bordo, registrando progressões, emoções e sinceridade sobre o assunto. O projeto foi feito sob os requisitos do edital distribuído — sigam para saberem mais sobre minha progressão e aprendizados.
 
-**A Respeito da Inteligência Articial (IA):** Utilizei a IA como uma ferramenta de produtividade — conforme ensinado nas aulas da Alura — mas a lógica de navegação, a correção de bugs e a identidade visual única do Vale Paiquerê foram totalmente frutos do meu refinamento manual e decisão criativa própria, seguindo mais tarde os conselhos distribuídos pelas aulas da plataforma Alura.
+**A Respeito da Inteligência Artificial (IA):** Utilizei a IA como uma ferramenta de produtividade — conforme ensinado nas aulas da Alura — mas a lógica de navegação, a correção de bugs e a identidade visual única do Vale Paiquerê foram totalmente frutos do meu refinamento manual e decisão criativa própria, seguindo mais tarde os conselhos distribuídos pelas aulas da plataforma Alura.
 
 **Resumo Semanais:** A linha do tempo do projeto.
 

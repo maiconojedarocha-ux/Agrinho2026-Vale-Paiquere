@@ -185,7 +185,7 @@ __Imagem(s):__ Escolhi em quadarmenteo 400:600 pois já mostra como está ficand
 
 ---
 
-# Dia 03 - 30/04/2026
+# Dia 03 — 30/04/2026
 
 __Resumo:__ Digamos que hoje foi produtivo, comecei a alterar aqueles quadrados acinzentados por imagens vivas e "bonitas" eu diria, e colocar textos na quelas áreas em branco. Coloquei a logo de nossa escola no cabeçalho fixo e troquei a imagem quadrada do menu, por uma que o site flaticon prospos — eu acho que será a única vez que vou usar nesse projeto, pois no game, eu prefiro fazer. Afinal, comecei a dar corpo definitivo para o site.
 
@@ -239,7 +239,7 @@ __Imagem(s):__ Como o cabeçalho fixo e algumas funções do site é diferente d
 
 ---
 
-# Dia 04 - 01/05/2026
+# Dia 04 — 01/05/2026
 
 __Resumo:__ Hoje comecei a arruamar/modelar o inicio e a introdução, o inicio por enquanto está pronto — como os demais, falta apenas uns detalhes no design. Enquanto a introdução eu terminei parcialmente, pois falta arrumar o proporção para os celulares/tablets — não deu tempo pelo motivo que terei que sair, então se eu continuase não sobraria tempo para a documentação.
 
@@ -280,13 +280,13 @@ __Imagem(s):__ As imagens monstram o que eu fiz hoje, onde fiz o molde de cipo (
 
 ---
 
-# Dia 05/10  - 02/05/2026 — 07/05/2026
+# Dia 05/10  — 02/05/2026 - 07/05/2026
 
 __Resumo:__ Durante esses dias eu acabei parando um pouco o projeto, pois eu queria dar uma descansada, porém acabei me aprofundando/descansando demais no meu passa tempo — escrever. Mas agora vou focar pelo menos amanhã no projeto.
 
 ---
 
-# Dia 11 - 08/05/2026
+# Dia 11 — 08/05/2026
 
 __Resumo:__ Hoje corrigi o bug da gralha-Azul, e comecei a planejar como será o jogo.
 
@@ -314,12 +314,12 @@ __Imagem(s):__
 
 ---
 
-# Dia 12/15 - 09/05/2026 — 12/05/2026
+# Dia 12/15 — 09/05/2026 - 12/05/2026
 
 __Resumo:__ Novamente acabei parando, pois devido a alguns trabalhos escolares e logo após, pessoais. Outrossim é o fato de que eu ainda não me estava imaginando o jogo que eu faria, sim, eu tenho a ideia, porém é complexa demais para eu realizar sozinho — por isso que estou pensando qual jogo eu abordo no projeto ou faço/carrego um video ou links. 
 
 
-**___Dia 17 - 13/05/2026___**
+**___Dia 17 — 13/05/2026___**
 
 __Resumo:__ Hoje dei uma ajustada/uma maquiada podemos dizer, fazendo que o inicio ficasse bonito. Também não posso me esquecer que eu arrumei o botão de escurecer a tela, que me levou a elaborar um novo tipo de comando — apresentado pela gemini — sobre as variáveis CSS (eu acho que é esse nome, se eu não me estou enganado). Consistindo em separar tipo de cor com a ajuda do comando "var()", acabei nomeando e descobrindo um novo atalho (Ctrl + h) me ajudando a encontrar as cores escondidas no código.
 
@@ -367,14 +367,14 @@ __Imagem(s):__ As imagens a seguir mostra apenas no pc:
 
 ---
 
-# Dia 18/21 - 14/05/2026 — 16/05/2026
+# Dia 18/21 — 14/05/2026 - 16/05/2026
 
 __Resumo:__ Nesse período acabei focando em outras competições que esetavam atrasadas, como o agrinho categoria robótica, que acabei sendo encarregado por minha equipe em programar a lógica dos sensores PH e de turbidez. 
 Além de algumas competições e seleções literários — pelo menos, a readação de minha parada do dia 09/05 me permitiu compor uma antologia. 
 
 ---
 
-# Dia 22 - 17/05/2026
+# Dia 22 — 17/05/2026
 
 __Resumo:__ Hoje acabei resolvendo alguns bugs passados e adicionei uma nova animação no botão anoitecer, pois o visual antigo estava meio feio.
 
@@ -406,7 +406,7 @@ Desculpe por hoje, mas estou meio desanimado devido ao dia.
 
 ---
 
-# Dia 23 - 18/05/2026
+# Dia 23 — 18/05/2026
 
 __Resumo:__ Hoje comecei a fazer a base do jogo, como a barra de ferramentas (manual, volume e expandir tela), eu acabei focando bastante nessa parte, fazendo até a lógica e estrutura do jogo — que agora falta só fazer todas as alternativas/caminhos para depois começar a polir o jogo.
 Outrossim foi a respeito dos créditos, que a gemini me apresentou uma forma bem elegante de colocar o link dos sites direto no título/nome dos sites usados, achei bem eficiente essa adição por motivos autorais.
@@ -453,7 +453,7 @@ __Imagem(s):__ Aqui com tudo que eu fiz hoje:
 
 ---
 
-# Dia 24 - 19/05/2026
+# Dia 24 — 19/05/2026
 
 __Resumo:__ Hoje acabei dando umas arrumadas nas proporções das imagens, botões, cars e texto do jogo. Terminei de fazer a lógica 1 = 2 = 4 = 8 = 16 = 32 = 17 como comentado que eu faria — desculpe se eu ter errado na lógica, pois é bastante e mesmo com a gemini como assitente, acabei de confundindo pelo tamanho. 
 
@@ -497,7 +497,7 @@ __Imagem(s):__ As imagens de hoje monstram como está o jogo a noite e de dia:
 
 ---
 
-# Dia 25/28 - 20/05/2026 — 23/05/2026
+# Dia 25/28 — 20/05/2026 - 23/05/2026
 
 __Resumo:__ Durante esse tempo dessa vez eu não descansei, eu fiz o roteiro, poli ele, refiz, ajustei umas partes e bugs para o modelo de pc, por final, deixei mais elegante o site.
 
@@ -567,7 +567,7 @@ Devido as quedas de energia, acabou-se que terminei essa documentação dos dias
 
 ---
 
-# Dia 29/30 - 24/05/2026 — 25/05/2026
+# Dia 29/30 — 24/05/2026 - 25/05/2026
 
 __Resumo:__ Me sinto transbordado por uma alegria instavel, pois hoje eu terminei o site em geral, do ínicio aos créditos, aos bugs a elegância. Porém ainda tenho polimento a fazer: estravagância no título inicial, um micro ajuste no véu do jogo e por final estou a pensar em araucárias nos celulares e tablets para compensar as imagens laterais retiradas — enquando ao modo escuro... vagalumes.
 Ainda terei que testar meu código no site que vocês desejam, pode ocorrer algum erro — segundo o professor. Por final, testar o site em uma tablet real.  
@@ -610,7 +610,7 @@ __Imagem(s):__ Sinto orgulho em mostrar como está nos celulares o site:
 
 ---
 
-# Dia 31/33 - 26/05/2026 — 28/05/2026
+# Dia 31/33 — 26/05/2026 - 28/05/2026
 
 __Resumo:__ Finalmente terminei o site, resolvi os bugs que estavam a amostra — comprometendo minha pontuação — ajustes para melhor acessibilidade ao usuário — como a expanção do jogo em telas 600px — adições para melhor esperiência — sendo os vagalumes, conpensando a falta das imagens laterais, que iriam poluir o site em telas menores como tablets e celulares.
 
@@ -643,7 +643,7 @@ __Imagem(s):__ A seguir, como ficou o bug corrigido e adição dos vagalumes:
 
 ---
 
-# Dia 34/35 - 29/05/2026 — 30/05/2026
+# Dia 34/35 — 29/05/2026 - 30/05/2026
 
 __Resumo:__ Eu pensava que a partir desses últimos dias nesse poço sem fim de programação seria finalmente água limpa, porém quando fui mais assundo a respeito do polimento, descobri que ainda existia água barrenta — bugs. Durante esses dias venho arrumando vários bugs de proporções de telas, afinal, pessoas que tem celulares com telas de 320px também merecem acessar o site, mesma coisa para pessoas que gostam de jogar no modo paissagem — fiz o que estava em meu alcance atual.
 
@@ -668,7 +668,7 @@ __Imagem(s):__ Imagens anuladas, pois não são úteis por agora, já que o prob
 
 # A seguir, o padrão de estrutura usada na documentação:
 
-**___Dia 00 - 00/00/2026___**
+**___Dia 00 — 00/00/2026___**
 
 __Resumo:__
 

@@ -86,7 +86,7 @@ O que aprenderei? Que, independentemente da direção que eu siga — seja human
 # Diário de Bordo:
 
 
-**___Dia 01 - 28/04/2026___**
+# Dia 01 - 28/04/2026
 
 __Resumo:__ Hoje estabeleci o básico do site, defini onde ficará cada elemento e coloquei uma coloração temporária — que logo mudarei. O inicio é rápido, ainda mais com a assitencia da IA para apoiar em etapas mais fáceis, poupando tempo para o trabalho bruto que ninguém faz igual — design e ilustrações.
 
@@ -130,7 +130,7 @@ __Imagem(s):__
     <img src="Documentacao/DocumentaçaoDia01_Foto03.png" width="30%">
 </div>
 
-**___Dia 02 - 29/04/2026___**
+# Dia 02 - 29/04/2026
 
 __Resumo:__ Hoje, acabei arrumando um erro que foi chato em minha opinião, pois ele consistia na adaptação do site em celulares e tablets — depois explico melhor. E estou quase terminando o esqueleto do site, eu falei que tinha terminado, mas agora eu falo que não, porconta que eu desejei mais coisas, que no resultado de tudo, falta fazer — eu acho — só mais uma adição para começar a polir o site para finalmente começar o game.
 
@@ -182,7 +182,7 @@ __Imagem(s):__ Escolhi em quadarmenteo 400:600 pois já mostra como está ficand
 </div>
 
 
-**___Dia 03 - 30/04/2026___**
+# Dia 03 - 30/04/2026
 
 __Resumo:__ Digamos que hoje foi produtivo, comecei a alterar aqueles quadrados acinzentados por imagens vivas e "bonitas" eu diria, e colocar textos na quelas áreas em branco. Coloquei a logo de nossa escola no cabeçalho fixo e troquei a imagem quadrada do menu, por uma que o site flaticon prospos — eu acho que será a única vez que vou usar nesse projeto, pois no game, eu prefiro fazer. Afinal, comecei a dar corpo definitivo para o site.
 
@@ -234,7 +234,7 @@ __Imagem(s):__ Como o cabeçalho fixo e algumas funções do site é diferente d
     <img src="Documentacao/DocumentaçaoDia03_Foto02.jpeg" width="15%">
 </div>
 
-**___Dia 04 - 01/05/2026___**
+# Dia 04 - 01/05/2026
 
 __Resumo:__ Hoje comecei a arruamar/modelar o inicio e a introdução, o inicio por enquanto está pronto — como os demais, falta apenas uns detalhes no design. Enquanto a introdução eu terminei parcialmente, pois falta arrumar o proporção para os celulares/tablets — não deu tempo pelo motivo que terei que sair, então se eu continuase não sobraria tempo para a documentação.
 
@@ -273,7 +273,7 @@ __Imagem(s):__ As imagens monstram o que eu fiz hoje, onde fiz o molde de cipo (
     <img src="Documentacao/DocumentaçaoDia04_Foto04.png" width="23%">
 </div>
 
-**___Dia 05/10  - 02/05/2026 — 07/05/2026___**
+# Dia 05/10  - 02/05/2026 — 07/05/2026
 
 __Resumo:__ Durante esses dias eu acabei parando um pouco o projeto, pois eu queria dar uma descansada, porém acabei me aprofundando/descansando demais no meu passa tempo — escrever. Mas agora vou focar pelo menos amanhã no projeto.
 
@@ -303,7 +303,7 @@ __Imagem(s):__
     <img src="Documentacao/DocumentaçaoDia11_Foto01.jpeg" width="22%">
 </div>
 
-**___Dia 12/15 - 09/05/2026 — 12/05/2026___**
+# Dia 12/15 - 09/05/2026 — 12/05/2026
 
 __Resumo:__ Novamente acabei parando, pois devido a alguns trabalhos escolares e logo após, pessoais. Outrossim é o fato de que eu ainda não me estava imaginando o jogo que eu faria, sim, eu tenho a ideia, porém é complexa demais para eu realizar sozinho — por isso que estou pensando qual jogo eu abordo no projeto ou faço/carrego um video ou links. 
 
@@ -354,12 +354,12 @@ __Imagem(s):__ As imagens a seguir mostra apenas no pc:
     <img src="Documentacao/DocumentaçaoDia17_Foto03.png" width="30%">
 </div>
 
-**___Dia 18/21 - 14/05/2026 — 16/05/2026___**
+# Dia 18/21 - 14/05/2026 — 16/05/2026
 
 __Resumo:__ Nesse período acabei focando em outras competições que esetavam atrasadas, como o agrinho categoria robótica, que acabei sendo encarregado por minha equipe em programar a lógica dos sensores PH e de turbidez. 
 Além de algumas competições e seleções literários — pelo menos, a readação de minha parada do dia 09/05 me permitiu compor uma antologia. 
 
-**___Dia 22 - 17/05/2026___**
+# Dia 22 - 17/05/2026
 
 __Resumo:__ Hoje acabei resolvendo alguns bugs passados e adicionei uma nova animação no botão anoitecer, pois o visual antigo estava meio feio.
 
@@ -389,7 +389,7 @@ __Imagem(s):__ Antes e depois dde resolver o bug:
 
 Desculpe por hoje, mas estou meio desanimado devido ao dia.
 
-**___Dia 23 - 18/05/2026___**
+# Dia 23 - 18/05/2026
 
 __Resumo:__ Hoje comecei a fazer a base do jogo, como a barra de ferramentas (manual, volume e expandir tela), eu acabei focando bastante nessa parte, fazendo até a lógica e estrutura do jogo — que agora falta só fazer todas as alternativas/caminhos para depois começar a polir o jogo.
 Outrossim foi a respeito dos créditos, que a gemini me apresentou uma forma bem elegante de colocar o link dos sites direto no título/nome dos sites usados, achei bem eficiente essa adição por motivos autorais.
@@ -435,7 +435,7 @@ __Imagem(s):__ Aqui com tudo que eu fiz hoje:
 </div>
 
 
-**___Dia 24 - 19/05/2026___**
+# Dia 24 - 19/05/2026
 
 __Resumo:__ Hoje acabei dando umas arrumadas nas proporções das imagens, botões, cars e texto do jogo. Terminei de fazer a lógica 1 = 2 = 4 = 8 = 16 = 32 = 17 como comentado que eu faria — desculpe se eu ter errado na lógica, pois é bastante e mesmo com a gemini como assitente, acabei de confundindo pelo tamanho. 
 
@@ -477,7 +477,7 @@ __Imagem(s):__ As imagens de hoje monstram como está o jogo a noite e de dia:
     <img src="Documentacao/DocumentaçaoDia24_Foto03.png" width="30%">
 </div>
 
-**___Dia 25/28 - 20/05/2026 — 23/05/2026___**
+# Dia 25/28 - 20/05/2026 — 23/05/2026
 
 __Resumo:__ Durante esse tempo dessa vez eu não descansei, eu fiz o roteiro, poli ele, refiz, ajustei umas partes e bugs para o modelo de pc, por final, deixei mais elegante o site.
 
@@ -545,7 +545,7 @@ Agora como está o bug no celular:
 
 Devido as quedas de energia, acabou-se que terminei essa documentação dos dias 25/28 só no dia seguinte, isso significa que já estamos no dia 29, seguindo o calendário hoje é 24/05/2026, então talvez hoje não tenha documentação, pois os problemas são muitos, e tenho que resolve-los.
 
-**___Dia 29/30 - 24/05/2026 — 25/05/2026___**
+# Dia 29/30 - 24/05/2026 — 25/05/2026
 
 __Resumo:__ Me sinto transbordado por uma alegria instavel, pois hoje eu terminei o site em geral, do ínicio aos créditos, aos bugs a elegância. Porém ainda tenho polimento a fazer: estravagância no título inicial, um micro ajuste no véu do jogo e por final estou a pensar em araucárias nos celulares e tablets para compensar as imagens laterais retiradas — enquando ao modo escuro... vagalumes.
 Ainda terei que testar meu código no site que vocês desejam, pode ocorrer algum erro — segundo o professor. Por final, testar o site em uma tablet real.  
@@ -586,7 +586,7 @@ __Imagem(s):__ Sinto orgulho em mostrar como está nos celulares o site:
     <img src="Documentacao/DocumentaçaoDia29-30_Foto04.jpeg" width="20%">
 </div>
 
-**___Dia 31/33 - 26/05/2026 — 28/05/2026___**
+# Dia 31/33 - 26/05/2026 — 28/05/2026
 
 __Resumo:__ Finalmente terminei o site, resolvi os bugs que estavam a amostra — comprometendo minha pontuação — ajustes para melhor acessibilidade ao usuário — como a expanção do jogo em telas 600px — adições para melhor esperiência — sendo os vagalumes, conpensando a falta das imagens laterais, que iriam poluir o site em telas menores como tablets e celulares.
 
@@ -617,7 +617,7 @@ __Imagem(s):__ A seguir, como ficou o bug corrigido e adição dos vagalumes:
     <img src="Documentacao/DocumentaçaoDia31-33_Foto02.png" width="60%">
 </div>
 
-**___Dia 34/35 - 29/05/2026 — 30/05/2026___**
+# Dia 34/35 - 29/05/2026 — 30/05/2026
 
 __Resumo:__ Eu pensava que a partir desses últimos dias nesse poço sem fim de programação seria finalmente água limpa, porém quando fui mais assundo a respeito do polimento, descobri que ainda existia água barrenta — bugs. Durante esses dias venho arrumando vários bugs de proporções de telas, afinal, pessoas que tem celulares com telas de 320px também merecem acessar o site, mesma coisa para pessoas que gostam de jogar no modo paissagem — fiz o que estava em meu alcance atual.
 
@@ -637,10 +637,10 @@ __Nota:__ Sempre testar o site antes de qualquer coisa, quero dizer, antes de po
 
 __Imagem(s):__ Imagens anuladas, pois não são úteis por agora, já que o problema está em refinamento, então não existe algo interessante.
 
+---
 
 
-
-**A seguir, a estrutura usada para a documentação:**
+# A seguir, o padrão de estrutura usada na documentação:
 
 **___Dia 00 - 00/00/2026___**
 

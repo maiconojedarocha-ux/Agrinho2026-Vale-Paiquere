@@ -1544,7 +1544,8 @@ body.dark-theme h3#fase-titulo {
     #imagem-principal {
         width: 95%;
         height: auto;
-        margin: 0 auto; 
+         margin-top: -65px !important;
+    margin-bottom: 0px !important; 
     }
 
     #display-principal {

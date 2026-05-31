@@ -57,7 +57,7 @@ __Dias Levados:__ 33 dias
 
 **Foco:** Automação, Acessibilidade e Robótica.
 
-**Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu"). Em paralelo, foi desenvolvida a lógica de programação dos sensores de pH e turbidez para a categoria Agrinho Robótica.
+**Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu").
 
 # Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
 

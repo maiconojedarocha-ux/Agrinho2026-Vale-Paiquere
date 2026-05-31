@@ -582,7 +582,25 @@ __Imagem(s):__ A seguir, como ficou o bug corrigido e adição dos vagalumes:
     <img src="Documentacao/DocumentaçaoDia31-33_Foto02.png" width="60%">
 </div>
 
+**___Dia 34/35 - 29/05/2026 — 30/05/2026___**
 
+__Resumo:__ Eu pensava que a partir desses últimos dias nesse poço sem fim de programação seria finalmente água limpa, porém quando fui mais assundo a respeito do polimento, descobri que ainda existia água barrenta — bugs. Durante esses dias venho arrumando vários bugs de proporções de telas, afinal, pessoas que tem celulares com telas de 320px também merecem acessar o site, mesma coisa para pessoas que gostam de jogar no modo paissagem — fiz o que estava em meu alcance atual.
+
+__Atividades nos últimos dias__
+
+— Em geral, arrumar erros de proporções, limpando erros de console, consultando a edital inúmeras vezes e reasistindo a aula do alura — conferindo se não fiz nada de errado.
+
+__Uso de IA e Decisões Técnicas:__ 
+
+— __Prompt(s) Utilizado(s):__ Nenhum novamente, pois ajuste de bugs, console, proporções e ademais é realizado manualmente.
+
+— __Refinamento manual:__ Total, pois eu fico me incomodando com erros muito discarados, mesmo que tenha pequenos erros, eu tento arrumar.
+
+__Próximo passo:__ Revisar novamente os códigos em diferentes aparelhos, testar todas as funções com combinações malucas e possíveis, e por final, revisar a documentação a respeito na introdução/inico.
+
+__Nota:__ Sempre testar o site antes de qualquer coisa, quero dizer, antes de postar ou apostar nele.
+
+__Imagem(s):__ Imagens anuladas, pois não são úteis por agora, já que o problema está em refinamento, então não existe algo interessante.
 
 
 

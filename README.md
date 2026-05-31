@@ -39,7 +39,7 @@ __Dias Levados:__ 33 dias
 
 ---
 
-**Resumo Semanais:** A linha do tempo do projeto.
+# Resumo Semanais:
 
 # Semana 1: 28/04 a 04/05 — Dias 01 a 07
 

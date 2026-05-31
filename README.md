@@ -1,6 +1,33 @@
-**__Documentação de meu progresso:__**
+# Vale Paiquerê: O Equilíbrio das Veredas
 
-__Dias trabalhados:__ 21 dias  __Dias documentados:__ 15 dias __Dias Levados:__ 33 dias
+> A terra não é um cenário estático; é uma força viva. No Vale Paiquerê, cada linha de código traça a fronteira invisível entre a prosperidade do campo e a ruína do ecossistema.
+
+Bem-vindo ao **Vale Paiquerê**, um ecossistema digital projetado não apenas para expor dados, mas para testar a sua capacidade de manter o mundo de pé. Este portal híbrido foi desenvolvido para a subcategoria 8.3 do Programa Agrinho 2026, sob o tema *“Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”*.
+
+Aqui, a separação tradicional entre homem e natureza desaparece. O site divide-se em duas camadas simbióticas que convidam você à exploração:
+
+### No Topo: A Lógica da Escolha (Simulador)
+Antes da teoria, vem o impacto. No topo da página, você deixa de ser um mero espectador e assume o controle do Vale através de um motor de RPG Narrativo estruturado puramente em JavaScript. Não existem respostas fáceis ou caminhos óbvios: as decisões sobre o manejo da lavoura, o uso de defensores e a proteção das águas recalculam variáveis internas em tempo real, ramificando a história em **32 desfechos possíveis**. Você é capaz de lucrar sem colapsar a terra? 
+
+### Na Base: A Gramática da Realidade (Ala Teórica)
+Rolando a página, a simulação encontra o seu chão. Abaixo do jogo, o site se transforma em um portal informativo denso, detalhando a fauna, a flora paranaense (como as Araucárias e Gralhas-Azuis) e a fundamentação teórica que sustenta o conceito de sustentabilidade agrícola. É a base de dados necessária para compreender os trade-offs reais enfrentados pelo produtor rural no dia a dia.
+
+---
+
+## Objetivo do Projeto
+
+O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia front-end pode — e deve — ser uma ferramenta de expressão artística e conscientização crítica.
+
+**O Vale está pronto, o console está limpo e as variáveis estão zeradas.** 
+Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
+
+# Documentação de meu progresso:
+
+__Dias trabalhados:__ 21 dias
+
+__Dias documentados:__ 15 dias
+
+__Dias Levados:__ 33 dias
 
 **Inicio e fim do projeto:** 28/04/2026 - 28/05/2026
 
@@ -10,37 +37,37 @@ __Dias trabalhados:__ 21 dias  __Dias documentados:__ 15 dias __Dias Levados:__ 
 
 **Resumo Semanais:** A linha do tempo do projeto.
 
-**Semana 1: 28/04 a 04/05 — Dias 01 a 07**
+# Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
 **Foco:** Estruturação da Interface e Identidade Visual.
 
 **Resumo:** Período dedicado a erguer o esqueleto essencial do site Vale Paiquerê. Foi criado o cabeçalho fixo e o menu compacto (hambúrguer) para celulares e tablets. A área de informações recebeu seus primeiros textos e imagens conceituais sobre sustentabilidade e tecnologia no campo. Também houve o reaproveitamento de códigos e artes da Gralha-Azul de um projeto anterior para otimizar o tempo de desenvolvimento.
 
-**Semana 2: 05/05 a 11/05 — Dias 08 a 14**
+# Semana 2: 05/05 a 11/05 — Dias 08 a 14
 
 **Foco:** Pausa Criativa e Ajustes de Escopo.
 
 **Resumo:** Intervalo voltado ao descanso e à produção escrita (literatura). No código, o tempo foi usado para planejar mentalmente a complexa árvore de decisões do jogo. Na reta final da semana, foi realizada uma manutenção crítica na seção da Gralha-Azul para corrigir falhas de quebra de layout em telas de smartphones (600px).
 
-**Semana 3: 12/05 a 18/05 — Dias 15 a 21**
+# Semana 3: 12/05 a 18/05 — Dias 15 a 21
 
 **Foco:** Automação, Acessibilidade e Robótica.
 
 **Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu"). Em paralelo, foi desenvolvida a lógica de programação dos sensores de pH e turbidez para a categoria Agrinho Robótica.
 
-**Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33**
+# Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
 
 **Foco:** Matriz de Escolhas, Solução da "Anarquia Mobile" e Polimento.
 
 **Resumo:** Fase mais intensa do projeto. Programação de toda a lógica exponencial de caminhos e consequências do game (1, 2, 4, 8, 16 caminhos), acompanhada da escrita manual de cada diálogo e geração de imagens realistas para os desfechos. O layout passou por uma reconstrução responsiva severa para salvar a interface de celulares de uma "semi-anarquia" visual — poluição visual total. Para manter o site limpo em telas menores, as imagens das laterais foram removidas em smartphones e compensadas com um efeito sutil de vagalumes e copas de araucárias. Projeto concluído com a inserção dos créditos autorais e a logo institucional da escola.
 
-**Os três aprendizados que levarei para minha vida:**
+# Os três aprendizados que levarei para minha vida:
 
-**1°:** Não desenvolver sites por um longo período.
+>**1°:** Não desenvolver sites por um longo período.
 
-**2°:** Evitar linguagens de programação — especialmente JavaScript.
+>**2°:** Evitar linguagens de programação — especialmente JavaScript.
 
-**3°:** Aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
+>**3°:** Aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
 
 O que aprendi? Que a frustação de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
 
@@ -48,7 +75,7 @@ O que aprenderei? Que, independentemente da direção que eu siga — seja human
 
 — Afinal, a tecnologia é apenas a ferramenta que pude desfrutar; enquanto o meu olhar é o que realmente cria as coisas.
 
-**Diário de Bordo:**
+# Diário de Bordo:
 
 
 **___Dia 01 - 28/04/2026___**

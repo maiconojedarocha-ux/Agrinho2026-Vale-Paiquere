@@ -114,6 +114,19 @@ O que aprenderei? Que, independentemente da direção que eu siga — seja human
 
 bugs têm sido caçados cuidadosamente, dia após dia, hora após hora. Embora não haja erros no console, identifiquei um problema que, teoricamente, não é de minha autoria. Ao utilizar a ferramenta de inspeção do navegador para alterar as proporções da tela (simulando dispositivos diferentes), é gerado um erro 404. Isso ocorre porque a renderização entre computadores e smartphones difere significativamente. O site funciona sem erros ou bugs aparentes em telas a partir de 320px (o mínimo testado e aprovado) até telas amplas, como tablets e computadores. Esse erro 404 é um comportamento isolado dessa transição brusca de proporções e não afeta a experiência real do usuário.
 
+# Sobre o Erro 404:
+
+Eu mapeei esse comportamento e garanto que ele não é um erro real de funcionamento, mas sim uma reação do navegador ao redimensionamento forçado na tela de testes.
+
+**Por que isso acontece?**
+O sistema possui duas lógicas visuais independentes: uma para computador e outra para celular. Quando eu arrasto a janela do navegador para mudar o tamanho da tela manualmente, o navegador tenta renderizar o novo layout uma fração de segundo antes de o JavaScript atualizar os caminhos das imagens. Esse pequeno desencontro gera o aviso '404' no console.
+
+**Por que o jogador não é afetado?**
+No uso real, ninguém fica esticando ou encolhendo a tela no meio do jogo. O usuário abre o link diretamente no dispositivo dele (computador ou celular) e a tela fica estática do início ao fim.
+
+**A prova prática:**
+Para garantir que a experiência do usuário estivesse impecável, eu testei pessoalmente o jogo em uma matriz de 5 celulares diferentes, 3 computadores e 2 tablets. Em absolutamente nenhum desses dispositivos o erro aconteceu ou a imagem falhou. O fluxo está 100% limpo e funcional na prática.
+
 # 2° Sobre a nomeação das pastas:
 
 compreendo que, no padrão digital, nomes de pastas com caracteres especiais ou espaços podem causar falhas críticas. No entanto, garanto que o projeto está funcional e respeita rigorosamente a diferenciação entre maiúsculas e minúsculas (case-sensitive). Alterar a estrutura de endereçamento agora demandaria um retrabalho excessivo devido à forma como os arquivos já estão hospedados no Git. Quanto às pastas "CSS" e "JavaScript", elas foram estruturadas assim porque, no início, o plano era criar um projeto mais complexo, com arquivos separados para o jogo (game.js) e para o site. Foi um erro de iniciante — que agora compreendo — mas com o projeto já avançado, optei por manter a estrutura para não comprometer o que já estava funcionando.

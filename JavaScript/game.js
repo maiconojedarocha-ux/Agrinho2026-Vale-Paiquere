@@ -1,16 +1,16 @@
-//____________Preparando terreno__________________________
-document.addEventListener("DOMContentLoaded", function() {
+//____________Testando Terreno__________________________
+// document.addEventListener("DOMContentLoaded", function() {
 
-    const mensagemElemento = document.getElementById("mensagem-js");
+//     const mensagemElemento = document.getElementById("mensagem-js");
 
-    if (mensagemElemento) {
-        mensagemElemento.innerText = "Bem-vindo ao Vale Paiquerê! Onde a produção encontra a natureza.";
-    } else {
-        console.warn("Aviso: O elemento 'mensagem-js' não foi encontrado nesta página.");
-    }
+//     if (mensagemElemento) {
+//         mensagemElemento.innerText = "Bem-vindo ao Vale Paiquerê! Onde a produção encontra a natureza.";
+//     } else {
+//         console.warn("Aviso: O elemento 'mensagem-js' não foi encontrado nesta página.");
+//     }
 
-    console.log("Sistema Vale Paiquerê iniciado com sucesso.");
-});
+//     console.log("Sistema Vale Paiquerê iniciado com sucesso.");
+// });
 
 //_______________Cabeçalho fixo superior_____________________________
 

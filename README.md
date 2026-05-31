@@ -69,11 +69,14 @@ __Dias Levados:__ 33 dias
 
 # Os três aprendizados que levarei para minha vida:
 
->**1°:** Não desenvolver sites por um longo período.
+# **1°:**
+Não desenvolver sites por um longo período.
 
->**2°:** Evitar linguagens de programação — especialmente JavaScript.
+# **2°:**
+Evitar linguagens de programação — especialmente JavaScript.
 
->**3°:** Aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
+# **3°:**
+Aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
 
 O que aprendi? Que a frustação de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
 

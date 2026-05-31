@@ -44,7 +44,7 @@ As ferramentas estão mencionados no próprio site — de forma elegante — que
 
 # Prompts:
 
-Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Dcumentados ao percorer dos dias, você tem acesso a todos os prompts documentados no diário de bordo.
+Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.
 
 ---
 

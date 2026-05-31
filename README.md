@@ -16,10 +16,30 @@ Rolando a página, a simulação encontra o seu chão. Abaixo do jogo, o site se
 
 ## Objetivo do Projeto
 
-O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia front-end pode — e deve — ser uma ferramenta de expressão artística e conscientização crítica.
+O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia pode ser uma ferramenta de expressão artística e conscientização crítica.
 
 **O Vale está pronto, o console está limpo e as variáveis estão zeradas.** 
 Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
+
+---
+
+# Ferramentas usadas:
+
+As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.
+
+
+**VScode**
+**Canva**
+**Piskel**
+**ChatGPT**
+**Gemini**
+**flaticon**
+
+---
+
+# Prompts:
+
+Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Dcumentados ao percorer dos dias, você tem acesso a todos os prompts documentados no diário de bordo.
 
 ---
 
@@ -80,6 +100,17 @@ O que aprendi? Que a frustação de um bug é apenas um sinal de uma nova jornad
 O que aprenderei? Que, independentemente da direção que eu siga — seja humana ou exata — eu não me defino mais como a mesma pessoa que começou esse projeto. O fardo que eu carregava, agora me dá a capacidade de dividir problemas em fragmentos de frustrações, emprestando-me coragem para construir algo do zero, palavra por palavra — comando por comando.
 
 — Afinal, a tecnologia é apenas a ferramenta que pude desfrutar; enquanto o meu olhar é o que realmente cria as coisas.
+
+---
+
+# Um Segundo de Atenção:
+
+**1°** Sobre os erros: bugs têm sido caçados cuidadosamente, dia após dia, hora após hora. Embora não haja erros no console, identifiquei um problema que, teoricamente, não é de minha autoria. Ao utilizar a ferramenta de inspeção do navegador para alterar as proporções da tela (simulando dispositivos diferentes), é gerado um erro 404. Isso ocorre porque a renderização entre computadores e smartphones difere significativamente. O site funciona sem erros ou bugs aparentes em telas a partir de 350px (o mínimo testado e aprovado) até telas amplas, como tablets e computadores. Esse erro 404 é um comportamento isolado dessa transição brusca de proporções e não afeta a experiência real do usuário.
+
+**2°** Sobre a nomeação das pastas: compreendo que, no padrão digital, nomes de pastas com caracteres especiais ou espaços podem causar falhas críticas. No entanto, garanto que o projeto está funcional e respeita rigorosamente a diferenciação entre maiúsculas e minúsculas (case-sensitive). Alterar a estrutura de endereçamento agora demandaria um retrabalho excessivo devido à forma como os arquivos já estão hospedados no Git. Quanto às pastas "CSS" e "JavaScript", elas foram estruturadas assim porque, no início, o plano era criar um projeto mais complexo, com arquivos separados para o jogo (game.js) e para o site. Foi um erro de iniciante — que agora compreendo — mas com o projeto já avançado, optei por manter a estrutura para não comprometer o que já estava funcionando.
+
+**3°** Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógica, mas por paixão pela literatura. Embora eu aprecie padrões e tenha facilidade em resolver problemas técnicos, sinto certo desânimo quando preciso lidar repetidamente com os mesmos erros preferindo dedicar minha energia à criação de algo novo — descobri mais tarde que eu estava errado, pois a programação é apenas uma gramática mais sofisticada, meu 3° aprendizado.
+Apesar disso, ainda pretendo seguir a carreira de escritor e professor de Letras. Participei deste concurso porque, apesar dos desafios técnicos, a lógica me atrai e reconheço minha capacidade nesta área. Contudo, minha essência prefere contar histórias, construir mundos e descrever estados sentimentais — mais amplo do que escrever comandos.
 
 ---
 

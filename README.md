@@ -370,6 +370,8 @@ __Imagem(s):__ As imagens a seguir mostra apenas no pc:
 __Resumo:__ Nesse período acabei focando em outras competições que esetavam atrasadas, como o agrinho categoria robótica, que acabei sendo encarregado por minha equipe em programar a lógica dos sensores PH e de turbidez. 
 Além de algumas competições e seleções literários — pelo menos, a readação de minha parada do dia 09/05 me permitiu compor uma antologia. 
 
+---
+
 # Dia 22 - 17/05/2026
 
 __Resumo:__ Hoje acabei resolvendo alguns bugs passados e adicionei uma nova animação no botão anoitecer, pois o visual antigo estava meio feio.
@@ -553,8 +555,6 @@ __Imagem(s):__ Eu acho que será a primeira vez (ou não, haha) que mostro meu e
     <img src="Documentacao/DocumentaçaoDia25-28_Foto04.png" width="30%">
 </div>
 
----
-
 Agora como está o bug no celular:
 
 <div align="center">
@@ -562,6 +562,8 @@ Agora como está o bug no celular:
 </div>
 
 Devido as quedas de energia, acabou-se que terminei essa documentação dos dias 25/28 só no dia seguinte, isso significa que já estamos no dia 29, seguindo o calendário hoje é 24/05/2026, então talvez hoje não tenha documentação, pois os problemas são muitos, e tenho que resolve-los.
+
+---
 
 # Dia 29/30 - 24/05/2026 — 25/05/2026
 

@@ -237,6 +237,8 @@ __Imagem(s):__ Como o cabeçalho fixo e algumas funções do site é diferente d
     <img src="Documentacao/DocumentaçaoDia03_Foto02.jpeg" width="15%">
 </div>
 
+---
+
 # Dia 04 - 01/05/2026
 
 __Resumo:__ Hoje comecei a arruamar/modelar o inicio e a introdução, o inicio por enquanto está pronto — como os demais, falta apenas uns detalhes no design. Enquanto a introdução eu terminei parcialmente, pois falta arrumar o proporção para os celulares/tablets — não deu tempo pelo motivo que terei que sair, então se eu continuase não sobraria tempo para a documentação.
@@ -276,6 +278,8 @@ __Imagem(s):__ As imagens monstram o que eu fiz hoje, onde fiz o molde de cipo (
     <img src="Documentacao/DocumentaçaoDia04_Foto04.png" width="23%">
 </div>
 
+---
+
 # Dia 05/10  - 02/05/2026 — 07/05/2026
 
 __Resumo:__ Durante esses dias eu acabei parando um pouco o projeto, pois eu queria dar uma descansada, porém acabei me aprofundando/descansando demais no meu passa tempo — escrever. Mas agora vou focar pelo menos amanhã no projeto.
@@ -305,6 +309,8 @@ __Imagem(s):__
 <div align="center">
     <img src="Documentacao/DocumentaçaoDia11_Foto01.jpeg" width="22%">
 </div>
+
+---
 
 # Dia 12/15 - 09/05/2026 — 12/05/2026
 
@@ -357,6 +363,8 @@ __Imagem(s):__ As imagens a seguir mostra apenas no pc:
     <img src="Documentacao/DocumentaçaoDia17_Foto03.png" width="30%">
 </div>
 
+---
+
 # Dia 18/21 - 14/05/2026 — 16/05/2026
 
 __Resumo:__ Nesse período acabei focando em outras competições que esetavam atrasadas, como o agrinho categoria robótica, que acabei sendo encarregado por minha equipe em programar a lógica dos sensores PH e de turbidez. 
@@ -391,6 +399,8 @@ __Imagem(s):__ Antes e depois dde resolver o bug:
 </div>
 
 Desculpe por hoje, mas estou meio desanimado devido ao dia.
+
+---
 
 # Dia 23 - 18/05/2026
 
@@ -437,6 +447,7 @@ __Imagem(s):__ Aqui com tudo que eu fiz hoje:
     <img src="Documentacao/DocumentaçaoDia23_Foto02.png" width="40%">
 </div>
 
+---
 
 # Dia 24 - 19/05/2026
 
@@ -479,6 +490,8 @@ __Imagem(s):__ As imagens de hoje monstram como está o jogo a noite e de dia:
     <img src="Documentacao/DocumentaçaoDia24_Foto02.png" width="30%">
     <img src="Documentacao/DocumentaçaoDia24_Foto03.png" width="30%">
 </div>
+
+---
 
 # Dia 25/28 - 20/05/2026 — 23/05/2026
 
@@ -540,6 +553,8 @@ __Imagem(s):__ Eu acho que será a primeira vez (ou não, haha) que mostro meu e
     <img src="Documentacao/DocumentaçaoDia25-28_Foto04.png" width="30%">
 </div>
 
+---
+
 Agora como está o bug no celular:
 
 <div align="center">
@@ -589,6 +604,8 @@ __Imagem(s):__ Sinto orgulho em mostrar como está nos celulares o site:
     <img src="Documentacao/DocumentaçaoDia29-30_Foto04.jpeg" width="20%">
 </div>
 
+---
+
 # Dia 31/33 - 26/05/2026 — 28/05/2026
 
 __Resumo:__ Finalmente terminei o site, resolvi os bugs que estavam a amostra — comprometendo minha pontuação — ajustes para melhor acessibilidade ao usuário — como a expanção do jogo em telas 600px — adições para melhor esperiência — sendo os vagalumes, conpensando a falta das imagens laterais, que iriam poluir o site em telas menores como tablets e celulares.
@@ -619,6 +636,8 @@ __Imagem(s):__ A seguir, como ficou o bug corrigido e adição dos vagalumes:
     <img src="Documentacao/DocumentaçaoDia31-33_Foto01.jpeg" width="20%">
     <img src="Documentacao/DocumentaçaoDia31-33_Foto02.png" width="60%">
 </div>
+
+---
 
 # Dia 34/35 - 29/05/2026 — 30/05/2026
 

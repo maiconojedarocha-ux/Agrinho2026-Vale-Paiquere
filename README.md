@@ -2,7 +2,7 @@
 
 A terra não é um cenário estático; é uma força viva. No Vale Paiquerê, cada linha de código traça a fronteira invisível entre a prosperidade do campo e a ruína do ecossistema.
 
-Bem-vindo ao **Vale Paiquerê**, um ecossistema digital projetado não apenas para expor dados, mas para testar a sua capacidade de manter o mundo de pé. Este portal híbrido foi desenvolvido para a subcategoria 8.3 do Programa Agrinho 2026, sob o tema *“Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”*.
+Bem-vindo ao **Vale Paiquerê**, um ecossistema digital projetado não apenas para expor dados, mas para testar a sua capacidade de manter o mundo de pé. Este portal híbrido foi desenvolvido para a subcategoria 3 do Programa Agrinho 2026, sob o tema *“Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”*.
 
 Aqui, a separação tradicional entre homem e natureza desaparece. O site divide-se em duas camadas simbióticas que convidam você à exploração:
 

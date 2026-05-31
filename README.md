@@ -86,7 +86,7 @@ O que aprenderei? Que, independentemente da direção que eu siga — seja human
 # Diário de Bordo:
 
 
-# Dia 01 - 28/04/2026
+# Dia 01 — 28/04/2026
 
 __Resumo:__ Hoje estabeleci o básico do site, defini onde ficará cada elemento e coloquei uma coloração temporária — que logo mudarei. O inicio é rápido, ainda mais com a assitencia da IA para apoiar em etapas mais fáceis, poupando tempo para o trabalho bruto que ninguém faz igual — design e ilustrações.
 
@@ -132,7 +132,7 @@ __Imagem(s):__
 
 ---
 
-# Dia 02 - 29/04/2026
+# Dia 02 — 29/04/2026
 
 __Resumo:__ Hoje, acabei arrumando um erro que foi chato em minha opinião, pois ele consistia na adaptação do site em celulares e tablets — depois explico melhor. E estou quase terminando o esqueleto do site, eu falei que tinha terminado, mas agora eu falo que não, porconta que eu desejei mais coisas, que no resultado de tudo, falta fazer — eu acho — só mais uma adição para começar a polir o site para finalmente começar o game.
 

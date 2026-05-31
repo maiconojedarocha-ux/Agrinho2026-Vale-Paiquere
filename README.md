@@ -130,6 +130,8 @@ __Imagem(s):__
     <img src="Documentacao/DocumentaçaoDia01_Foto03.png" width="30%">
 </div>
 
+---
+
 # Dia 02 - 29/04/2026
 
 __Resumo:__ Hoje, acabei arrumando um erro que foi chato em minha opinião, pois ele consistia na adaptação do site em celulares e tablets — depois explico melhor. E estou quase terminando o esqueleto do site, eu falei que tinha terminado, mas agora eu falo que não, porconta que eu desejei mais coisas, que no resultado de tudo, falta fazer — eu acho — só mais uma adição para começar a polir o site para finalmente começar o game.
@@ -181,6 +183,7 @@ __Imagem(s):__ Escolhi em quadarmenteo 400:600 pois já mostra como está ficand
     <img src="Documentacao/DocumentaçaoDia02_Foto03.png" width="22%">
 </div>
 
+---
 
 # Dia 03 - 30/04/2026
 

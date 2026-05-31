@@ -21,6 +21,8 @@ O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês eco
 **O Vale está pronto, o console está limpo e as variáveis estão zeradas.** 
 Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
 
+---
+
 # Documentação de meu progresso:
 
 __Dias trabalhados:__ 21 dias
@@ -34,6 +36,8 @@ __Dias Levados:__ 33 dias
 **Sobre a documentação:** Usei a linguagem formal e informal juntas, devido a esta documentação se passar como um diário de bordo, registrando progressões, emoções e sinceridade sobre o assunto. O projeto foi feito sob os requisitos do edital distribuído — sigam para saberem mais sobre minha progressão e aprendizados.
 
 **A Respeito da Inteligência Artificial (IA):** Utilizei a IA como uma ferramenta de produtividade — conforme ensinado nas aulas da Alura — mas a lógica de navegação, a correção de bugs e a identidade visual única do Vale Paiquerê foram totalmente frutos do meu refinamento manual e decisão criativa própria, seguindo mais tarde os conselhos distribuídos pelas aulas da plataforma Alura.
+
+---
 
 **Resumo Semanais:** A linha do tempo do projeto.
 
@@ -61,6 +65,8 @@ __Dias Levados:__ 33 dias
 
 **Resumo:** Fase mais intensa do projeto. Programação de toda a lógica exponencial de caminhos e consequências do game (1, 2, 4, 8, 16 caminhos), acompanhada da escrita manual de cada diálogo e geração de imagens realistas para os desfechos. O layout passou por uma reconstrução responsiva severa para salvar a interface de celulares de uma "semi-anarquia" visual — poluição visual total. Para manter o site limpo em telas menores, as imagens das laterais foram removidas em smartphones e compensadas com um efeito sutil de vagalumes e copas de araucárias. Projeto concluído com a inserção dos créditos autorais e a logo institucional da escola.
 
+---
+
 # Os três aprendizados que levarei para minha vida:
 
 >**1°:** Não desenvolver sites por um longo período.
@@ -74,6 +80,8 @@ O que aprendi? Que a frustação de um bug é apenas um sinal de uma nova jornad
 O que aprenderei? Que, independentemente da direção que eu siga — seja humana ou exata — eu não me defino mais como a mesma pessoa que começou esse projeto. O fardo que eu carregava, agora me dá a capacidade de dividir problemas em fragmentos de frustrações, emprestando-me coragem para construir algo do zero, palavra por palavra — comando por comando.
 
 — Afinal, a tecnologia é apenas a ferramenta que pude desfrutar; enquanto o meu olhar é o que realmente cria as coisas.
+
+---
 
 # Diário de Bordo:
 

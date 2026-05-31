@@ -29,10 +29,15 @@ As ferramentas estão mencionados no próprio site — de forma elegante — que
 
 
 **VScode**
+
 **Canva**
+
 **Piskel**
+
 **ChatGPT**
+
 **Gemini**
+
 **flaticon**
 
 ---

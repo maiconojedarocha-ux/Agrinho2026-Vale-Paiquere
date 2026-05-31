@@ -284,7 +284,9 @@ __Imagem(s):__ As imagens monstram o que eu fiz hoje, onde fiz o molde de cipo (
 
 __Resumo:__ Durante esses dias eu acabei parando um pouco o projeto, pois eu queria dar uma descansada, porém acabei me aprofundando/descansando demais no meu passa tempo — escrever. Mas agora vou focar pelo menos amanhã no projeto.
 
-**___Dia 11 - 08/05/2026___**
+---
+
+# Dia 11 - 08/05/2026
 
 __Resumo:__ Hoje corrigi o bug da gralha-Azul, e comecei a planejar como será o jogo.
 

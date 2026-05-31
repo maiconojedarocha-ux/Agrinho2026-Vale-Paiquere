@@ -120,8 +120,7 @@ compreendo que, no padrão digital, nomes de pastas com caracteres especiais ou 
 
 # 3° Arespeito de meu desenvolvimento:
 
-Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógica, mas por paixão pela literatura. Embora eu aprecie padrões e tenha facilidade em resolver problemas técnicos, sinto certo desânimo quando preciso lidar repetidamente com os mesmos erros preferindo dedicar minha energia à criação de algo novo — descobri mais tarde que eu estava errado, pois a programação é apenas uma gramática mais sofisticada, meu 3° aprendizado.
-Apesar disso, ainda pretendo seguir a carreira de escritor e professor de Letras. Participei deste concurso porque, apesar dos desafios técnicos, a lógica me atrai e reconheço minha capacidade nesta área. Contudo, minha essência prefere contar histórias, construir mundos e descrever estados sentimentais — mais amplo do que escrever comandos.
+Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógica, mas por paixão pela literatura. Embora eu aprecie padrões e tenha facilidade em resolver problemas técnicos, sinto certo desânimo quando preciso lidar repetidamente com os mesmos erros preferindo dedicar minha energia à criação de algo novo — descobri mais tarde que eu estava errado, pois a programação é apenas uma gramática mais sofisticada. Apesar disso, ainda pretendo seguir a carreira de escritor e professor de Letras. Participei deste concurso porque, apesar dos desafios técnicos, a lógica me atrai e reconheço minha capacidade nesta área. Contudo, minha essência prefere contar histórias, construir mundos e descrever estados sentimentais — mais amplo do que escrever comandos.
 
 ---
 

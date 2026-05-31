@@ -41,6 +41,8 @@ __Dias Levados:__ 33 dias
 
 # Resumo Semanais:
 
+---
+
 # Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
 **Foco:** Estruturação da Interface e Identidade Visual.

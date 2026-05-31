@@ -98,11 +98,13 @@ __Dias Levados:__ 33 dias
 
 **2°:** Evitar linguagens de programação — especialmente JavaScript.
 
-**3°:** Aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
+**3°:** Ironia a parte, eu aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
 
-O que aprendi? Que a frustação de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
+**O que aprendi?** 
+Que a frustação de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
 
-O que aprenderei? Que, independentemente da direção que eu siga — seja humana ou exata — eu não me defino mais como a mesma pessoa que começou esse projeto. O fardo que eu carregava, agora me dá a capacidade de dividir problemas em fragmentos de frustrações, emprestando-me coragem para construir algo do zero, palavra por palavra — comando por comando.
+**O que Guardarei para Minha Vida?**
+Que, independentemente da direção que eu siga, eu não me defino mais como a mesma pessoa que começou esse projeto. O fardo que eu carregava, agora me dá a capacidade de dividir problemas em fragmentos de frustrações, emprestando-me coragem para construir algo do zero, palavra por palavra — comando por comando.
 
 — Afinal, a tecnologia é apenas a ferramenta que pude desfrutar; enquanto o meu olhar é o que realmente cria as coisas.
 

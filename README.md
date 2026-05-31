@@ -108,7 +108,7 @@ O que aprenderei? Que, independentemente da direção que eu siga — seja human
 
 ---
 
-# Um Segundo de Atenção:
+# Um Minutinho de sua Atenção como Avaliador:
 
 **1°** Sobre os erros: bugs têm sido caçados cuidadosamente, dia após dia, hora após hora. Embora não haja erros no console, identifiquei um problema que, teoricamente, não é de minha autoria. Ao utilizar a ferramenta de inspeção do navegador para alterar as proporções da tela (simulando dispositivos diferentes), é gerado um erro 404. Isso ocorre porque a renderização entre computadores e smartphones difere significativamente. O site funciona sem erros ou bugs aparentes em telas a partir de 320px (o mínimo testado e aprovado) até telas amplas, como tablets e computadores. Esse erro 404 é um comportamento isolado dessa transição brusca de proporções e não afeta a experiência real do usuário.
 

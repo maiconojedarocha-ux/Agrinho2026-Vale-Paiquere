@@ -121,7 +121,7 @@ bugs têm sido caçados cuidadosamente, dia após dia, hora após hora. Embora n
 Eu mapeei esse comportamento e garanto que ele não é um erro real de funcionamento, mas sim uma reação do navegador ao redimensionamento forçado na tela de testes.
 
 **Por que isso acontece?**
-O sistema possui duas lógicas visuais independentes: uma para computador e outra para celular. Quando eu arrasto a janela do navegador para mudar o tamanho da tela manualmente, o navegador tenta renderizar o novo layout uma fração de segundo antes de o JavaScript atualizar os caminhos das imagens. Esse pequeno desencontro gera o aviso '404' no console.
+O sistema possui duas lógicas visuais independentes: uma para computador e outra para celular. Quando eu arrasto a janela do navegador para mudar o tamanho da tela manualmente, o navegador tenta renderizar o novo layout uma fração de segundo antes de o JavaScript atualizar os caminhos das imagens. Esse pequeno desencontro gera o aviso "404" no console (F12).
 
 **Por que o jogador não é afetado?**
 No uso real, ninguém fica esticando ou encolhendo a tela no meio do jogo. O usuário abre o link diretamente no dispositivo dele (computador ou celular) e a tela fica estática do início ao fim.

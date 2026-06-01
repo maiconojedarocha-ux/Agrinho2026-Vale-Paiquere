@@ -1554,12 +1554,12 @@ body.dark-theme h3#fase-titulo {
 
       #fase-titulo {
          display: flex;
-        font-size: 0.85rem !important; 
+        font-size: 0.75rem !important; 
     margin-bottom: 3px !important; 
     }
 
     #texto-principal {
-        font-size: 0.65rem; 
+        font-size: 0.55rem; 
         padding: 5px;
         line-height: 1.4; 
     }
@@ -1567,11 +1567,11 @@ body.dark-theme h3#fase-titulo {
     .btn-escolha {
         width: 100%;
         padding: 12px 5px; 
-        font-size: 0.65rem;
+        font-size: 0.55rem;
     }
 
     #btn-proximo {
-        width: 85%; 
+        width: 75%; 
         margin-top: 5px;
     }
 

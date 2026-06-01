@@ -425,8 +425,7 @@ __Imagem(s):__
 
 __Resumo:__ Novamente acabei parando, pois devido a alguns trabalhos escolares e logo após, pessoais. Outrossim é o fato de que eu ainda não me estava imaginando o jogo que eu faria, sim, eu tenho a ideia, porém é complexa demais para eu realizar sozinho — por isso que estou pensando qual jogo eu abordo no projeto ou faço/carrego um video ou links. 
 
-
-**___Dia 17 — 13/05/2026___**
+# **___Dia 17 — 13/05/2026___**
 
 __Resumo:__ Hoje dei uma ajustada/uma maquiada podemos dizer, fazendo que o inicio ficasse bonito. Também não posso me esquecer que eu arrumei o botão de escurecer a tela, que me levou a elaborar um novo tipo de comando — apresentado pela gemini — sobre as variáveis CSS (eu acho que é esse nome, se eu não me estou enganado). Consistindo em separar tipo de cor com a ajuda do comando "var()", acabei nomeando e descobrindo um novo atalho (Ctrl + h) me ajudando a encontrar as cores escondidas no código.
 

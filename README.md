@@ -18,7 +18,7 @@ Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
 
 ---
 
-## Objetivo do Projeto
+## 🕵 Objetivo do Projeto
 
 O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia pode ser uma ferramenta de expressão artística e conscientização crítica.
 

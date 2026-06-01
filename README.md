@@ -105,7 +105,9 @@ O "Vale Paiquerê" é a prova de que a lógica da programação, quando unida à
 
 ---
 
-# A partir deste ponto, você estará na ala da documentação, onde o assunto é mais profundo e aborda o meu passo a passo e dia a dia. É aqui que se une o formal ao informal do diário de bordo — onde se localizam os prompts usados e o desenvolvimento próprio/criativo. Caso tenha alguma dúvida, leia, confira como o site era nos primeiros dias e ignore a simplicidade estrutural, pois o foco da documentação a seguir é na informação e na rotina. Por isso, poderão ser observados erros de gramática da língua portuguesa. Aproveite a documentação! Pois, a partir do diário de bordo, estarão as ilustrações e a documentação mais simplificada visualmente.
+# 🌠 Saiba mais:
+
+A partir deste ponto, você estará na ala da documentação, onde o assunto é mais profundo e aborda o meu passo a passo e dia a dia. É aqui que se une o formal ao informal do diário de bordo — onde se localizam os prompts usados e o desenvolvimento próprio/criativo. Caso tenha alguma dúvida, leia, confira como o site era nos primeiros dias e ignore a simplicidade estrutural, pois o foco da documentação a seguir é na informação e na rotina. Por isso, poderão ser observados erros de gramática da língua portuguesa. Aproveite a documentação! Pois, a partir do diário de bordo, estarão as ilustrações e a documentação mais simplificada visualmente.
 
 ---
 

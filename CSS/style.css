@@ -1542,9 +1542,10 @@ body.dark-theme h3#fase-titulo {
 /*___________Demais ajustes para celulares menores e também modo paisagem (feitos após o site terminado)______________________*/
 @media (max-width: 600px) {
     #imagem-principal {
-        width: 85%;
+        width: 75% !important;
         height: auto;
-         margin-top: auto;
+        margin-top: -65px !important;
+    margin-bottom: 0px !important; 
     }
 
     #display-principal {
@@ -1555,14 +1556,14 @@ body.dark-theme h3#fase-titulo {
       #fase-titulo {
          display: flex;
         font-size: 0.75rem !important;
-    margin-top: -48px !important;
     margin-bottom: 0px !important; 
     }
 
     #texto-principal {
         font-size: 0.55rem; 
         padding: 5px;
-        line-height: 1.4; 
+        line-height: 1.4;
+        margin-top: -10px !important;
     }
 
     .btn-escolha {

@@ -1544,8 +1544,8 @@ body.dark-theme h3#fase-titulo {
     #imagem-principal {
         width: 85% !important;
         height: auto;
-        margin-top: -65px !important;
-        margin-bottom: 5px !important; 
+        margin-top: -75px !important;
+        margin-bottom: 0px !important; 
     }
 
     #display-principal {
@@ -1564,7 +1564,7 @@ body.dark-theme h3#fase-titulo {
         font-size: 0.55rem; 
         padding: 5px;
         line-height: 1.4;
-        margin-top: -10px !important;
+        margin-top: -15px !important;
     }
 
     .btn-escolha {

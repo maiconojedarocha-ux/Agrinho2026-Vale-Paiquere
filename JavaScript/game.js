@@ -1083,7 +1083,7 @@ function inicializarJogoAutomaticamente() {
         display.style.display = 'block';
     }
     
-    console.log("Jogo inicializado em background (Fase 1). O véu permanece.");
+    // console.log("Jogo inicializado em background (Fase 1). O véu permanece.");
 }
 
 //Gatilho para Tablets e PCs

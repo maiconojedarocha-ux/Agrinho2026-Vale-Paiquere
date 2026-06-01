@@ -1544,6 +1544,7 @@ body.dark-theme h3#fase-titulo {
     #imagem-principal {
         width: 85% !important;
         height: auto;
+        margin-top: -65px !important;
         margin-bottom: 5px !important; 
     }
 
@@ -1555,6 +1556,7 @@ body.dark-theme h3#fase-titulo {
       #fase-titulo {
          display: flex;
         font-size: 0.75rem !important;
+          margin-top: -25px !important;
     margin-bottom: 5px !important; 
     }
 

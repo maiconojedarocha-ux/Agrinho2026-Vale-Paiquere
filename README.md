@@ -32,14 +32,20 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 ## 🎭 Conversa com a Gralha-Azul
 
 **1.** Preencha seu nome no campo informado.
+
 **2.** Aperte o botão ao lado.
+
 **3.** Leia atentamente o que ela fala, pois será exencial mais tarde.
+
 
 ## 🎯 Jogo
 
 **1.** Inicie o simulador clicando no botão de início na seção do jogo.
+
 **2.** Leia atentamente o dilema apresentado pela Gralha-Azul.
+
 **3.** Escolha uma das duas alternativas disponíveis para começar a bola de neve.
+
 **4.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
 
 ---
@@ -146,25 +152,25 @@ __Dias Levados:__ 33 dias
 
 # 🌑 Resumo Semanais:
 
-# 🌒 Semana 1: 28/04 a 04/05 — Dias 01 a 07
+## 🌒 Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
 **Foco:** Estruturação da Interface e Identidade Visual.
 
 **Resumo:** Período dedicado a erguer o esqueleto essencial do site Vale Paiquerê. Foi criado o cabeçalho fixo e o menu compacto (hambúrguer) para celulares e tablets. A área de informações recebeu seus primeiros textos e imagens conceituais sobre sustentabilidade e tecnologia no campo. Também houve o reaproveitamento de códigos e artes da Gralha-Azul de um projeto anterior para otimizar o tempo de desenvolvimento.
 
-# 🌓 Semana 2: 05/05 a 11/05 — Dias 08 a 14
+## 🌓 Semana 2: 05/05 a 11/05 — Dias 08 a 14
 
 **Foco:** Pausa Criativa e Ajustes de Escopo.
 
 **Resumo:** Intervalo voltado ao descanso e à produção escrita (literatura). No código, o tempo foi usado para planejar mentalmente a complexa árvore de decisões do jogo. Na reta final da semana, foi realizada uma manutenção crítica na seção da Gralha-Azul para corrigir falhas de quebra de layout em telas de smartphones (600px).
 
-# 🌔 Semana 3: 12/05 a 18/05 — Dias 15 a 21
+## 🌔 Semana 3: 12/05 a 18/05 — Dias 15 a 21
 
 **Foco:** Automação, Acessibilidade e Robótica.
 
 **Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu").
 
-# 🌕 Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
+## 🌕 Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
 
 **Foco:** Matriz de Escolhas, Solução da "Anarquia Mobile" e Polimento.
 

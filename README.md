@@ -32,21 +32,54 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.
 
 
-**VScode**
+° **VScode**
 
-**Canva**
+° **Canva**
 
-**Piskel**
+° **Piskel**
 
-**ChatGPT**
+° **ChatGPT**
 
-**Gemini**
+° **Gemini**
 
-**flaticon**
+° **flaticon**
 
 ---
 
-# Prompts:
+# 🧭 Funcionalidades do Site
+
+° 🏠 Página inicial com temática dinâmica (Dia/Noite);
+
+° 📱 Menu de navegação responsivo (mobile-first);
+
+° 🎮 Motor de RPG Narrativo estruturado em JavaScript;
+
+° 🌲 Efeito visual de vagalumes e elementos naturais;
+
+° ⚖️ Sistema de decisões ramificadas — 32 desfechos possíveis;
+
+° 📚 Ala teórica detalhada;
+
+° 🌙 Alternância automática de temas visuais via JS;
+
+° ♿ Estrutura otimizada para acessibilidade;
+
+° 📱 Layout responsivo — testado de 320px até desktops.
+
+---
+
+# 💻 Tecnologias Utilizadas
+O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
+
+° **HTML5:** Estruturação semântica;
+
+CSS3 (Estilização, variáveis var() e responsividade)
+
+JavaScript (Lógica do simulador, controle de temas e estados)
+
+---
+
+# 🤖 Prompts:
 
 Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.
 

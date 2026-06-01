@@ -79,33 +79,33 @@ O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
 
 ---
 
-# 📁 Estrutura de Arquivos
+# 🕹️ Experiência de Jogo
 
-/
-├── CSS/
-│   └── style.css
-├── Documentacao/
-├── Ilustracao/
-│   ├── Jogo/
-│   │   ├── Nivel3/
-│   │   ├── Nivel4/
-│   │   ├── Nivel5/
-│   │   ├── Nivel6/
-│   │   ├── Gemini_JogoNivel1.png
-│   │   ├── Gemini_JogoNivel2_01.png
-│   │   ├── Gemini_JogoNivel2_02.png
-│   │   └── OIP.webp
-│   └── Site/
-├── JavaScript/
-│   └── game.js
-├── index.html
-└── README.md
+O "Vale Paiquerê" utiliza uma lógica de RPG narrativa. O usuário assume o controle através de decisões sobre o manejo da lavoura, o uso de defensores e a proteção das águas. Cada escolha altera variáveis internas, conduzindo a história para um dos 32 desfechos possíveis, dependendo da sustentabilidade das ações tomadas.
+
+---
+
+# 👨‍🎓 Autoria
+
+° **Autor:** Maicon Sandriel Ojeda da Rocha
+
+° **Município:** Tomazina – Paraná
 
 ---
 
 # 🤖 Prompts:
 
 Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.
+
+---
+
+# 🎇 Resumindo a Introdução
+
+O "Vale Paiquerê" é a prova de que a lógica da programação, quando unida à sensibilidade literária, transforma linhas de código em narrativas vivas. Mais do que um projeto de TI, é um exercício sobre como observamos o mundo e as escolhas que fazemos para garantir um futuro onde o agro e a natureza coexistem em equilíbrio.
+
+---
+
+# A partir deste ponto, você estará na ala da documentação, onde o assunto é mais profundo e aborda o meu passo a passo e dia a dia. É aqui que se une o formal ao informal do diário de bordo — onde se localizam os prompts usados e o desenvolvimento próprio/criativo. Caso tenha alguma dúvida, leia, confira como o site era nos primeiros dias e ignore a simplicidade estrutural, pois o foco da documentação a seguir é na informação e na rotina. Por isso, poderão ser observados erros de gramática da língua portuguesa. Aproveite a documentação! Pois, a partir do diário de bordo, estarão as ilustrações e a documentação mais simplificada visualmente.
 
 ---
 

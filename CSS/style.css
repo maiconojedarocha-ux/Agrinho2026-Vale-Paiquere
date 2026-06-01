@@ -1542,10 +1542,8 @@ body.dark-theme h3#fase-titulo {
 /*___________Demais ajustes para celulares menores e também modo paisagem (feitos após o site terminado)______________________*/
 @media (max-width: 600px) {
     #imagem-principal {
-        width: 75% !important;
+        width: 55% !important;
         height: auto;
-        margin-top: -65px !important;
-    margin-bottom: 0px !important; 
     }
 
     #display-principal {

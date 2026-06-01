@@ -111,7 +111,7 @@ A partir deste ponto, você estará na ala da documentação, onde o assunto é 
 
 ---
 
-# Documentação de meu progresso:
+# 📚 Documentação de meu progresso:
 
 __Dias trabalhados:__ 21 dias
 
@@ -127,27 +127,27 @@ __Dias Levados:__ 33 dias
 
 ---
 
-# Resumo Semanais:
+# 🌑 Resumo Semanais:
 
-# Semana 1: 28/04 a 04/05 — Dias 01 a 07
+# 🌒 Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
 **Foco:** Estruturação da Interface e Identidade Visual.
 
 **Resumo:** Período dedicado a erguer o esqueleto essencial do site Vale Paiquerê. Foi criado o cabeçalho fixo e o menu compacto (hambúrguer) para celulares e tablets. A área de informações recebeu seus primeiros textos e imagens conceituais sobre sustentabilidade e tecnologia no campo. Também houve o reaproveitamento de códigos e artes da Gralha-Azul de um projeto anterior para otimizar o tempo de desenvolvimento.
 
-# Semana 2: 05/05 a 11/05 — Dias 08 a 14
+# 🌓 Semana 2: 05/05 a 11/05 — Dias 08 a 14
 
 **Foco:** Pausa Criativa e Ajustes de Escopo.
 
 **Resumo:** Intervalo voltado ao descanso e à produção escrita (literatura). No código, o tempo foi usado para planejar mentalmente a complexa árvore de decisões do jogo. Na reta final da semana, foi realizada uma manutenção crítica na seção da Gralha-Azul para corrigir falhas de quebra de layout em telas de smartphones (600px).
 
-# Semana 3: 12/05 a 18/05 — Dias 15 a 21
+# 🌔 Semana 3: 12/05 a 18/05 — Dias 15 a 21
 
 **Foco:** Automação, Acessibilidade e Robótica.
 
 **Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu").
 
-# Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
+# 🌕 Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
 
 **Foco:** Matriz de Escolhas, Solução da "Anarquia Mobile" e Polimento.
 
@@ -155,7 +155,7 @@ __Dias Levados:__ 33 dias
 
 ---
 
-# Os três aprendizados que levarei para minha vida:
+# 🧩 Os três aprendizados que levarei para minha vida:
 
 **1°:** Não desenvolver sites por um longo período.
 
@@ -173,7 +173,7 @@ Que, independentemente da direção que eu siga, eu não me defino mais como a m
 
 ---
 
-# Um Minutinho de sua Atenção como Avaliador:
+# ⏳ Um Minutinho de sua Atenção como Avaliador:
 
 # 1° Sobre os erros:
 
@@ -190,7 +190,7 @@ Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógi
 
 ---
 
-# Diário de Bordo:
+# ✍ Diário de Bordo:
 
 
 # Dia 01 — 28/04/2026

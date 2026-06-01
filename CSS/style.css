@@ -1507,7 +1507,7 @@ body.dark-theme h3#fase-titulo {
     transition: all 0.5s ease; 
 }
 
-/*___________Ajuste para telas menores (alto Dpi)________________*/
+/*___________Ajuste para telas menores________________*/
 @media (max-width: 600px) {
   #texto-gralha {
         font-size: 0.42rem !important; 
@@ -1542,7 +1542,7 @@ body.dark-theme h3#fase-titulo {
 /*___________Demais ajustes para celulares menores e também modo paisagem (feitos após o site terminado)______________________*/
 @media (max-width: 600px) {
     #imagem-principal {
-        width: 95%;
+        width: 85%;
         height: auto;
          margin-top: auto;
     }
@@ -1550,6 +1550,12 @@ body.dark-theme h3#fase-titulo {
     #display-principal {
         min-height: auto;
         padding: 8px; 
+    }
+
+      #fase-titulo {
+         display: flex;
+        font-size: 0.85rem !important; 
+    margin-bottom: 3px !important; 
     }
 
     #texto-principal {
@@ -1617,7 +1623,7 @@ body.dark-theme h3#fase-titulo {
     }
 }
 
-@media (orientation: landscape) and (min-width: 350px) and (max-width: 1000px) {
+@media (orientation: landscape) and (min-width: 601px) and (max-width: 1000px) {
     
     #display-principal {
         padding-top: 10px !important;   

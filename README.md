@@ -50,6 +50,22 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 
 **5.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
 
+### Manual do Jogo
+
+**1°**  Leia o objetivo e mecânica;
+
+**2°**  Role/deslize para baixo para chegar ao card jogar;
+
+**3°**  Caso queria voltar ao manual, você precissará pressionar o botão amarelo — com o ícone de um livro — que terá acesso a tela do manual. 
+
+---
+
+# Dica para uma melhor experiencia:
+
+**1°** Caso esteja em um smartphone com tela mais ampla, acessar o site com a tela no modo paisagem, você consegirá um impacto/experiênciar melhor — caso não queira, a experiência continuará a mesma.
+
+**2°** Se acessar o site com um smartphone com tela mais estreita, recomendo continuar com a tela vertical para uma experiência mais adequada — caso não queira, a experiência continuará a mesma.
+
 ---
 
 # 🕵 Ferramentas usadas:

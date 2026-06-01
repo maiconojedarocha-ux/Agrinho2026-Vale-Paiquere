@@ -79,6 +79,30 @@ O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
 
 ---
 
+# 📁 Estrutura de Arquivos
+
+/
+├── CSS/
+│   └── style.css
+├── Documentacao/
+├── Ilustracao/
+│   ├── Jogo/
+│   │   ├── Nivel3/
+│   │   ├── Nivel4/
+│   │   ├── Nivel5/
+│   │   ├── Nivel6/
+│   │   ├── Gemini_JogoNivel1.png
+│   │   ├── Gemini_JogoNivel2_01.png
+│   │   ├── Gemini_JogoNivel2_02.png
+│   │   └── OIP.webp
+│   └── Site/
+├── JavaScript/
+│   └── game.js
+├── index.html
+└── README.md
+
+---
+
 # 🤖 Prompts:
 
 Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.

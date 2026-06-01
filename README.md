@@ -6,11 +6,15 @@ Bem-vindo ao **Vale Paiquerê**, um ecossistema digital projetado não apenas pa
 
 Aqui, a separação tradicional entre homem e natureza desaparece. O site divide-se em duas camadas simbióticas que convidam você à exploração:
 
-### No Topo: A Lógica da Escolha (Simulador)
-Antes da teoria, vem o impacto. No topo da página, você deixa de ser um mero espectador e assume o controle do Vale através de um motor de RPG Narrativo estruturado puramente em JavaScript. Não existem respostas fáceis ou caminhos óbvios: as decisões sobre o manejo da lavoura, o uso de defensores e a proteção das águas recalculam variáveis internas em tempo real, ramificando a história em **32 desfechos possíveis**. Você é capaz de lucrar sem colapsar a terra? 
+---
 
-### Na Base: A Gramática da Realidade (Ala Teórica)
-Rolando a página, a simulação encontra o seu chão. Abaixo do jogo, o site se transforma em um portal informativo denso, detalhando a fauna, a flora paranaense (como as Araucárias e Gralhas-Azuis) e a fundamentação teórica que sustenta o conceito de sustentabilidade agrícola. É a base de dados necessária para compreender os trade-offs reais enfrentados pelo produtor rural no dia a dia.
+# 🌾 Vale Paiquerê: O Equilíbrio das Veredas
+Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
+
+---
+
+# 🌱 Tema do Concurso
+Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
 
 ---
 

@@ -1540,7 +1540,7 @@ body.dark-theme h3#fase-titulo {
 }
 
 /*___________Demais ajustes para celulares menores e também modo paisagem (feitos após o site terminado)______________________*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     #imagem-principal {
         width: 85% !important;
         height: auto;
@@ -1626,7 +1626,7 @@ body.dark-theme h3#fase-titulo {
     }
 }
 
-@media (orientation: landscape) and (min-width: 601px) and (max-width: 1000px) {
+@media (orientation: landscape) and (min-width: 701px) and (max-width: 1000px) {
     
     #display-principal {
         padding-top: 10px !important;   
@@ -1641,7 +1641,6 @@ body.dark-theme h3#fase-titulo {
         width: 100% !important;          
         height: auto !important;         
         max-height: 100px !important;    
-        margin-bottom: 10px !important; 
         object-fit: contain;            
     }
 

@@ -1,4 +1,4 @@
-# Vale Paiquerê: O Equilíbrio das Veredas
+# 👨‍🌾 Vale Paiquerê: O Equilíbrio das Veredas
 
 A terra não é um cenário estático; é uma força viva. No Vale Paiquerê, cada linha de código traça a fronteira invisível entre a prosperidade do campo e a ruína do ecossistema.
 

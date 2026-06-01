@@ -44,9 +44,11 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 
 **2.** Leia atentamente o dilema apresentado pela Gralha-Azul.
 
-**3.** Escolha uma das duas alternativas disponíveis para começar a bola de neve.
+**3.** Deite a tela mpara uma melhor experiência — caso você queira.
 
-**4.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
+**4.** Escolha uma das duas alternativas disponíveis para começar a bola de neve.
+
+**5.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
 
 ---
 

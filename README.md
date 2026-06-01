@@ -73,9 +73,9 @@ O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
 
 ° **HTML5:** Estruturação semântica;
 
-CSS3 (Estilização, variáveis var() e responsividade)
+° **CSS3:** Estilização, variáveis var() e responsividade;
 
-JavaScript (Lógica do simulador, controle de temas e estados)
+° **JavaScript:** Lógica do simulador, controle de temas e estados.
 
 ---
 

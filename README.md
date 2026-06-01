@@ -8,7 +8,7 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 ---
 
-# 🌾 Vale Paiquerê: O Equilíbrio das Veredas
+# 🌾 Origem do Site:
 Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
 
 ---
@@ -24,6 +24,23 @@ O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês eco
 
 **O Vale está pronto, o console está limpo e as variáveis estão zeradas.** 
 Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
+
+---
+
+# 🎮 Instruções de Uso
+
+## 🎭 Conversa com a Gralha-Azul
+
+**1.** Preencha seu nome no campo informado.
+**2.** Aperte o botão ao lado.
+**3.** Leia atentamente o que ela fala, pois será exencial mais tarde.
+
+## 🎯 Jogo
+
+**1.** Inicie o simulador clicando no botão de início na seção do jogo.
+**2.** Leia atentamente o dilema apresentado pela Gralha-Azul.
+**3.** Escolha uma das duas alternativas disponíveis para começar a bola de neve.
+**4.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
 
 ---
 

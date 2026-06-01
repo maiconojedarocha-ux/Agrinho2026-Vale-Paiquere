@@ -1510,7 +1510,7 @@ body.dark-theme h3#fase-titulo {
 /*___________Ajuste para telas menores________________*/
 @media (max-width: 600px) {
   #texto-gralha {
-        font-size: 0.42rem !important; 
+        font-size: 0.52rem !important; 
         line-height: 1;
         margin-top: 10px !important;
     }
@@ -1555,13 +1555,13 @@ body.dark-theme h3#fase-titulo {
 
       #fase-titulo {
          display: flex;
-        font-size: 0.75rem !important;
+        font-size: 0.85rem !important;
           margin-top: -25px !important;
     margin-bottom: 5px !important; 
     }
 
     #texto-principal {
-        font-size: 0.55rem; 
+        font-size: 0.65rem; 
         padding: 5px;
         line-height: 1.4;
         margin-top: -15px !important;
@@ -1570,7 +1570,7 @@ body.dark-theme h3#fase-titulo {
     .btn-escolha {
         width: 100%;
         padding: 12px 5px; 
-        font-size: 0.55rem;
+        font-size: 0.65rem;
     }
 
     #btn-proximo {

@@ -828,6 +828,32 @@ __Imagem(s):__ Imagens anuladas, pois não são úteis por agora, já que o prob
 
 ---
 
+# Dia 36/38 - 31/05/2026 — 02/06/2026
+
+__Resumo:__ Acabei tendo que resolver alguns bugs e adições, nada demais, mas essenciais.
+
+__Atividades desses dias:__
+
+— Arrumar bugs (principalmente o erro 404.)
+
+— Ajustar proporções e revisões.
+
+— Adição do rodapé.
+
+__Uso de IA e Decisões Técnicas:__
+
+— __Prompt(s) Utilizado(s):__ Nenhum, pois era apenas refinamento e uso de componentes/estrutura já feitos antes.
+
+— __Refinamento manual:__ Total, pois mesmo com estruturas prontas, eu tive que ajustá-las para melhor legibilidade em computadores e smartphones.
+
+__Próximo passo:__ Revisar tudo novamente, conferindo se não tem bug ou falha fatal.
+
+__Imagem(s):__ Não tem, como eu disse, agora é apenas revisão cansativa.
+
+# Nota: Nos vemos em... Curitiba?
+
+---
+
 
 # A seguir, o padrão de estrutura usada na documentação:
 

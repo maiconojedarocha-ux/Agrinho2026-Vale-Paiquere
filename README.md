@@ -1,4 +1,4 @@
-# 👨‍🌾 Vale Paiquerê: O Equilíbrio das Veredas
+# Vale Paiquerê: O Equilíbrio das Veredas
 
 A terra não é um cenário estático; é uma força viva. No Vale Paiquerê, cada linha de código traça a fronteira invisível entre a prosperidade do campo e a ruína do ecossistema.
 
@@ -8,17 +8,33 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 ---
 
-# 🌾 Origem do Site:
+# Sobre o Desenvolvedor:
+
+° **Autor:** Maicon Sandriel Ojeda da Rocha;
+
+° **Mentor:** Ciro Pereira Rosa;
+
+° **Município:** Tomazina – Paraná;
+
+° **Escola:** Colégio Estadual do Campo Antônio Batista do Nascimento - EFM;
+
+° **Crédito ao artista do ícone do Flaticon:** mpanicon.
+
+° **Link ao Perfil do Artista:** https://www.flaticon.com/authors/mpanicon
+
+---
+
+# Origem do Site:
 Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
 
 ---
 
-# 🌱 Tema do Concurso
+# Tema do Concurso
 Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
 
 ---
 
-## 🗺 Objetivo do Projeto
+## Objetivo do Projeto
 
 O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia pode ser uma ferramenta de expressão artística e conscientização crítica.
 
@@ -27,9 +43,9 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 
 ---
 
-# 🎮 Instruções de Uso
+# Instruções de Uso
 
-## 🎭 Conversa com a Gralha-Azul
+## Conversa com a Gralha-Azul
 
 **1.** Preencha seu nome no campo informado.
 
@@ -38,7 +54,7 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 **3.** Leia atentamente o que ela fala, pois será exencial mais tarde.
 
 
-## 🎯 Jogo
+## Jogo
 
 **1.** Inicie o simulador clicando no botão de início na seção do jogo.
 
@@ -68,7 +84,7 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 
 ---
 
-# 🕵 Ferramentas usadas:
+# Ferramentas usadas:
 
 As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.
 
@@ -87,29 +103,29 @@ As ferramentas estão mencionados no próprio site — de forma elegante — que
 
 ---
 
-# 🧭 Funcionalidades do Site
+# Funcionalidades do Site
 
-° 🏠 Página inicial com temática dinâmica (Dia/Noite);
+° Página inicial com temática dinâmica (Dia/Noite);
 
-° 📱 Menu de navegação responsivo (mobile-first);
+° Menu de navegação responsivo (mobile-first);
 
-° 🎮 Motor de RPG Narrativo estruturado em JavaScript;
+°  Motor de RPG Narrativo estruturado em JavaScript;
 
-° 🌲 Efeito visual de vagalumes e elementos naturais;
+° Efeito visual de vagalumes e elementos naturais;
 
-° ⚖️ Sistema de decisões ramificadas — 32 desfechos possíveis;
+° Sistema de decisões ramificadas — 32 desfechos possíveis;
 
-° 📚 Ala teórica detalhada;
+° Ala teórica detalhada;
 
-° 🌙 Alternância automática de temas visuais via JS;
+° Alternância automática de temas visuais via JS;
 
-° ♿ Estrutura otimizada para acessibilidade;
+° Estrutura otimizada para acessibilidade;
 
-° 📱 Layout responsivo — testado de 320px até desktops.
+° Layout responsivo — testado de 320px até desktops.
 
 ---
 
-# 💻 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
 
 ° **HTML5:** Estruturação semântica;
@@ -120,39 +136,31 @@ O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
 
 ---
 
-# 🕹️ Experiência de Jogo
+# Experiência de Jogo
 
 O "Vale Paiquerê" utiliza uma lógica de RPG narrativa. O usuário assume o controle através de decisões sobre o manejo da lavoura, o uso de defensores e a proteção das águas. Cada escolha altera variáveis internas, conduzindo a história para um dos 32 desfechos possíveis, dependendo da sustentabilidade das ações tomadas.
 
 ---
 
-# 👨‍🎓 Autoria
-
-° **Autor:** Maicon Sandriel Ojeda da Rocha
-
-° **Município:** Tomazina – Paraná
-
----
-
-# 🤖 Prompts:
+# Prompts:
 
 Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.
 
 ---
 
-# 🎇 Resumindo a Introdução
+# Resumindo a Introdução
 
 O "Vale Paiquerê" é a prova de que a lógica da programação, quando unida à sensibilidade literária, transforma linhas de código em narrativas vivas. Mais do que um projeto de TI, é um exercício sobre como observamos o mundo e as escolhas que fazemos para garantir um futuro onde o agro e a natureza coexistem em equilíbrio.
 
 ---
 
-# 🌠 Saiba mais:
+# Saiba mais:
 
 A partir deste ponto, você estará na ala da documentação, onde o assunto é mais profundo e aborda o meu passo a passo e dia a dia. É aqui que se une o formal ao informal do diário de bordo — onde se localizam os prompts usados e o desenvolvimento próprio/criativo. Caso tenha alguma dúvida, leia, confira como o site era nos primeiros dias e ignore a simplicidade estrutural, pois o foco da documentação a seguir é na informação e na rotina. Por isso, poderão ser observados erros de gramática da língua portuguesa. Aproveite a documentação! Pois, a partir do diário de bordo, estarão as ilustrações e a documentação mais simplificada visualmente.
 
 ---
 
-# 📚 Documentação de meu progresso:
+# Documentação de meu progresso:
 
 __Dias trabalhados:__ 21 dias
 
@@ -168,27 +176,27 @@ __Dias Levados:__ 33 dias
 
 ---
 
-# 🌑 Resumo Semanais:
+# Resumo Semanais:
 
-## 🌒 Semana 1: 28/04 a 04/05 — Dias 01 a 07
+## Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
 **Foco:** Estruturação da Interface e Identidade Visual.
 
 **Resumo:** Período dedicado a erguer o esqueleto essencial do site Vale Paiquerê. Foi criado o cabeçalho fixo e o menu compacto (hambúrguer) para celulares e tablets. A área de informações recebeu seus primeiros textos e imagens conceituais sobre sustentabilidade e tecnologia no campo. Também houve o reaproveitamento de códigos e artes da Gralha-Azul de um projeto anterior para otimizar o tempo de desenvolvimento.
 
-## 🌓 Semana 2: 05/05 a 11/05 — Dias 08 a 14
+## Semana 2: 05/05 a 11/05 — Dias 08 a 14
 
 **Foco:** Pausa Criativa e Ajustes de Escopo.
 
 **Resumo:** Intervalo voltado ao descanso e à produção escrita (literatura). No código, o tempo foi usado para planejar mentalmente a complexa árvore de decisões do jogo. Na reta final da semana, foi realizada uma manutenção crítica na seção da Gralha-Azul para corrigir falhas de quebra de layout em telas de smartphones (600px).
 
-## 🌔 Semana 3: 12/05 a 18/05 — Dias 15 a 21
+## Semana 3: 12/05 a 18/05 — Dias 15 a 21
 
 **Foco:** Automação, Acessibilidade e Robótica.
 
 **Resumo:** Implementação do sistema de paleta de cores dinâmica através de variáveis CSS — var() — e criação de um script em JavaScript que altera o tema do site (dia/noite) automaticamente com base no relógio do usuário. Desenvolvimento da interface inicial do jogo (barra de ferramentas, manual integrado e efeito visual de "véu").
 
-## 🌕 Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
+## Semana 4 e Reta Final: 19/05 a 28/05 — Dias 22 a 33
 
 **Foco:** Matriz de Escolhas, Solução da "Anarquia Mobile" e Polimento.
 
@@ -196,7 +204,7 @@ __Dias Levados:__ 33 dias
 
 ---
 
-# 🧩 Os três aprendizados que levarei para minha vida:
+# Os três aprendizados que levarei para minha vida:
 
 **1°:** Não desenvolver sites por um longo período.
 
@@ -214,7 +222,7 @@ Que, independentemente da direção que eu siga, eu não me defino mais como a m
 
 ---
 
-# ⏳ Um Minutinho de sua Atenção como Avaliador:
+# Um Minutinho de sua Atenção como Avaliador:
 
 # 1° Sobre os erros:
 
@@ -231,7 +239,7 @@ Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógi
 
 ---
 
-# ✍ Diário de Bordo:
+# Diário de Bordo:
 
 
 # Dia 01 — 28/04/2026

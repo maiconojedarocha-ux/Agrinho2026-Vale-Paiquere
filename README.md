@@ -241,7 +241,7 @@ bugs têm sido caçados cuidadosamente, dia após dia, hora após hora. O site f
 
 compreendo que, no padrão digital, nomes de pastas com caracteres especiais ou espaços podem causar falhas críticas. No entanto, garanto que o projeto está funcional e respeita rigorosamente a diferenciação entre maiúsculas e minúsculas (case-sensitive). Alterar a estrutura de endereçamento agora demandaria um retrabalho excessivo devido à forma como os arquivos já estão hospedados no Git. Quanto às pastas "CSS" e "JavaScript", elas foram estruturadas assim porque, no início, o plano era criar um projeto mais complexo, com arquivos separados para o jogo (game.js) e para o site. Foi um erro de iniciante — que agora compreendo — mas com o projeto já avançado, optei por manter a estrutura para não comprometer o que já estava funcionando.
 
-# 3° Arespeito de meu desenvolvimento:
+# 3° A Respeito de meu desenvolvimento:
 
 Como mencionei, sou da área de Humanas. Não por falta de afinidade com a lógica, mas por paixão pela literatura. Embora eu aprecie padrões e tenha facilidade em resolver problemas técnicos, sinto certo desânimo quando preciso lidar repetidamente com os mesmos erros preferindo dedicar minha energia à criação de algo novo — descobri mais tarde que eu estava errado, pois a programação é apenas uma gramática mais sofisticada. Apesar disso, ainda pretendo seguir a carreira de escritor e professor de Letras. Participei deste concurso porque, apesar dos desafios técnicos, a lógica me atrai e reconheço minha capacidade nesta área. Contudo, minha essência prefere contar histórias, construir mundos e descrever estados sentimentais — mais amplo do que escrever comandos.
 

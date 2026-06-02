@@ -89,17 +89,17 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.
 
 
-° **VScode**
+° **VScode:** https://code.visualstudio.com/
 
-° **Canva**
+° **Canva:** https://www.canva.com/
 
-° **Piskel**
+° **Piskel:** https://www.piskelapp.com/
 
-° **ChatGPT**
+° **ChatGPT:** https://chatgpt.com/
 
-° **Gemini**
+° **Gemini:** https://gemini.google.com/
 
-° **flaticon**
+° **flaticon:** https://www.flaticon.com/
 
 ---
 

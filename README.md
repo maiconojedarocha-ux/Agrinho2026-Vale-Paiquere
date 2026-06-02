@@ -16,7 +16,7 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 ° **Município:** Tomazina – Paraná;
 
-° **Escola:** Colégio Estadual do Campo Antônio Batista do Nascimento - EFM;
+° **Escola:** Colégio Estadual do Campo Antônio Batista do Nascimento - EFM.
 
 # Referências
 

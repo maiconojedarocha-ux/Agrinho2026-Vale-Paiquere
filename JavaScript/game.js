@@ -166,8 +166,10 @@ document.querySelector('.sessao-texto-jogo').addEventListener('click', function(
 
 //__________________Lógica do jogo de escolhas___________________________
 const roteiro = {
-   1: {
-        texto: `Bem-vindo(a) ao Vale Paiquerê! Aqui a terra é mais reluzente que uma bela esmeralda. Mas tenho que te contar um segredo: o Vale Paiquerê é um lugar único, mas precisa de um equilíbrio que ninguém jamais teve — nem mesmo eu. Porém, você está aqui para nos ajudar agora! Então, o que acha de começarmos a explorar o vale e descobrir como podemos melhorar juntos? Vamos, eu te mostro o caminho!`,
+    //________Inicio/Boas-Vindas_____Imagem______
+
+    1: {
+        texto: `Bem-vindo(a) ao Vale Paiquerê! Aqui a terra é mais reluzente que uma bela esmeralda. Mas tenho que te contar um segredo: o Vale Paiquerê é um lugar único, mas precisa de um equilíbrio que ninguém jamais teve — nem mesmo eu. Porém você está aqui para nos ajudar agora! Então o que acha de começarmos a explorar o vale e descobrir como podemos melhorar juntos? Vamos, eu te mostro o caminho!`,
         imagem: "Ilustracao/Jogo/Gemini_JogoNivel1.png",
         tipo: "intro",
         proximo: 2
@@ -176,10 +178,10 @@ const roteiro = {
     //___________NÍVEL 2: Decisão_____Sem imagem_______
     2: {
         titulo: "A Fonte da Vida",
-        texto: "Caminhando por matas vibrantes em verde-limão, você avista um tranquilo riacho que corta o vale, onde se encontra uma boa quantidade de gado. Eles estão bebendo a água direto do riacho — se refrescando deste dia quente e ensolarado. Porém, estão pisoteando a margem, o que pode causar erosão no futuro. O que fazer agora?",
+        texto: "Caminhando por matas vibrantes em verde-limão, você avista um tranquilo riacho que corta o vale, onde se encontra uma boa quantidade de gado. Eles estão bebendo a água direto do riacho — se refrescando desse quente e ensolarado dia. Porém, estão pisoteando a margem, o que pode causar erosões no futuro. O que fazer agora?",
         imagem: null,
         tipo: "decisao",
-        opcaoA: { texto: "Cercar o único lugar que eles têm para se refrescar, levando a água a bebedouros diariamente", proximo: 2.1 },
+        opcaoA: { texto: "Cercar o único lugar que eles têm para se refrescar, levando a água em bebedouros diariamente", proximo: 2.1 },
         opcaoB: { texto: "Deixar como está, permitindo que se banhem nessas águas antes que o inverno chegue", proximo: 2.2 }
     },
 
@@ -200,7 +202,7 @@ const roteiro = {
     //___________NÍVEL 3: Duas perguntas (4 Escolhas)___________
     3: {
         titulo: "Nuvens com Asas?!",
-        texto: "Já faz alguns meses que você se estabeleceu no Vale Paiquerê, aprendendo sobre a fauna e a flora locais. Mas o verão chegou e, com ele, os insetos saíram da hibernação, famintos pela sua mediana plantação. O que fazer agora? Eles estão prestes a devorar todo o seu sofrido ganha-pão.",
+        texto: "Já faz alguns meses que você se estabeleceu no Vale Paiquerê, aprendendo sobre a fauna e a flora locais. Mas o verão chegou, e com ele os insetos saíram da hibernação, famintos pela sua mediana plantação. O que fazer agora? Eles estão prestes a devorar todo o seu sofrido ganha-pão.",
         imagem: null,
         tipo: "decisao",
         opcaoA: { texto: "Investir seu tempo precioso pesquisando sobre predadores naturais para introduzir um controle biológico — uma alternativa sustentável, porém altamente arriscada pelo tempo perdido.", proximo: 3.2 },
@@ -229,7 +231,7 @@ const roteiro = {
 
     // Resultado do Defensivo Químico (3 -> Opção B)
     3.3: {
-        texto: "Com o veneno aplicado nas plantas, os insetos começaram a sumir diariamente, resultando em uma farta colheita. Além de cobrir os gastos do mês, também sobrou uma quantidade considerável para reinvestir. Por outro lado, o produto espantou outros predadores naturais de pragas, e o químico usado repetidamente escorreu para as margens do seu riacho, deixando a água parcialmente poluída e inutilizável.",
+        texto: "Com o veneno aplicado nas plantas, os insetos começaram a sumir diariamente, resultando em uma farta colheita. Além de cobrir os gastos do mês, também sobrou uma quantidade considerável para reinvestir. Por outro lado, o produto espantou outros predadores naturais de pragas e o químico usado repetidamente escorreu para as margens do seu riacho, deixando a água parcialmente poluída e inutilizável.",
         imagem: "Ilustracao/Jogo/Nivel3/Gemini_JogoNivel3_02.png", // Imagem de alerta ambiental
         tipo: "intro",
         proximo: "4.1"
@@ -245,13 +247,13 @@ const roteiro = {
 
     // Resultado do Fertilizante na Crise (3.1 -> Opção B)
     3.5: {
-        texto: "A lavoura não cresceu como o esperado pois, para que as plantas absorvam os nutrientes, é preciso água — recurso que você não tem mais. Além disso, seu solo agora sofre uma grave intoxicação, e o riacho, que antes estava barrento, transformou-se em um fenômeno alarmante: um lamaçal tóxico.",
+        texto: "A lavoura não cresceu como o esperado, pois para que as plantas absorvam os nutrientes é preciso água — recurso que você não tem mais. Além disso, seu solo agora sofre uma grave intoxicação, e o riacho, que antes estava barrento, transformou-se em um fenômeno alarmante: um lamaçal tóxico.",
         imagem: "Ilustracao/Jogo/Nivel3/Gemini_JogoNivel3_04.png", // Imagem de desastre ambiental
         tipo: "intro",
         proximo: "4.3"
     },
 
-   //___________NÍVEL 4: QUATRO PERGUNTAS (8 Escolhas)___________
+    //___________NÍVEL 4: QUATRO PERGUNTAS (8 Escolhas)___________
 
     // Pergunta 4: Ramificação vinda do Equilíbrio Perfeito (3.2)
     4: {
@@ -285,8 +287,8 @@ const roteiro = {
 
     // Pergunta 4.3
     "4.3": {
-        titulo: "Os Guardas Verdes",
-        texto: "Com o riacho transformado em um lamaçal tóxico, os vizinhos — preocupados com a contaminação — denunciaram o seu vale. A fiscalização ambiental aplicou uma multa pesadíssima, com grandes chances de falir o vale. Como reagir diante desta crise?",
+        titulo: "Os Guardas Verde",
+        texto: "Com o riacho transformado em um lamaçal tóxico, os vizinhos — preocupados com a contaminação — denunciaram o seu Vale. A fiscalização ambiental aplicou uma multa pesadíssima, com grandes chances de falir o vale. Como reagir diante desta crise?",
         imagem: null,
         tipo: "decisao",
         opcaoA: { texto: "Vender seus bens — carro, maquinários e gado — para pagar a multa e recomeçar a fazenda do zero. Mas agora, com experiência.", proximo: "4.10" },
@@ -321,7 +323,7 @@ const roteiro = {
 
     // Resultado dos Hormônios Artificiais
     "4.7": {
-        texto: "Os hormônios artificiais funcionaram perfeitamente, assumindo o papel dos polinizadores naturais — como as abelhas. Mas, como a vida não é uma bela flor, a escolha por esses químicos em vez de uma mudança real de manejo resultou na dependência crônica desses produtos, cujos preços sobem a cada dia.",
+        texto: "Os hormônios artificiais funcionaram perfeitamente, assumindo o papel dos polinizadores naturais — como as abelhas. Mas, como a vida não é uma flor bela, a escolha por esses químicos em vez de uma mudança real de manejo resultou na dependência crônica desses produtos, cujos preços sobem a cada dia.",
         imagem: "Ilustracao/Jogo/Nivel4/Gemini_JogoNivel4_04.png",
         tipo: "intro",
         proximo: 5.3
@@ -345,7 +347,7 @@ const roteiro = {
 
     // Resultado do Recomeço Doloroso (O QUE ESTAVA APAGANDO O 4.1)
     "4.10": {
-        texto: "O recomeço foi ainda mais difícil que o começo. Sem o maquinário que vendeu para quitar a dívida, sobrou apenas uma pequena reserva financeira. Mas, com a suspensão dos defensivos químicos, a toxicidade da água vem diminuindo diariamente e a terra começa a dar sinais de vida novamente. Pelo menos, agora você tem experiência.",
+        texto: "O recomeço foi ainda mais difícil que o começo. Sem os maquinários que vendeu para quitar a dívida, sobrou apenas uma pequena reserva financeira. Mas, com a suspensão dos defensivos químicos, a toxicidade da água vem diminuindo diariamente e a terra começa a dar sinais de vida novamente. Pelo menos, agora você tem experiência.",
         imagem: "Ilustracao/Jogo/Nivel4/Gemini_JogoNivel4_07.png",
         tipo: "intro",
         proximo: 5.6
@@ -404,7 +406,7 @@ const roteiro = {
     // Pergunta 5.4: Vinda da Cooperativa Sustentável ("4.8")
     "5.4": {
         titulo: "A Expansão da Cooperativa",
-        texto: "A parceria com os vizinhos não apenas resolveu o problema local, mas acendeu uma faísca na região. A ideia de expandir o projeto ganhou força e, agora, outros fazendeiros querem adotar o mesmo manejo, pois também enfrentam conflitos com animais silvestres. Levar essa iniciativa adiante exigirá um esforço tremendo de coordenação e recursos. Como agir diante desse chamado?",
+        texto: "A parceria com os vizinhos não apenas resolveu o problema local, mas acendeu uma faísca na região. A ideia de expandir o projeto ganhou força, e agora outros fazendeiros querem adotar o mesmo manejo, pois também enfrentam conflitos com animais silvestres. Levar essa iniciativa adiante exigirá um esforço tremendo de coordenação e recursos. Como agir diante desse chamado?",
         imagem: null,
         tipo: "decisao",
         opcaoA: { texto: "Vou aceitar. Se eu não mostrar a eles o caminho para esse equilíbrio, quem mais mostrará? Vamos expandir essa iniciativa.", proximo: "5.16" },
@@ -414,7 +416,7 @@ const roteiro = {
     // Pergunta 5.5: Vinda do Isolamento por Cercas ("4.9")
     "5.5": {
         titulo: "As Farpas do Isolamento",
-        texto: "As cercas de quatro metros de arame farpado isolaram o Vale Paiquerê e geraram revolta na região. Os comerciantes locais, antes amigáveis, agora se recusam a vender produtos essenciais para a sua fazenda, tornando o clima na comunidade extremamente hostil. Como você pretende resolver esse mal-entendido? Se é que foi mesmo um mal-entendido...",
+        texto: "As cercas de quatro metros de arame farpado isolaram o Vale Paiquerê e geraram revolta na região. Os comerciantes locais, antes amigáveis, agora se recusam a vender produtos essenciais para a sua fazenda, tornando o clima na comunidade extremamente hostil. Como você pretende resolver esse mal-entendido? Se é que foi mesmo um mal-entendido...?",
         imagem: null,
         tipo: "decisao",
         opcaoA: { texto: "Vou desmanchar as cercas e pedir desculpas públicas para acalmar a região. Mas que fique claro: ainda assim, não vou tolerar reclamações ou prejuízos causados por esses animais.", proximo: "5.18" },
@@ -424,10 +426,10 @@ const roteiro = {
     // Pergunta 5.6: Vinda do Recomeço Doloroso ("4.10")
     "5.6": {
         titulo: "A Fadiga da Enxada",
-        texto: "Sem o maquinário pesado, o cultivo das plantações exige um esforço braçal imenso. O cansaço extremo está desanimando os poucos funcionários que restaram no vale e, se nada for feito logo, você perderá a última mão de obra disponível. O que fazer para reverter essa situação?",
+        texto: "Sem os maquinários pesados, o cultivo das plantações exige um esforço braçal imenso. O cansaço extremo está desanimando os poucos funcionários que restaram no vale e, se nada for feito logo, você perderá a última mão de obra disponível. O que fazer para reverter essa situação?",
         imagem: null,
         tipo: "decisao",
-        opcaoA: { texto: "Vou implementar um sistema de parceria e dividir os lucros da colheita futura com a equipe. Transformá-los em sócios do negócio dará a motivação de que precisam para enfrentar o trabalho pesado.", processo: "5.20" },
+        opcaoA: { texto: "Vou implementar um sistema de parceria e dividir os lucros da colheita futura com a equipe. Transformá-los em sócios do negócio dará a motivação que precisam para enfrentar o trabalho pesado.", proximo: "5.20" },
         opcaoB: { texto: "Vou instituir uma jornada de horas extras, pagando todas as compensações devidas. É a única forma de suprir a falta de tratores e garantir o término do plantio no prazo.", proximo: "5.21" }
     },
 
@@ -451,7 +453,7 @@ const roteiro = {
         proximo: "6"
     },
     "5.9": {
-        texto: "As melhorias internas instaladas na sua propriedade elevaram os índices de produção e estabilizaram o manejo. O Vale Paiquerê não atingiu a projeção dos catálogos globais, mas consolidou o abastecimento do comércio regional e firmou a sua presença no mercado local.",
+        texto: "As melhorias internas instaladas na sua propriedade elevaram os índices da produção e estabilizaram o manejo. O Vale Paiquerê não atingiu a projeção dos catálogos globais, mas consolidou o abastecimento do comércio regional e firmou a sua presença no mercado local.",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_02.png",
         tipo: "intro",
         proximo: "6.1"
@@ -459,13 +461,13 @@ const roteiro = {
 
     // Resultados da Pergunta 5.1
     "5.10": {
-        texto: "A pausa custou caro no bolso, mas a natureza respirou. A suspensão temporária das atividades zerou o faturamento da sua pousada e gerou custos imediatos com as diárias dos mutirões. Em resposta, os resíduos acumulados sumiram das margens do rio e os primeiros animais silvestres voltaram a deixar pegadas nas trilhas úmidas do vale.",
+        texto: "A pausa custou caro no bolso, mas a natureza respirou. O lixo sumiu e os primeiros animais começaram a retornar ao vale. E a suspensão temporária das atividades zerou o faturamento da sua pousada e gerou custos imediatos com as diárias dos mutirões. Em resposta, os resíduos acumulados sumiram das margens do rio e os primeiros animais silvestres voltaram a deixar pegadas nas trilhas úmidas do vale..",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_03.png",
         tipo: "intro",
         proximo: "6.2"
     },
     "5.11": {
-        texto: "O foco exclusivo no marketing perdeu força quando ativistas locais publicaram um relatório detalhado com fotos dos bastidores da propriedade. O fluxo de hóspedes cessou imediatamente, e as buscas digitais pelo Vale Paiquerê agora exibem denúncias de poluição e negligência.",
+        texto: "O foco exclusivo no marketing perdeu força quando ativistas locais publicaram um relatório detalhado com fotos dos bastidores da propriedade. O fluxo de hóspedes cessou imediatamente e as buscas digitais pelo Vale Paiquerê agora exibem denúncias de poluição e negligência.",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_04.png",
         tipo: "intro",
         proximo: "6.3"
@@ -473,7 +475,7 @@ const roteiro = {
 
     // Resultados da Pergunta 5.2
     "5.12": {
-        texto: "A imposição de limites rígidos na coleta preservou a estrutura interna das colmeias, gerando lotes reduzidos e puros. Esse mel exclusivo alcançou o topo do mercado como um produto único de alta gastronomia que mantém seu valor elevado, enquanto o enxame ativo continua a polinização da sua lavoura.",
+        texto: "A imposição de limites rígidos na coleta preservou a estrutura interna das colmeias, gerando lotes reduzidos e puros. Esse mel exclusivo alcançou o topo do mercado de alta gastronomia como um produto único que mantém seu valor elevado, enquanto o enxame ativo continua a polinização da sua lavoura.",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_05.png", //Imagem 5
         tipo: "intro",
         proximo: "6.4"
@@ -487,7 +489,7 @@ const roteiro = {
 
     // Resultados da Pergunta 5.3
     "5.14": {
-        texto: "A assinatura do contrato de venda transferiu a posse de metade das suas terras para a organização ambiental, liquidando as pendências financeiras. As cercas da ONG agora delimitam a area vendida, iniciando o plantio de mudas nativas fora do seu controle.",
+        texto: "A assinatura do contrato de venda transferiu a posse de metade das suas terras para a organização ambiental, liquidando as pendências financeiras. As cercas da ONG agora delimitam a área vendida, iniciando o plantio de mudas nativas fora do seu controle.",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_07.png",
         tipo: "intro",
         proximo: "6.6"
@@ -543,7 +545,7 @@ const roteiro = {
 
     // Resultados da Pergunta 5.7
     "5.22": {
-        texto: "Você aceitou o fim da linha, assinou os papéis e entregou as chaves da fazenda para os oficiais de justiça. O banco trancou a sede e colocou o edital do leilão público do Vale Paiquerê nos jornais. Você deixa as terras levando apenas as roupas do corpo e a lição sofrida sobre os limites da natureza.",
+        texto: "Você aceitou o fim da linha, assinou os papéis e entregou as chaves da fazenda para os oficiais da justiça. O banco trancou a sede e colocou o edital do leilão público do Vale Paiquerê nos jornais. Você deixa as terras levando apenas as roupas do corpo e a lição sofrida sobre os limites da natureza.",
         imagem: "Ilustracao/Jogo/Nivel5/Gemini_JogoNivel5_15.png",
         tipo: "intro",
         proximo: "6.14"
@@ -721,12 +723,12 @@ const roteiro = {
 
     // Resultados da Pergunta 6
     "6.16": { 
-        texto: "O risco valeu a pena. As caixas inovadoras de mandioca que se dissolvem na água encantaram os investidores europeus. O Vale Paiquerê foi alçado ao posto de padrão global de desperdício zero, provando que a ética e a alta tecnologia podem, sim, salvar o planeta — a esmeralda verdejante reluz intocada no vale.", 
+        texto: "O risco valeu a pena. As caixas inovadoras de mandioca que se dissolvem na água encantaram os investidores europeus. O Vale Paiquerê foi alçado ao posto de padrão global de desperdício zero, provando que a ética e a alta tecnologia podem, sim, salvar o planeta — a esverdeada esmeralda reluz intocada no vale.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_01.png", 
         tipo: "final",
     },
     "6.17": { 
-        texto: "O faturamento bruto quebrou recordes históricos com os plásticos duráveis, mas o oceano cobrou seu preço. Relatórios internacionais detectaram microplásticos na carga, arranhando gravemente a credibilidade do seu selo verde. Você conquistou uma conta bancária cheia, mas a pureza ecológica do vale foi perdida para sempre.", 
+        texto: "O faturamento bruto quebrou recordes históricos com os plásticos duráveis, mas o oceano cobrou seu preço. Relatórios internacionais detectaram microplásticos na carga, arranhando gravemente a credibilidade do seu Selo Verde. Você conquistou uma conta bancária cheia, mas a pureza ecológica do vale foi perdida para sempre.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_02.png", 
         tipo: "final",
     },
@@ -757,7 +759,7 @@ const roteiro = {
 
     // Resultados da Pergunta 6.3
     "6.22": { 
-        texto: "O depósito para o fundo de recuperação doeu no caixa e forçou a venda de um dos tratores rurais. No entanto, as manchetes sobre a restauração da bacia hidrográfica começaram a substituir os antigos posts de cancelamento na internet. O gerente do banco ligou oferecendo uma nova linha de crédito para sistemas agroflorestais. O riacho ainda corre turvo, mas as primeiras mudas de araucária fincaram raízes na margem.", 
+        texto: "O depósito para o fundo de restauração doeu no caixa e forçou a venda de um dos tratores rurais. No entanto, as manchetes sobre a recuperação da bacia hidrográfica começaram a substituir os antigos posts de cancelamento na internet. O gerente do banco ligou oferecendo uma nova linha de crédito para sistemas agroflorestais. O riacho ainda corre turvo, mas as primeiras mudas de Araucária fincaram raízes na margem.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_07.png", 
         tipo: "final",
     },
@@ -769,7 +771,7 @@ const roteiro = {
 
     // Resultados da Pergunta 6.4 (O Vizinho da Soja)
     "6.24": { 
-        texto: "O pagamento pela faixa de terra limpou suas reservas financeiras. Hoje, uma cortina densa de sansão-do-campo e eucaliptos barra visualmente a nuvem de glifosato que o trator do vizinho pulveriza ao lado. Suas abelhas continuam zumbindo nas colmeias, e as análises laboratoriais mostram um mel livre de resíduos químicos. O custo foi asfixiante, mas a barreira viva funcionou como um escudo real.", 
+        texto: "O pagamento pela faixa de terra limpou suas reservas financeiras. Hoje, uma cortina densa de sansão-do-campo e eucaliptos barra visualmente a nuvem de glifosato que o trator do vizinho pulveriza ao lado. Suas abelhas continuam zumbindo nas colmeias e as análises laboratoriais mostram um mel livre de resíduos químicos. O custo foi asfixiante, mas a barreira viva funcionou como um escudo real.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_09.png", 
         tipo: "final"
     },
@@ -786,7 +788,7 @@ const roteiro = {
         tipo: "final"
     },
     "6.27": { 
-        texto: "O antigo pomar diversificado deu lugar a quilômetros planos de milho híbrido. O vento forte propaga o pólen sozinho pela plantação, ignorando o silêncio deixado pela morte das colmeias. As colheitadeiras cortam a safra sem imprevistos, e os grãos enchem os silos no prazo. O caixa da fazenda estabilizou, mas o Vale Paiquerê agora tem a mesma cara monótona de qualquer monocultura industrial.", 
+        texto: "O antigo pomar diversificado deu lugar a quilômetros planos de milho híbrido. O vento forte propaga o pólen sozinho pela plantação, ignorando o silêncio deixado pela morte das colmeias. As colheitadeiras cortam a safra sem imprevistos e os grãos enchem os silos no prazo. O caixa da fazenda estabilizou, mas o Vale Paiquerê agora tem a mesma cara monótona de qualquer monocultura industrial.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_12.png", 
         tipo: "final"
     },
@@ -798,7 +800,7 @@ const roteiro = {
         tipo: "final"
     },
     "6.29": { 
-        texto: "Com o dinheiro restante da venda das terras, você comprou três hectares no topo da colina. A propriedade resume-se a uma casa de madeira, uma horta de subsistência e duas juntas de bois. Você acorda nas madrugadas frias para tirar o leite que vende na cooperativa local. A vida não dá espaço para luxos ou grandes investimentos, mas o barulho do riacho limpo substituiu todas as cobranças fiscais.", 
+        texto: "Com o dinheiro restante da venda das terras, você comprou três hectares no topo da colina. A propriedade resume-se a uma casa de madeira, uma horta de subsistência e duas juntas de boi. Você acorda nas madrugadas frias para tirar o leite que vende na cooperativa local. A vida não dá espaço para luxos ou grandes investimentos, mas o barulho do riacho limpo substituiu todas as cobranças fiscais.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_14.png", 
         tipo: "final"
     },
@@ -810,7 +812,7 @@ const roteiro = {
         tipo: "final"
     },
     "6.31": { 
-        texto: "O oficial de justiça recolheu as escrituras e os tratores para o leilão do Estado para abater as dívidas. Você cumpre serviços comunitários limpando praças municipais aos finais de semana para fechar a transação da sentença. A fazenda ficou lacrada, acumulando poeira e mato daninho sobre a terra intoxicada. Ninguém planta, ninguém colhe; o vale virou uma cicatriz cinza ininterrupta.", 
+        texto: "O oficial de justiça recolheu as escrituras e os tratores para o leilão do Estado para abater as dívidas. Você cumpre serviços comunitários limpando praças municipais aos finais de semana para fechar a transação da sentença. A fazenda ficou lacrada, acumulando poeira e mato daninho sobre a terra intoxicada. Ninguém planta, ninguém colhe; o vale virou uma cicatriz cinza interrompida.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_16.png", 
         tipo: "final"
     },
@@ -829,19 +831,19 @@ const roteiro = {
 
     // Resultados da Pergunta 6.9 (Soberania Alimentar/Isolamento)
     "6.34": { 
-        texto: "A reunião na associação de moradores foi tensa; você detalhou seus custos, e eles ouviram de braços cruzados. Lentamente, a desconfiança cedeu. A cooperativa deles aceitou incluir suas caixas de verdura no caminhão diário que vai para o centro de distribuição regional, cobrando apenas a taxa de combustível. O clima hostil sumiu do mercado da vila, e você voltou a ter com quem tomar um café.", 
+        texto: "A reunião na associação de moradores foi tensa; você detalhou seus custos e eles ouviram de braços cruzados. Lentamente, a desconfiança cedeu. A cooperativa deles aceitou incluir suas caixas de verdura no caminhão diário que vai para o centro de distribuição regional, cobrando apenas a taxa de combustível. O clima hostil sumiu do mercado da vila e você voltou a ter com quem tomar um café.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_19.png", 
         tipo: "final"
     },
     "6.35": { 
-        texto: "Sua colheita acumula nos caixotes de madeira porque os transportadores locais recusam-se a encostar o caminhão na sua porteira. Você precisa dirigir doze quilômetros adicionais em estrada de terra para despachar os produtos em um galpão terceirizado, aceitando metade do valor de mercado. O caixa opera no limite do vermelho, e as noites no vale são longas, silenciosas e sem visitas.", 
+        texto: "Sua colheita acumula nos caixotes de madeira porque os transportadores locais recusam-se a encostar o caminhão na sua porteira. Você precisa dirigir doze quilômetros adicionais em estrada de terra para despachar os produtos em um galpão terceirizado, aceitando metade do valor de mercado. O caixa opera no limite do vermelho e as noites no vale são longas, silenciosas e sem visitas.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_20.png", 
         tipo: "final"
     },
 
     // Resultados da Pergunta 6.10 (Bichos Sem Medo)
     "6.36": { 
-        texto: "Mutirões de fim de semana instalaram travas reforçadas nas lixeiras públicas e telas metálicas nas pequenas hortas familiares da vila. Os quatis e gambás ainda circulam pelos telhados, mas retornam para a mata ao não encontrarem restos de comida fácil. As crianças aprenderam a não esticar as mãos com alimentos, e a fauna circula pela região sem ser domesticada ou agredida.", 
+        texto: "Mutirões de fim de semana instalaram travas reforçadas nas lixeiras públicas e telas metálicas nas pequenas hortas familiares da vila. Os quatis e gambás ainda circulam pelos telhados, mas retornam para a mata ao não encontrarem restos de comida fácil. As crianças aprenderam a não esticar as mãos com alimentos e a fauna circula pela região sem ser domesticada ou agredida.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_21.png", 
         tipo: "final"
     },
@@ -853,19 +855,19 @@ const roteiro = {
 
     // Resultados da Pergunta 6.11 (O Cerco dos Guardas)
     "6.38": { 
-        texto: "Duas viaturas da polícia militar cercaram o galpão principal na madrugada após sua denúncia. O confronto terminou com os seguranças algemados e o armamento apreendido. Você recuperou as chaves da sede, mas as paredes ostentam marcas de estilhaços, e os jornais locais associaram o Vale Paiquerê a milícias rurais. Comerciantes recusam-se a comprar de uma fazenda sob investigação.", 
+        texto: "Duas viaturas da polícia militar cercaram o galpão principal na madrugada após sua denúncia. O confronto terminou com os seguranças algemados e o armamento apreendido. Você recuperou as chaves da sede, mas as paredes ostentam marcas de estilhaços e os jornais locais associaram o Vale Paiquerê a milícias rurais. Comerciantes recusam-se a comprar de uma fazenda sob investigação.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_23.png", 
         tipo: "final"
     },
     "6.39": { 
-        texto: "Você assinou o termo de transferência de posse no papel timbrado sob a mira das armas e pegou o primeiro ônibus na rodoviária. Hoje, trabalha como frentista em um posto de beira de estrada. Pelas redes sociais, fotos via satélite mostram sua antiga fazenda fatiada: os pastos viraram garimpo ilegal de areia, e o riacho secou sob as esteiras das escavadeiras.", 
+        texto: "Você assinou o termo de transferência de posse no papel timbrado sob a mira das armas e pegou o primeiro ônibus na rodoviária. Hoje, trabalha como frentista em um posto de beira de estrada. Pelas redes sociais, fotos via satélite mostram sua antiga fazenda fatiada: os pastos viraram garimpo ilegal de areia e o riacho secou sob as esteiras das escavadeiras.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_24.png", 
         tipo: "final"
     },
 
     // Resultados da Pergunta 6.12 (A Compra dos Cooperados)
     "6.40": { 
-        texto: "O valor da venda da sua cota foi depositado integralmente na sua conta bancária. Você comprou uma casa na praia e passa as tardes pescando no píer. Pelo balanço anual que a nova diretoria dos ex-funcionários lhe envia por e-mail, a fazenda eliminou o uso de insumos químicos e distribuiu lucros recordes entre as trinta famílias locais. A terra continua produzindo, longe das suas mãos.", 
+        texto: "O valor da venda da sua cota foi depositado integralmente na sua conta bancária. Você comprou uma casa na praia e passa as tardes pescando no píer. Pelo balanço anual que a nova diretoria dos ex-funcionários te envia por e-mail, a fazenda eliminou o uso de insumos químicos e distribuiu lucros recordes entre as trinta famílias locais. A terra continua produzindo, longe das suas mãos.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_25.png", 
         tipo: "final"
     },
@@ -882,14 +884,14 @@ const roteiro = {
         tipo: "final"
     },
     "6.43": { 
-        texto: "O acordo dividiu a fazenda em lotes familiares organizados sob uma nova associação comunitária. Em poucos meses, os acampamentos viraram construções de alvenaria, e os canteiros coletivos voltaram a produzir toneladas de mandioca e hortaliças sem defensivos químicos. Você divide o planejamento das safras em assembleias barulhentas embaixo da mangueira. A lida é compartilhada.", 
+        texto: "O acordo dividiu a fazenda em lotes familiares organizados sob uma nova associação comunitária. Em poucos meses, os acampamentos viraram construções de alvenaria e os canteiros coletivos voltaram a produzir toneladas de mandioca e hortaliças sem defensivos químicos. Você divide o planejamento das safras em assembleias barulhentas embaixo da mangueira. A lida é dividida.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_28.png", 
         tipo: "final"
     },
 
     // Resultados da Pergunta 6.14 (O Chamado da Terra)
     "6.44": { 
-        texto: "Suas mãos enterram as primeiras sementes de feijão-de-porco no solo endurecido e coberto por cinzas escuras. O recomeço no lote vizinho é lento e solitário; não há tratores ou faturamento no horizonte próximo, e suas costas cobram o preço do esforço físico diário. Contudo, olhando de perto após as chuvas de verão, os primeiros brotos verdes começam a romper a crosta de carvão.", 
+        texto: "Suas mãos enterram as primeiras sementes de feijão-de-porco no solo endurecido e coberto por cinzas escuras. O recomeço no lote vizinho é lento e solitário; não há tratores ou faturamento no horizonte próximo e suas costas cobram o preço do esforço físico diário. Contudo, olhando de perto após as chuvas de verão, os primeiros brotos verdes começam a romper a crosta de carvão.", 
         imagem: "Ilustracao/Jogo/Nivel6/Gemini_JogoNivel6_29.png", 
         tipo: "final"
     },

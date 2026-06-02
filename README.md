@@ -20,7 +20,7 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 # Referências
 
-° **Crédito ao artista do ícone do Flaticon:** mpanicon — **Link do Perfil do Artista:** https://www.flaticon.com/authors/mpanicon
+° **Crédito ao artista do ícone do Flaticon:** mpanicon   —   **Link do Perfil do Artista:** https://www.flaticon.com/authors/mpanicon
 
 ---
 

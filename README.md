@@ -18,9 +18,11 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 ° **Escola:** Colégio Estadual do Campo Antônio Batista do Nascimento - EFM;
 
+# Referências
+
 ° **Crédito ao artista do ícone do Flaticon:** mpanicon.
 
-° **Link ao Perfil do Artista:** https://www.flaticon.com/authors/mpanicon
+**Link ao Perfil do Artista:** https://www.flaticon.com/authors/mpanicon
 
 ---
 

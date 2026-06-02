@@ -1668,3 +1668,131 @@ body.dark-theme h3#fase-titulo {
     }
 
 }
+
+/*_________________Rodapé — Adição após o site carregado no git____________________________*/
+.rodape-principal {
+    background-color: var(--aba-verde);
+    color: var(--branco-cor);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    margin-bottom: -40px !important;
+    padding: 30px 0;
+    z-index: 99999 !important;
+    overflow: hidden;
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    position: relative;
+    z-index: 2; 
+}
+
+/*_Ajuste dos textos e logo_*/
+.logo-escola {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info h3 {
+    font-size: 1.6rem;
+    margin: 0 0 6px 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    margin: 4px 0;
+    opacity: 0.9;
+}
+
+/*_Posicionamento das Araucárias_*/
+.araucaria-decorativa {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    max-height: 130px; 
+    width: auto;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.araucaria-esquerda {
+    left: 0;
+}
+
+.araucaria-direita {
+    right: 0;
+}
+
+/*_________________Mídias de Adaptação para o Rodapé____________________________*/
+
+/* Adaptação para telas médias (Notebooks pequenos e Tablets em modo paisagem) */
+@media (max-width: 1024px) {
+    .footer-info h3 {
+        font-size: 1.4rem;
+    }
+    .footer-info p {
+        font-size: 0.9rem;
+    }
+    .logo-escola {
+        height: 70px;
+    }
+    .araucaria-decorativa {
+        max-height: 110px;
+    }
+}
+
+/*__Telas de até 700px__*/
+@media (max-width: 700px) {
+    .araucaria-decorativa {
+        display: none !important; 
+    }
+    
+    .footer-content {
+        flex-direction: column; 
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    .footer-info {
+        text-align: center;
+    }
+}
+
+/*_Adaptação limite de 320px_*/
+@media (max-width: 360px) {
+    .footer-info h3 {
+        font-size: 1.2rem;
+    }
+    .footer-info p {
+        font-size: 0.8rem;
+    }
+    .logo-escola {
+        height: 60px;
+    }
+    .rodape-principal {
+        padding: 20px 0;
+    }
+}

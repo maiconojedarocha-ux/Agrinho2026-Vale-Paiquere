@@ -1830,3 +1830,16 @@ body {
         font-size: 0.9rem; 
     }
 }
+
+/*_Apenas para remover a araúcarias em determinada estremidade (menores de 375px)_*/
+@media (max-width: 375px) {
+    .galho-esquerd {
+        display: none !important;
+    }
+
+    .galho-direit {
+        top: 40%;
+        width: 175px !important; 
+    height: auto !important; 
+    }
+}

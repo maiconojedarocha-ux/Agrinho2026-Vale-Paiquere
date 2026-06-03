@@ -1814,6 +1814,11 @@ body {
         height: auto;
     }
 
+     /*_Nome Jogo_*/
+    .nome-jogo {
+        font-size: 0.70rem !important;
+    }
+
     /*___Texto das informações___*/
     .texto-informativo h3 {
         font-size: 1.3rem !important; 

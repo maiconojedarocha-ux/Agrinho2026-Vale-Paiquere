@@ -1842,4 +1842,10 @@ body {
         width: 175px !important; 
     height: auto !important; 
     }
+
+    /*_Texto da gralha-azul_*/
+    #texto-gralha {
+    font-size: 0.45rem !important;
+}
+    
 }

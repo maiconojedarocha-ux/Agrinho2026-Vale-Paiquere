@@ -1843,9 +1843,14 @@ body {
     height: auto !important; 
     }
 
-    /*_Texto da gralha-azul_*/
+    
+    /*_Texto da gralha-azul e botão do nome_*/
     #texto-gralha {
     font-size: 0.45rem !important;
-}
+} 
+
+#input-nome {
+    font-size: 0.65rem;
+} 
     
 }

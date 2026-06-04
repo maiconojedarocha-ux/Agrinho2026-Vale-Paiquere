@@ -84,14 +84,6 @@ Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descu
 
 ---
 
-# Dica para uma melhor experiencia:
-
-**1°** Caso esteja em um smartphone com tela mais ampla, acessar o site com a tela no modo paisagem, você consegirá um impacto/experiênciar melhor — caso não queira, a experiência continuará a mesma.
-
-**2°** Se acessar o site com um smartphone com tela mais estreita, recomendo continuar com a tela vertical para uma experiência mais adequada — caso não queira, a experiência continuará a mesma.
-
----
-
 # Ferramentas usadas:
 
 As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.

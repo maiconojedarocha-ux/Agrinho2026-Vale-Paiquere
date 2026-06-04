@@ -1636,7 +1636,8 @@ body.dark-theme .moldura-video::before {
     #imagem-principal {
         width: 100% !important;          
         height: auto !important;         
-        max-height: 100px !important;    
+        max-height: 100px !important;
+        margin-top: -17% !important; 
         object-fit: contain;            
     }
 

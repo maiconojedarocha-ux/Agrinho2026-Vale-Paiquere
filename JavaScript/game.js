@@ -58,7 +58,7 @@ const roteiroGralha = [
     "Siga em frente e descubra o valor de cada semente plantada com respeito!"
 ];
 
-if (window.innerWidth < 600) {
+if (window.innerWidth < 530) {
     roteiroGralha.length = 0; 
     roteiroGralha.push(
         "Sou a maior plantadora\nde Araucárias do Paraná!",

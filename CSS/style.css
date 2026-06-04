@@ -1259,7 +1259,7 @@ body.dark-theme .nav-desktop a:hover {
 }
 
 #texto-principal {
-    font-size: 115% !important;
+    font-size: 100% !important;
     line-height: 1.6;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
@@ -1642,7 +1642,7 @@ body.dark-theme .moldura-video::before {
 
     #texto-principal {
         margin-bottom: 0px !important;
-        font-size: 115% !important;
+        font-size: 100% !important;
         margin: 2px 0 5px 0 !important;
     }
 

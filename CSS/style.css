@@ -1859,3 +1859,12 @@ body.dark-theme .moldura-video::before {
 } 
     
 }
+
+/*__Esconder rodapé quando tela expandida em aparelhos menores__*/
+body.tela-expandida .rodape-principal,
+body.tela-expandida .footer-content,
+body.tela-expandida .logo-escola,
+body.tela-expandida .footer-info,
+body.tela-expandida .araucaria-decorativa {
+    display: none !important;
+}

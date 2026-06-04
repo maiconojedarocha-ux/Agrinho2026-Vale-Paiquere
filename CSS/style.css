@@ -1671,7 +1671,7 @@ body.dark-theme .moldura-video::before {
     color: var(--branco-cor);
     width: 100%;
     position: relative;
-    margin-top: 10px;
+    margin-top: 0%;
     padding: 30px 0;
     z-index: 20 !important;
     overflow: hidden;

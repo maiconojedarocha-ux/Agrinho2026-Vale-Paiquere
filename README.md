@@ -828,9 +828,9 @@ __Imagem(s):__ Imagens anuladas, pois não são úteis por agora, já que o prob
 
 ---
 
-# Dia 36/38 - 31/05/2026 — 02/06/2026
+# Dia 36/40 - 31/05/2026 — 04/06/2026
 
-__Resumo:__ Acabei tendo que resolver alguns bugs e adições, nada demais, mas essenciais.
+__Resumo:__ Acabei tendo que resolver alguns bugs, adições e testar algumas funcionalidaes, não impactantes, mas essenciais.
 
 __Atividades desses dias:__
 
@@ -839,6 +839,10 @@ __Atividades desses dias:__
 — Ajustar proporções e revisões.
 
 — Adição do rodapé.
+
+— Adição da % (porcentagem) em alguns textos e proporções.
+
+— E pequenos a médios bugs que apareceram.
 
 __Uso de IA e Decisões Técnicas:__
 

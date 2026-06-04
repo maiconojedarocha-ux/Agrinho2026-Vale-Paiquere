@@ -232,7 +232,7 @@ body.dark-theme .fundo-lateral-direito-noturno {
 }
 
 #texto-gralha {
-    font-size: 1rem;
+    font-size: 100% !important;
     font-weight: bold;
     color: var(--texto-fixo);
     margin-bottom: 10px;
@@ -855,11 +855,11 @@ body, html {
         justify-content: center;
     }
 
-    #texto-gralha {
-        font-size: 0.85rem !important; 
+  #texto-gralha {
+        font-size: 80% !important; 
         line-height: 1;
         margin-bottom: 5px; 
-        width: 100%;
+        width: 70%;
     } 
 
     #btn-acao img {
@@ -1519,9 +1519,9 @@ body.dark-theme .moldura-video::before {
 /*___________Ajuste para telas menores________________*/
 @media (max-width: 600px) {
   #texto-gralha {
-        font-size: 0.53rem !important; 
+        font-size: 70% !important; 
         line-height: 1;
-        margin-top: 10px !important;
+        margin-top: 0px !important;
     }
 
     .galho {
@@ -1850,8 +1850,9 @@ body.dark-theme .moldura-video::before {
 
     
     /*_Texto da gralha-azul e botão do nome_*/
-    #texto-gralha {
-    font-size: 0.45rem !important;
+     #texto-gralha {
+    margin-top: 5% !important;
+    font-size: 45% !important;
 } 
 
 #input-nome {

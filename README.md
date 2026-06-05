@@ -109,11 +109,11 @@ As ferramentas utilizadas no processo de criação estão integradas e referenci
 
 # Tive como Referência os Seguintes Sites:
 
-° **[G1:](https://g1.globo.com/)**
+° **[G1](https://g1.globo.com/)**
 
-° **[Poki:](https://poki.com/)**
+° **[Poki](https://poki.com/)**
 
-° **[Site de Meu Irmão:](https://stopcar-2m7sw6e9.manus.space)**
+° **[Site de Meu Irmão](https://stopcar-2m7sw6e9.manus.space)**
 
 ---
 

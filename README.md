@@ -2,9 +2,9 @@
 
 A terra não é um cenário estático; é uma força viva. No Vale Paiquerê, cada linha de código traça a fronteira invisível entre a prosperidade do campo e a ruína do ecossistema.
 
-Bem-vindo ao **Vale Paiquerê**, um ecossistema digital projetado não apenas para expor dados, mas para testar a sua capacidade de manter o mundo de pé. Este portal híbrido de jogo e informação foi desenvolvido para a subcategoria 3 do Programa Agrinho 2026, sob o tema *“Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”* para mostrar a realidade agrícula de nosso estado.
+Bem-vindo ao Vale Paiquerê, um ecossistema digital projetado não apenas para expor dados, mas para testar a sua capacidade de manter o mundo de pé. Este portal híbrido de jogo e informação foi desenvolvido para a Subcategoria 3 do Programa Agrinho 2026, sob o tema “Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente”, com o objetivo de retratar a realidade agrícola do estado do Paraná.
 
-Aqui, a separação tradicional entre homem e natureza desaparece. O site divide-se em duas camadas simbióticas que convidam você à exploração:
+Aqui, a separação tradicional entre homem e natureza desaparece. O site divide-se em duas camadas simbióticas que convidam à exploração:
 
 ---
 
@@ -18,145 +18,102 @@ Aqui, a separação tradicional entre homem e natureza desaparece. O site divide
 
 ° **Escola:** Colégio Estadual do Campo Antônio Batista do Nascimento - EFM.
 
-# Referências
-
-° **Crédito ao artista do ícone do Flaticon:** mpanicon   —  https://www.flaticon.com/authors/mpanicon
-
-### Foi Feito Como Base os seguintes Sites:
-
-° **G1:** https://g1.globo.com/
-
-° **Poki:** https://poki.com/
-
-° **Site de Meu Irmão:** https://stopcar-2m7sw6e9.manus.space
-
----
-
-# Origem do Site:
-Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
-
----
-
-# Tema do Concurso
-Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
-
 ---
 
 ## Objetivo do Projeto
 
-O objetivo do **Vale Paiquerê** é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface *mobile-first* limpa e responsiva (arquitetada para resistir até os limites críticos de **320px** e modo paisagem), o projeto prova que a tecnologia pode ser uma ferramenta de expressão artística e conscientização crítica.
+O objetivo do Vale Paiquerê é arrancar o debate ambiental dos clichês ecológicos e das cartilhas estáticas. Utilizando uma interface mobile-first limpa e responsiva (arquitetada para resistir até os limites críticos de 320px e suporte ao modo paisagem), o projeto prova que a tecnologia pode ser uma ferramenta de expressão artística e conscientização crítica.
 
-**O Vale está pronto, o console está limpo e as variáveis estão zeradas.** 
-Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
+O Vale está pronto, o console está limpo e as variáveis estão zeradas. Role a página, faça suas escolhas, mude o tema visual se a noite cair, e descubra se o seu olhar é capaz de construir um futuro sustentável ou se restará apenas o limbo do esgotamento.
 
 ---
 
-# Instruções de Uso
+# Instruções de Uso e Manual
 
 ## Conversa com a Gralha-Azul
 
 **1.** Preencha seu nome no campo informado.
 
-**2.** Aperte o botão ao lado.
+**2.** Clique no botão de confirmação ao lado.
 
-**3.** Leia atentamente o que ela fala, pois será exencial mais tarde.
+**3.** Leia atentamente o diálogo, pois as informações serão essenciais mais tarde.
 
 
-## Jogo
+## Jogo (RPG Narrativo)
 
-**1.** Inicie o simulador clicando no botão de início na seção do jogo.
+**1.** Inicie o simulador clicando no botão de jogar na seção do jogo.
 
-**2.** Leia atentamente o dilema apresentado pela Gralha-Azul.
+**2.** Leia atentamente os cards apresentados pela Gralha-Azul.
 
-**3.** Deite a tela mpara uma melhor experiência — caso você queira.
+**3.** Se desejar, deite a tela do aparelho para obter uma melhor experiência visual.
 
-**4.** Escolha uma das duas alternativas disponíveis para começar a bola de neve.
+**4.** Escolha uma das duas alternativas disponíveis para desencadear a sequência de eventos.
 
-**5.** Monitore os impactos e tente equilibrar a produção e a preservação ambiental até o desfecho.
+**5.** Monitore os impactos internos e tente equilibrar a produção e a preservação ambiental até o desfecho.
 
-### Manual do Jogo
-
-**1°**  Leia o objetivo e mecânica;
-
-**2°**  Role/deslize para baixo para chegar ao card jogar;
-
-**3°**  Caso queria voltar ao manual, você precissará pressionar o botão amarelo — com o ícone de um livro — que terá acesso a tela do manual. 
+**Dica de Navegação:** Caso queira retornar ao manual a qualquer momento durante a experiência, basta pressionar o botão amarelo (com o ícone de livro) para reabrir as instruções.
 
 ---
 
-# Ferramentas usadas:
+**Tecnologias Utilizadas:**
 
-As ferramentas estão mencionados no próprio site — de forma elegante — que ao pressionar o respectivo nome dele você — visitante — será encaminhado diteramente a aba do site/aplicativo usado.
+O projeto foi totalmente desenvolvido utilizando as tecnologias fundamentais do front-end, sem o uso de frameworks externos, cumprindo estritamente as regras do edital:
 
+° **HTML5:** Estruturação semântica e acessível.
 
-° **VScode:** https://code.visualstudio.com/
+° **CSS3:** Estilização customizada, uso de variáveis nativas var() e arquitetura responsiva.
 
-° **Canva:** https://www.canva.com/
-
-° **Piskel:** https://www.piskelapp.com/
-
-° **ChatGPT:** https://chatgpt.com/
-
-° **Gemini:** https://gemini.google.com/
-
-° **flaticon:** https://www.flaticon.com/
+° **JavaScript:** Lógica interna do simulador, controle de estados do RPG e automação de interface.
 
 ---
 
 # Funcionalidades do Site
 
-° Página inicial com temática dinâmica (Dia/Noite);
+° Página inicial com temática dinâmica (Dia/Noite).
 
-° Menu de navegação responsivo (mobile-first);
+° Menu de navegação responsivo adaptado para dispositivos móveis (mobile-first).
 
-°  Motor de RPG Narrativo estruturado em JavaScript;
+° Motor de RPG Narrativo estruturado inteiramente em JavaScript.
 
-° Efeito visual de vagalumes e elementos naturais;
+° Efeito visual de partículas (vagalumes) e elementos naturais herdados do ecossistema.
 
-° Sistema de decisões ramificadas — 32 desfechos possíveis;
+° Sistema de decisões ramificadas com 32 desfechos possíveis.
 
-° Ala teórica detalhada;
+° Ala teórica detalhada para embasamento do tema — 100% autoral.
 
-° Alternância automática de temas visuais via JS;
+° Alternância automática de temas visuais baseada no relógio local do usuário.
 
-° Estrutura otimizada para acessibilidade;
-
-° Layout responsivo — testado de 320px até desktops.
+° Layout responsivo testado exaustivamente de 320px (iPhone 4) até desktops.
 
 ---
 
-# Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando tecnologias fundamentais de front-end:
+# Ferramentas de Suporte
 
-° **HTML5:** Estruturação semântica;
+As ferramentas utilizadas no processo de criação estão integradas e referenciadas dinamicamente no rodapé do site:
 
-° **CSS3:** Estilização, variáveis var() e responsividade;
+° **VScode:** [Desenvolvimento do site](https://code.visualstudio.com/)
 
-° **JavaScript:** Lógica do simulador, controle de temas e estados.
+° **Canva:** [Usado para o mapeamento do site, obtendo uma visualização base do site](https://www.canva.com/)
 
----
+° **Piskel:** [Utilizado para fazer alguns ícones e elementos,uma deles sendo a gralha-azul](https://www.piskelapp.com/)
 
-# Experiência de Jogo
+° **ChatGPT:** [Geração de imagens](https://chatgpt.com/)
 
-O "Vale Paiquerê" utiliza uma lógica de RPG narrativa. O usuário assume o controle através de decisões sobre o manejo da lavoura, o uso de defensores e a proteção das águas. Cada escolha altera variáveis internas, conduzindo a história para um dos 32 desfechos possíveis, dependendo da sustentabilidade das ações tomadas.
+° **Gemini:** [Assitência técnica e geração de imagens](https://gemini.google.com/)
 
----
+° **flaticon:** [Ícone de sol/lua para melhor legilidade ao usuário](https://www.flaticon.com/)
 
-# Prompts:
-
-[Acesse a ala dos prompts para melhor compreensão](Prompts.md)
+## [Artista mpanicon, responsável pelo ícone sol/lua usado](https://www.flaticon.com/authors/mpanicon) 
 
 ---
 
-# Resumindo a Introdução
+# Tive como Referência os Seguintes Sites:
 
-O "Vale Paiquerê" é a prova de que a lógica da programação, quando unida à sensibilidade literária, transforma linhas de código em narrativas vivas. Mais do que um projeto de TI, é um exercício sobre como observamos o mundo e as escolhas que fazemos para garantir um futuro onde o agro e a natureza coexistem em equilíbrio.
+° **[G1:](https://g1.globo.com/)**
 
----
+° **[Poki:](https://poki.com/)**
 
-# Saiba mais:
-
-A partir deste ponto, você estará na ala da documentação, onde o assunto é mais profundo e aborda o meu passo a passo e dia a dia. É aqui que se une o formal ao informal do diário de bordo — onde se localizam os prompts usados e o desenvolvimento próprio/criativo. Caso tenha alguma dúvida, leia, confira como o site era nos primeiros dias e ignore a simplicidade estrutural, pois o foco da documentação a seguir é na informação e na rotina. Por isso, poderão ser observados erros de gramática da língua portuguesa. Aproveite a documentação! Pois, a partir do diário de bordo, estarão as ilustrações e a documentação mais simplificada visualmente.
+° **[Site de Meu Irmão:](https://stopcar-2m7sw6e9.manus.space)**
 
 ---
 
@@ -170,9 +127,11 @@ __Dias Levados:__ 41 dias
 
 **Inicio e fim do projeto:** 28/04/2026 - 05/06/2026
 
-**Sobre a documentação:** Usei a linguagem formal e informal juntas, devido a esta documentação se passar como um diário de bordo, registrando progressões, emoções e sinceridade sobre o assunto. O projeto foi feito sob os requisitos do edital distribuído — sigam para saberem mais sobre minha progressão e aprendizados.
+## Sobre a documentação:
 
-**A Respeito da Inteligência Artificial (IA):** Utilizei a IA como uma ferramenta de produtividade — conforme ensinado nas aulas da Alura — mas a lógica de navegação, a correção de bugs e a identidade visual única do Vale Paiquerê foram totalmente frutos do meu refinamento manual e decisão criativa própria, seguindo mais tarde os conselhos distribuídos pelas aulas da plataforma Alura.
+Esta documentação une as linguagens formal e informal por se tratar de um diário de bordo autêntico, registrando progressões técnicas, desafios emocionais e a realidade sincera do processo de desenvolvimento.
+
+A Inteligência Artificial foi adotada estritamente como uma ferramenta de ganho de produtividade — conforme as diretrizes pedagógicas da Alura. Toda a lógica de navegação, a caça aos bugs estruturais, a arquitetura de persistência e a identidade visual única do Vale Paiquerê foram frutos de refinamento manual e decisão criativa autoral.
 
 ---
 
@@ -228,16 +187,19 @@ Que, independentemente da direção que eu siga, eu não me defino mais como a m
 
 ---
 
-# Um Minutinho de sua Atenção como Avaliador:
+# Mensagem à Banca Examinadora:
 
-# A Respeito de meu desenvolvimento:
+## A Respeito de meu desenvolvimento:
 
 Como mencionei em minha documentação, pertenço genuinamente à área de Humanas. Não por falta de afinidade com a lógica, mas por uma paixão profunda pela literatura. Embora eu aprecie padrões e tenha facilidade em resolver problemas complexos, inicialmente encarava o retrabalho repetitivo dos bugs como um obstáculo para o que mais gosto de fazer: criar. Contudo, o desenvolvimento deste projeto me provou que eu estava errado. Descobri que a programação é, na verdade, apenas uma gramática mais sofisticada — onde cada tag e cada linha de script funcionam como versos que constroem uma nova realidade digital.
 
 Ainda pretendo seguir a carreira de escritor e professor de Letras, e decidi participar deste concurso justamente porque a lógica me atrai e eu reconhecia meu potencial para ir além. Revelar que comecei esta jornada sem saber escrever uma única linha de código é um ato de honestidade, mas olhar para o resultado final e ver um sistema funcional, responsivo e limpo me traz uma enorme satisfação. Com o passar dos dias, transformei a "água barrenta" dos erros em progresso consolidado, e espero que este projeto demonstre a vocês como a tecnologia e a sensibilidade humana podem caminhar em perfeito equilíbrio.
 
 ---
+# Links Relacionados:
 
-# Diário de Bordo:
+## Prompts: 
+[Acesse a ala dos prompts](Prompts.md)
 
-[Acesse o diário para compreender cada deisão e camihno feito durante esses dias](diario.md)
+## Diário de Bordo:
+[Acesse o diário de bordo para compreender cada deisão feita durante esses dias](diario.md)

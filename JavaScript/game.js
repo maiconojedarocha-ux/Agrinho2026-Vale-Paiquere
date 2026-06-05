@@ -12,6 +12,34 @@
 //     console.log("Sistema Vale Paiquerê iniciado com sucesso.");
 // });
 
+//___________________Lógica dos botões do iniciais__________________________
+document.addEventListener('DOMContentLoaded', function() {
+    
+    //_Alternar Modo Escuro_
+    const btnDarkMode = document.getElementById('toggle-dark-mode');
+    if (btnDarkMode) {
+        btnDarkMode.addEventListener('click', function() {
+            toggleDarkMode();
+        });
+    }
+
+    //_Abrir ou Fechar o Menu Mobile_
+    const btnMobile = document.getElementById('btn-mobile');
+    if (btnMobile) {
+        btnMobile.addEventListener('click', function() {
+            toggleMenu();
+        });
+    }
+
+    //_Fechar o Menu Mobile automaticamente ao clicar em um link interno_
+    const linksMobile = document.querySelectorAll('#menu-mobile a');
+    linksMobile.forEach(function(link) {
+        link.addEventListener('click', function() {
+            toggleMenu();
+        });
+    });
+});
+
 //_______________Cabeçalho fixo superior_____________________________
 
 document.addEventListener("DOMContentLoaded", function() {

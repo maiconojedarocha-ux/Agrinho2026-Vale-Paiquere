@@ -161,7 +161,7 @@ A Inteligência Artificial foi adotada estritamente como uma ferramenta de ganho
 
 **Resumo:** Fase mais intensa do projeto. Programação de toda a lógica exponencial de caminhos e consequências do game (1, 2, 4, 8, 16 caminhos), acompanhada da escrita manual de cada diálogo e geração de imagens realistas para os desfechos. O layout passou por uma reconstrução responsiva severa para salvar a interface de celulares de uma "semi-anarquia" visual — poluição visual total. Para manter o site limpo em telas menores, as imagens das laterais foram removidas em smartphones e compensadas com um efeito sutil de vagalumes e copas de araucárias. Projeto concluído com a inserção dos créditos autorais e a logo institucional da escola.
 
-# Semana 5 e Polimento Final: 29/05 a 04/06 — Dias 34 a 40
+## Semana 5 e Polimento Final: 29/05 a 04/06 — Dias 34 a 40
 
 **Foco:** Refinamento Manual, Resolução de Bugs (Proporções e Erro 404) e Ajustes de Usabilidade.
 

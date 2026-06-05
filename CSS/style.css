@@ -279,6 +279,7 @@ body.dark-theme .fundo-lateral-direito-noturno {
 }
 
 #container-jogo {
+    position: relative;
     margin-top: 0px;
     width: 100%;
     min-height: 400px;

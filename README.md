@@ -55,7 +55,7 @@ O Vale está pronto, o console está limpo e as variáveis estão zeradas. Role 
 
 ---
 
-**Tecnologias Utilizadas:**
+# Tecnologias Utilizadas:
 
 O projeto foi totalmente desenvolvido utilizando as tecnologias fundamentais do front-end, sem o uso de frameworks externos, cumprindo estritamente as regras do edital:
 

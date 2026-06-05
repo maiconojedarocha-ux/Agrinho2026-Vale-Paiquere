@@ -144,7 +144,11 @@ O "Vale Paiquerê" utiliza uma lógica de RPG narrativa. O usuário assume o con
 
 # Prompts:
 
-Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo.
+Sobre os prompsts foram vários — especialmente no ínicio que meu conhecimento era mais breve. Documentados ao percorer dos dias, você tem acesso a todos os prompts: documentados no diário de bordo, onde você vai saber exatamente como usei, porém a seguir eu documentei para poupar seu tempo:
+
+```text
+dsf
+```
 
 ---
 

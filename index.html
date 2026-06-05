@@ -11,17 +11,17 @@
 </head>
 <body>
 
-  <!--___________Cabeçalho superior______________________-->
-
-<header id="cabecalho-fixo">
+   <!--____Cabeçalho superior_______-->
+ <header id="cabecalho-fixo">
     <div class="container-header">
         <div class="logo-area">
             <div class="quadrado-escola">
-    <img src="Ilustracao/Site/LogoDaEscola.png" alt="Logo da Escola">
-</div>
+                <img src="Ilustracao/Site/LogoDaEscola.png" alt="Logo da Escola">
+            </div>
             <span class="nome-projeto">Vale Paiquerê</span>
         </div>
 
+        <!--_Atalhos do cabeçalho_-->
         <nav class="nav-desktop">
             <a href="#inicio">Início</a>
             <a href="#introducao">Introdução</a>
@@ -30,23 +30,24 @@
             <a href="#creditos">Créditos</a>
         </nav>
 
-        <!-- _______Botão de Alternancia de Escuro e Claro_________ -->
-    <button id="toggle-dark-mode" onclick="toggleDarkMode()">
-        <img src="Ilustracao/Site/night-mode-flaticon.png" alt="Alternar Modo Escuro" class="icon-dark-mode">
-    </button>
+        <!--_Botão de Alternância de Modo Escuro e Claro_-->
+        <button id="toggle-dark-mode">
+            <img src="Ilustracao/Site/night-mode-flaticon.png" alt="Alternar Modo Escuro" class="icon-dark-mode">
+        </button>
 
+        <!--_Botão da parte Mobile_-->
+        <button id="btn-mobile">
+            <img src="Ilustracao/Site/barra-de-menu-flaticon.png" alt="Menu" class="icon-menu-img">
+        </button>
 
-<button id="btn-mobile" onclick="toggleMenu()">
-    <img src="Ilustracao/Site/barra-de-menu-flaticon.png" alt="Menu" class="icon-menu-img">
-</button>
-
-    <nav id="menu-mobile">
-        <a href="#inicio" onclick="toggleMenu()">Início</a>
-        <a href="#introducao" onclick="toggleMenu()">Introdução</a>
-        <a href="#jogo" onclick="toggleMenu()">Jogo</a>
-        <a href="#sobre" onclick="toggleMenu()">Sobre</a>
-        <a href="#creditos" onclick="toggleMenu()">Créditos</a>
-    </nav>
+        <nav id="menu-mobile">
+            <a href="#inicio">Início</a>
+            <a href="#introducao">Introdução</a>
+            <a href="#jogo">Jogo</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#creditos">Créditos</a>
+        </nav>
+    </div>
 </header>
 
 <!--____________Inicio_______________________-->

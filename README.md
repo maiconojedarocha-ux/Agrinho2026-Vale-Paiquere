@@ -95,13 +95,13 @@ As ferramentas utilizadas no processo de criação estão integradas e referenci
 
 ° **Canva:** [Usado para o mapeamento do site, obtendo uma visualização base do site](https://www.canva.com/)
 
-° **Piskel:** [Utilizado para fazer alguns ícones e elementos,uma deles sendo a gralha-azul](https://www.piskelapp.com/)
+° **Piskel:** [Utilizado para fazer alguns ícones e elementos,um deles sendo a gralha-azul](https://www.piskelapp.com/)
 
 ° **ChatGPT:** [Geração de imagens](https://chatgpt.com/)
 
-° **Gemini:** [Assitência técnica e geração de imagens](https://gemini.google.com/)
+° **Gemini:** [Assistência técnica e geração de imagens](https://gemini.google.com/)
 
-° **flaticon:** [Ícone de sol/lua para melhor legilidade ao usuário](https://www.flaticon.com/)
+° **flaticon:** [Ícone de sol/lua para melhor legibilidade](https://www.flaticon.com/)
 
 ## [Artista mpanicon, responsável pelo ícone sol/lua usado](https://www.flaticon.com/authors/mpanicon) 
 
@@ -135,7 +135,7 @@ A Inteligência Artificial foi adotada estritamente como uma ferramenta de ganho
 
 ---
 
-# Resumo Semanais:
+# Resumos Semanai:
 
 ## Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
@@ -175,10 +175,10 @@ A Inteligência Artificial foi adotada estritamente como uma ferramenta de ganho
 
 **2°:** Evitar linguagens de programação — especialmente JavaScript.
 
-**3°:** Ironia a parte, eu aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
+**3°:** Ironia à parte, eu aprendi que a lógica da programação não se define em linhas escritas em JavaScript, mas se define ao reescrever como observamos o mundo afora. Descobri que a lógica que eu tanto temia, é apenas uma gramática mais sofisticada que me permitiu transformar o limbo esbranquiçado do site, em uma aba cheia de pensamentos concretizados.
 
 **O que aprendi?** 
-Que a frustação de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
+Que a frustração de um bug é apenas um sinal de uma nova jornada que estou prestes a trilhar — sem medo de errar dessa vez.
 
 **O que Guardarei para Minha Vida?**
 Que, independentemente da direção que eu siga, eu não me defino mais como a mesma pessoa que começou esse projeto. O fardo que eu carregava, agora me dá a capacidade de dividir problemas em fragmentos de frustrações, emprestando-me coragem para construir algo do zero, palavra por palavra — comando por comando.
@@ -202,4 +202,4 @@ Ainda pretendo seguir a carreira de escritor e professor de Letras, e decidi par
 [Acesse a ala dos prompts](Prompts.md)
 
 ## Diário de Bordo:
-[Acesse o diário de bordo para compreender cada deisão feita durante esses dias](diario.md)
+[Acesse o diário de bordo para compreender cada decisão feito durante esses dias](diario.md)

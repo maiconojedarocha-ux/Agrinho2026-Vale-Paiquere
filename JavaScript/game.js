@@ -107,6 +107,18 @@ if (window.innerWidth < 530) {
     );
 }
 
+//_____Botão de Enviar Nome / Avançar Diálogo da Gralha____________
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const btnAcao = document.getElementById('btn-acao');
+    if (btnAcao) {
+        btnAcao.addEventListener('click', function() {
+            gerenciarGralha();
+        });
+    }
+});
+
+//_______lógica da conversa e ademais__________
 function gerenciarGralha() {
     const campoNome = document.getElementById('input-nome');
     const balaoTexto = document.getElementById('texto-gralha');

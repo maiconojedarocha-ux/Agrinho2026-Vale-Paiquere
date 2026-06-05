@@ -1179,6 +1179,11 @@ body.dark-theme .nav-desktop a:hover {
     display: block !important;
 }
 
+.btn-controle i {
+    padding: 8px 5px 10px 5px;
+    font-size: 125%;
+}
+
 .sessao-texto-jogo {
     display: flex !important;
     gap: 20px;

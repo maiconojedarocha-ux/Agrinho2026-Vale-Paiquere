@@ -1210,16 +1210,6 @@ body.dark-theme .nav-desktop a:hover {
     margin-bottom: 0;
 } 
 
-.caixa-texto[onclick]:hover {
-    background-color: #7e7e7e !important; 
-    transform: translateY(-3px); 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.caixa-texto[onclick] {
-    cursor: pointer;
-}
-
 /*________Véu e quaixotes de informação do objetivo e como jogar__________*/
 .escondido {
     display: none !important;

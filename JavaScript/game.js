@@ -176,34 +176,6 @@ function verificarHorario() {
 
 verificarHorario();
 
-//_______________Botões do jogo__________________
-document.addEventListener('DOMContentLoaded', function() {
-    
-    // Botão de Escolha A
-    const btnOpcaoA = document.getElementById('btn-opcao-a');
-    if (btnOpcaoA) {
-        btnOpcaoA.addEventListener('click', function() {
-            fazerEscolha('A');
-        });
-    }
-
-    // Botão de Escolha B
-    const btnOpcaoB = document.getElementById('btn-opcao-b');
-    if (btnOpcaoB) {
-        btnOpcaoB.addEventListener('click', function() {
-            fazerEscolha('B');
-        });
-    }
-
-    // Botão Avançar / Próximo Nível
-    const btnProximo = document.getElementById('btn-proximo');
-    if (btnProximo) {
-        btnProximo.addEventListener('click', function() {
-            proximoNivel();
-        });
-    }
-});
-
 //______________Lógica do manual do jogo_____________________________
 const botaoLivro = document.querySelector('[title="Manual"]');
 const manual = document.getElementById('manual-overlay');

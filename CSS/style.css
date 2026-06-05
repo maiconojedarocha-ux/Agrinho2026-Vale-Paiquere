@@ -1175,6 +1175,10 @@ body.dark-theme .nav-desktop a:hover {
 }
 
 /*______Container dos textos/objetivo, como jogar e jogar_________*/
+.btn-controle[title="Manual"] {
+    display: block !important;
+}
+
 .sessao-texto-jogo {
     display: flex !important;
     gap: 20px;

@@ -188,6 +188,17 @@ function verificarHorario() {
 
 verificarHorario();
 
+//_________Começar jogo____________
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const btnComecarJogo = document.getElementById('btn-comecar-jogo');
+    if (btnComecarJogo) {
+        btnComecarJogo.addEventListener('click', function() {
+            começarJogoReal();
+        });
+    }
+});
+
 //______________Lógica do manual do jogo_____________________________
 const botaoLivro = document.querySelector('[title="Manual"]');
 const manual = document.getElementById('manual-overlay');

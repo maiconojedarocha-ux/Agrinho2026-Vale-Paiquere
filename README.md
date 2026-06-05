@@ -135,7 +135,7 @@ A Inteligência Artificial foi adotada estritamente como uma ferramenta de ganho
 
 ---
 
-# Resumos Semanai:
+# Resumos Semanais:
 
 ## Semana 1: 28/04 a 04/05 — Dias 01 a 07
 
@@ -202,4 +202,4 @@ Ainda pretendo seguir a carreira de escritor e professor de Letras, e decidi par
 [Acesse a ala dos prompts](Prompts.md)
 
 ## Diário de Bordo:
-[Acesse o diário de bordo para compreender cada decisão feito durante esses dias](diario.md)
+[Acesse o diário de bordo para compreender cada decisão feita durante esses dias](diario.md)

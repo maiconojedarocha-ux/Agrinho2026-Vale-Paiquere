@@ -162,13 +162,13 @@ A partir deste ponto, você estará na ala da documentação, onde o assunto é 
 
 # Documentação de meu progresso:
 
-__Dias trabalhados:__ 21 dias
+__Dias trabalhados:__ 34 dias
 
-__Dias documentados:__ 15 dias
+__Dias documentados:__ 18 dias
 
-__Dias Levados:__ 33 dias
+__Dias Levados:__ 41 dias
 
-**Inicio e fim do projeto:** 28/04/2026 - 28/05/2026
+**Inicio e fim do projeto:** 28/04/2026 - 05/06/2026
 
 **Sobre a documentação:** Usei a linguagem formal e informal juntas, devido a esta documentação se passar como um diário de bordo, registrando progressões, emoções e sinceridade sobre o assunto. O projeto foi feito sob os requisitos do edital distribuído — sigam para saberem mais sobre minha progressão e aprendizados.
 
@@ -201,6 +201,12 @@ __Dias Levados:__ 33 dias
 **Foco:** Matriz de Escolhas, Solução da "Anarquia Mobile" e Polimento.
 
 **Resumo:** Fase mais intensa do projeto. Programação de toda a lógica exponencial de caminhos e consequências do game (1, 2, 4, 8, 16 caminhos), acompanhada da escrita manual de cada diálogo e geração de imagens realistas para os desfechos. O layout passou por uma reconstrução responsiva severa para salvar a interface de celulares de uma "semi-anarquia" visual — poluição visual total. Para manter o site limpo em telas menores, as imagens das laterais foram removidas em smartphones e compensadas com um efeito sutil de vagalumes e copas de araucárias. Projeto concluído com a inserção dos créditos autorais e a logo institucional da escola.
+
+# Semana 5 e Polimento Final: 29/05 a 04/06 — Dias 34 a 40
+
+**Foco:** Refinamento Manual, Resolução de Bugs (Proporções e Erro 404) e Ajustes de Usabilidade.
+
+**Resumo:** O que parecia a reta final de águas limpas revelou uma "água barrenta" cheia de bugs ocultos na interface. O período foi dedicado a um minucioso processo de lapidação 100% manual e sem o uso de IA, focado em garantir a acessibilidade perfeita do layout para telas de 320px e no modo paisagem. Foram solucionados problemas no console e falhas críticas de carregamento como o erro 404, amparados por constantes consultas ao edital e revisões das aulas da Alura. A estrutura visual foi definitivamente consolidada com a adição do rodapé institucional e a implementação de unidades de porcentagem (%) nos tamanhos de texto para blindar a legibilidade. Tudo revisado, testado e pronto para o objetivo final: **Curitiba**.
 
 ---
 

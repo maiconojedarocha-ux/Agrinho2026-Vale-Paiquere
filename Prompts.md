@@ -90,3 +90,8 @@ Prompt 16:Faz uma imagem do zero, seguinto o contexto do reteiro com a medida da
 Prompt 17 (ChatGPT):
 Não tenho o prompt exato, mas eu pedi para o chat escurecer/deixar de noite a foto que a gemini gerou para mim.
 ```
+
+```text
+Prompt 18:
+Faz um ícone/logo/capa de jogo minimalista, apenas o essencial (pois será pequeno o ícone de jogo, apenas o ciclo de sociedade, natureza e dinheiro)
+```

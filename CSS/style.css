@@ -1571,7 +1571,7 @@ body.dark-theme .moldura-video::before {
     }
 
     #texto-principal {
-       font-size: 90% !important;
+       font-size: 100% !important;
         padding: 5px;
         line-height: 1.4;
         margin-top: -15px !important;

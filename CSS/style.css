@@ -1637,12 +1637,24 @@ body.dark-theme .moldura-video::before {
     }
 
   /*__Barra de rolagem_*/
-
     body.tela-expandida #display-principal {
-        overflow-y: auto !important;
-        justify-content: flex-start !important;
-        padding: 12px 12px 70px !important;
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+    padding: 12px 12px 70px !important;
+
     }
+
+    /*_Mantendo proporções_*/
+    body.tela-expandida #imagem-principal,
+body.tela-expandida #fase-titulo,
+body.tela-expandida #texto-principal,
+body.tela-expandida .grade-alternativas {
+    flex-shrink: 0;
+}
 
     /*_Proporções_*/
       body.tela-expandida #fase-titulo {

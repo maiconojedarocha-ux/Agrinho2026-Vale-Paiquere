@@ -1565,7 +1565,7 @@ body.dark-theme .moldura-video::before {
 
       #fase-titulo {
          display: flex;
-        font-size: 0.85rem !important;
+        font-size: 90% !important;
           margin-top: -25px !important;
     margin-bottom: 5px !important; 
     }
@@ -1688,8 +1688,9 @@ body.dark-theme .moldura-video::before {
 
    #fase-titulo {
         margin-top: 5px !important;    
-        margin-bottom: 0px !important; 
-        line-height: 1;             
+        margin-bottom: 0px !important;
+       font-size: 95% !important;
+        /* line-height: 1;              */
    }
 
     .grade-alternativas {

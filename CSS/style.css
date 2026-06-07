@@ -1571,7 +1571,7 @@ body.dark-theme .moldura-video::before {
     }
 
     #texto-principal {
-       font-size: 100% !important;
+       font-size: 90% !important;
         padding: 5px;
         line-height: 1.4;
         margin-top: -15px !important;
@@ -1580,7 +1580,7 @@ body.dark-theme .moldura-video::before {
     .btn-escolha {
         width: 100%;
         padding: 12px 5px; 
-        font-size: 0.65rem;
+        font-size: 90% !important;
     }
 
     #btn-proximo {
@@ -1699,7 +1699,7 @@ body.dark-theme .moldura-video::before {
 
     .btn-escolha {
         padding: 8px 15px !important;
-        font-size: 0.85rem !important;
+       font-size: 100% !important;;
         width: auto !important; 
     }
 

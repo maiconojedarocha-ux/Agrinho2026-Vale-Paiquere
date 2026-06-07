@@ -1631,8 +1631,17 @@ body.dark-theme .moldura-video::before {
 }
 
 @media (max-width: 1270px) {
+    /*_esconder cabeçalho_*/
     body.tela-expandida #cabecalho-fixo {
         display: none !important;
+    }
+
+  /*__Barra de rolagem_*/
+
+    body.tela-expandida #display-principal {
+        overflow-y: auto !important;
+        justify-content: flex-start !important;
+        padding: 12px 12px 70px !important;
     }
 }
 
